@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1">
+  <meta name="theme-color" content="#ff4486">
+  <meta name="apple-itunes-app" content="app-id=1265133033">
+  <meta name="google-play-app" content="app-id=de.tellonym.app">
+  <meta name="description"
+    content="Tellonym allows you to receive anonymous and honest feedback from everyone who is important to you.">
+
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+  <link rel="shortcut icon" href="%PUBLIC_URL%/assets/img/icon64x64.png">
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/assets/img/icon120x120.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="%PUBLIC_URL%/assets/img/icon152x152.png">
+  <link rel="apple-touch-icon" sizes="167x167" href="%PUBLIC_URL%/assets/img/icon167x167.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="%PUBLIC_URL%/assets/img/icon180x180.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="%PUBLIC_URL%/assets/img/icon16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="%PUBLIC_URL%/assets/img/icon32x32.png">
+  <link rel="icon" type="image/png" sizes="64x64" href="%PUBLIC_URL%/assets/img/icon64x64.png">
+  <link rel="icon" type="image/png" sizes="128x128" href="%PUBLIC_URL%/assets/img/icon128x128.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="%PUBLIC_URL%/assets/img/icon192x192.png">
+
+  <title>Tellonym</title>
+
+  <script src="https://accounts.google.com/gsi/client" async defer></script>
+  <script type="text/javascript"
+    src="https://appleid.cdn-apple.com/appleauth/static/jsapi/appleid/1/en_US/appleid.auth.js" async defer></script>
+
+  <% if (process.env.REACT_APP_ENV === 'production' || process.env.REACT_APP_ENV === 'staging') { %>
+  <script>
+    window.fbAsyncInit = function () {
+      var appId = '330827227346942';
+      var apiVersion = "v3.2";
+
+      FB.init({
+        appId: appId,
+        cookie: true,
+        xfbml: true,
+        version: apiVersion
+      });
+
+      window.tnym = window.tnym || {};
+      window.tnym.isFbInitialized = true;
+    };
+  </script>
+  <script src="//connect.facebook.net/en_US/sdk.js" id="facebook-jssdk" async></script>
+
+  <% } else if (process.env.REACT_APP_ENV === 'development') { %>
+  <script class="sortableAdScript"></script>
+  <% } %>
+
+  <% if (process.env.REACT_APP_ENV === 'development' || process.env.REACT_APP_ENV === 'testing') { %>
+  <script>
+    window.tnym = window.tnym || {};
+    window.tnym.deviceCountry = "DE";
+  </script>
+  <% } %>
+  <% if (process.env.REACT_APP_ENV === 'development') { %>
+  <script>
+    /**
+     * Both keys, active and experiments need to be set
+     * 
+     * Example 
+     * { active: { id: "42", name: "MyExpName", myExpKey: "MY_VARIANT" }, experiments: ["42"] }
+     * */
+     window.tnym.experiments = { active: { /* add exp config to debug */ }, experiments: [] };
+  </script>
+  <% } %>
+
+  <style>
+    .loader,
+    .loader:after {
+      border-radius: 50%;
+      width: 4em;
+      height: 4em;
+    }
+
+    .loader {
+      font-size: 10px;
+      position: relative;
+      text-indent: -9999em;
+      border: 0.6em solid rgba(255, 66, 132, 0.2);
+      border-top: 0.6em solid #ff4486;
+      -webkit-transform: translateZ(0);
+      -ms-transform: translateZ(0);
+      transform: translateZ(0);
+      -webkit-animation: spinner 0.75s infinite linear;
+      animation: spinner 0.75s infinite linear;
+    }
+
+    .fullscreen {
+      display: flex;
+      flex: 1 1 0%;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 100vh;
+    }
+
+    .fadeinafterdelay {
+      opacity: 0;
+      animation: fadeingin 0.5s 1;
+      -webkit-animation: fadeingin 0.5s 1;
+      animation-fill-mode: forwards;
+
+      animation-delay: 6s;
+      -webkit-animation-delay: 6s;
+      -webkit-animation-fill-mode: forwards;
+    }
+
+    .fadeinafterlongdelay {
+      opacity: 0;
+      animation: fadeingin 0.5s 1;
+      -webkit-animation: fadeingin 0.5s 1;
+      animation-fill-mode: forwards;
+
+      animation-delay: 12s;
+      -webkit-animation-delay: 12s;
+      -webkit-animation-fill-mode: forwards;
+    }
+
+    @-webkit-keyframes fadeingin {
+      from {
+        opacity: 0;
+      }
+
+      to {
+        opacity: 1;
+      }
+    }
+
+    @keyframes fadeingin {
+      from {
+        opacity: 0;
+      }
+
+      to {
+        opacity: 1;
+      }
+    }
+
+    @-webkit-keyframes spinner {
+      0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+      }
+
+      100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+      }
+    }
+
+    @keyframes spinner {
+      0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+      }
+
+      100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <noscript>
+    <div class="fullscreen">
+      <h1>Welcome to Tellonym</h1>
+      <h3>You need to enable JavaScript to run this app.</h3>
+      <a href="https://info.tellonym.me/imprint">Imprint</a>
+    </div>
+  </noscript>
+  <div id="root">
+    <div class="fullscreen" style="font-family: Helvetica, Sans-Serif;background-color:#fafafa;">
+      <div class="loader" style="margin-bottom: 16px"></div>
+      <p class="fadeinafterdelay" style="text-align:center;margin: 4px 0px">The connection seems to be slow.</p>
+      <p class="fadeinafterdelay" style="text-align:center;margin:0px">Hang in there. 😊</p>
+      <p class="fadeinafterlongdelay" style="text-align:center;margin: 16px 0px">Still...</p>
+    </div>
+  </div>
+  <% if (process.env.REACT_APP_ENV === 'development') { %>
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics_debug.js', 'ga');
+    ga('set', 'anonymizeIp', true);
+    ga('create', 'UA-46234832-4', 'auto');
+    ga('set', 'sendHitTask', null);
+  </script>
+  <% } %>
+  <% if (process.env.REACT_APP_ENV === 'testing') { %>
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('set', 'anonymizeIp', true);
+    ga('create', 'UA-46234832-4', 'auto');
+    ga('set', 'sendHitTask', null);
+  </script>
+  <% } %>
+  <% if (process.env.REACT_APP_ENV === 'production' || process.env.REACT_APP_ENV === 'staging') { %>
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('set', 'anonymizeIp', true);
+    ga('create', 'UA-46234832-4', 'auto');
+  </script>
+  <% } %>
+</body>
+
+</html>

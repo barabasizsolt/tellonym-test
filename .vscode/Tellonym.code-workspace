@@ -1,0 +1,101 @@
+{
+  "settings": {
+    "window.title": "${rootName}",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit",
+      "source.organizeImports": "explicit"
+    },
+    "editor.tabSize": 2,
+    "eslint.enable": true,
+    "eslint.alwaysShowStatus": true,
+    "files.eol": "\n",
+    "files.insertFinalNewline": true,
+    "typescript.disableAutomaticTypeAcquisition": true,
+    "typescript.surveys.enabled": false,
+    "files.exclude": {
+      "**/.classpath": true,
+      "**/.factorypath": true,
+      "**/.project": true,
+      "**/.settings": true,
+      "**/.yarn": true,
+      "**/build": true,
+      "**/Pods": true,
+      "packages/": true
+    },
+    "search.exclude": {
+      "**/.classpath": true,
+      "**/.factorypath": true,
+      "**/.project": true,
+      "**/.settings": true,
+      "**/.yarn": true,
+      "**/build": true,
+      "**/Pods": true,
+      "packages/": true
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    "[ruby]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    "[yaml]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    "cSpell.language": "en,de-DE",
+    "cSpell.caseSensitive": false,
+    "cSpell.customDictionaries": {
+      "tellonym-dict": {
+        "name": "tellonym-dict",
+        "path": "${workspaceRoot}/cspell-dict.txt",
+        "description": "Words used in this project",
+        "addWords": true
+      },
+      "custom": true,
+      "internal-terms": true
+    },
+    "cSpell.ignoreRegExpList": [
+      "/from\\s+(['\"]).*\\1/"
+    ]
+  },
+  "folders": [
+    {
+      "name": "/",
+      "path": "../"
+    },
+    {
+      "name": "core",
+      "path": "../packages/core"
+    },
+    {
+      "name": "app",
+      "path": "../packages/app"
+    },
+    {
+      "name": "web",
+      "path": "../packages/web"
+    },
+    {
+      "name": "modcp",
+      "path": "../packages/modcp"
+    },
+    {
+      "name": "strings",
+      "path": "../packages/strings"
+    },
+  ]
+}

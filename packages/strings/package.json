@@ -1,0 +1,30 @@
+{
+  "name": "@tellonym/strings",
+  "description": "All enums from tellonym-models for other projects",
+  "version": "5.19.5",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tellonym/frontend.git",
+    "directory": "packages/strings"
+  },
+  "installConfig": {
+    "hoistingLimits": "workspaces",
+    "selfReferences": true
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "scripts": {
+    "i": "",
+    "rm": "rm -rf ./node_modules",
+    "test": "jsonlint -q app/*.json && jsonlint -q backend/*.json && jsonlint -q contentSuggestions/*.json && jsonlint -q emails/*.json && jsonlint -q info/*.json && jsonlint -q marketing/*.json && jsonlint -q pushnotifications/*.json",
+    "watch": ""
+  },
+  "devDependencies": {
+    "@prantlf/jsonlint": "^10.2.0",
+    "aws-sdk": "^2.313.0",
+    "dotenv": "^10.0.0",
+    "ramda": "^0.28.0"
+  }
+}

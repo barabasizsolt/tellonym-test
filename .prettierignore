@@ -1,0 +1,14 @@
+**/.bundle
+**/.classpath
+**/.factorypath
+**/.project
+**/.settings
+**/.yarn
+**/*.cjs
+**/*.map
+**/*.min.js
+**/build
+**/dist
+**/node_modules
+**/Pods
+**/vendor/bundle

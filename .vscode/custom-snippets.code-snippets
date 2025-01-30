@@ -1,0 +1,75 @@
+{
+	// Place your app workspace snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	"Create ": {
+		"scope": "typescriptreact",
+		"prefix": "ts-rnfc_tellonym",
+		"body": [
+			"import React from 'react'",
+			"import { StyleSheet } from 'react-native'\n",
+			"type Props = {}\n",
+			"type $TM_FILENAME_BASE${1}Props = Props\n",
+			"const styles = StyleSheet.create({})\n",
+			"export const $TM_FILENAME_BASE${1}: React.FC<$TM_FILENAME_BASE${1}Props> = (props) => {",
+			"\treturn null",
+			"}",
+			""
+		],
+		"description": "Create Typescript React Native Functional Component boilerplate"
+	},
+	"Create Bottom Slide Modal": {
+		"scope": "javascript",
+		"prefix": "Modal_create_bottom_slide",
+		"description": "Creates the boilerplate for a Bottom Slide Modal component",
+		"body": [
+			"import React from 'react'",
+			"import { colors, getThemedColor } from '@tellonym/core/common/colorSystem'",
+			"import { I18n } from '../../locales/I18n'",
+			"import * as _ from '../../underscore'",
+			"import { BottomSlideModal } from '../BottomSlideModal'",
+			"import { Box } from '../Box'",
+			"import { Modal } from '../Modal'",
+			"import { SafeAreaView } from '../SafeAreaView'",
+			"import { String } from '../String'",
+			"",
+			"const modalId = _.$TM_FILENAME_BASE${1} // TODO: Add modal id to modalIds.js file",
+			"",
+			"const styles = {",
+			"  container: {",
+			"    paddingVertical: 24,",
+			"    paddingHorizontal: 16,",
+			"    maxHeight: BottomSlideModal.getMaxHeight() - 24,",
+			"  },",
+			"}",
+			"",
+			"const $TM_FILENAME_BASE${1}Component = ({ closeModal }) => {",
+			"  return (",
+			"    <SafeAreaView bottom style={styles.container}>",
+			"",
+			"      <Box marginTop={12} marginHorizontal={8} alignItems=\"center\">",
+			"        <String",
+			"          fontWeight=\"700\"",
+			"          color={getThemedColor(colors.black[1], colors.grey[5])}",
+			"          onPress={closeModal}>",
+			"          {I18n.t('Common.close')}",
+			"        </String>",
+			"      </Box>",
+			"    </SafeAreaView>",
+			"  )",
+			"}",
+			"",
+			"export const $TM_FILENAME_BASE${1} = BottomSlideModal.create({",
+			"  id: modalId,",
+			"  animationType: Modal.Animations.SLIDE,",
+			"  hasBackdrop: false,",
+			"  shouldHideOnBackgroundPress: true,",
+			"  render: (props) => <$TM_FILENAME_BASE${1}Component {...props} />,",
+			"})",
+		]
+	}
+}

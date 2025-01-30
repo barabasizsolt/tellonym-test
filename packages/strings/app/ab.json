@@ -1,0 +1,13 @@
+{
+    "LinkView": {
+        "share": "test"
+    },
+    "ModalShareProfile": {
+        "button": "[%key_id:51856664%]"
+    },
+    "ScreenTells": {
+        "EmptyComponent": {
+            "button": "[%key_id:51856664%]"
+        }
+    }
+}
