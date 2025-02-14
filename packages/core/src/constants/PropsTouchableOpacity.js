@@ -1,0 +1,11 @@
+export * from './PropsTouchableWithoutFeedback'
+
+export const activeOpacity = 'activeOpacity'
+export const hasTVPreferredFocusiOS = 'hasTVPreferredFocusiOS'
+export const nextFocusDownAndroid = 'nextFocusDownAndroid'
+export const nextFocusForwardAndroid = 'nextFocusForwardAndroid'
+export const nextFocusLeftAndroid = 'nextFocusLeftAndroid'
+export const nextFocusRightAndroid = 'nextFocusRightAndroid'
+export const nextFocusUp = 'nextFocusUp'
+export const style = 'style'
+export const tvParallaxPropertiesAndroid = 'tvParallaxPropertiesAndroid'

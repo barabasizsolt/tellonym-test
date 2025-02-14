@@ -1,0 +1,24 @@
+User-agent: *
+Disallow: /cgi-bin/
+Disallow: /legal/*
+Disallow: /likes
+Disallow: /login
+Disallow: /login/*
+Disallow: /notifications
+Disallow: /profile
+Disallow: /register
+Disallow: /register/*
+Disallow: /search
+Disallow: /settings
+Disallow: /settings/*
+Disallow: /tells
+Allow: /
+
+User-agent: WebReaper
+User-agent: WebCopier
+User-agent: Offline Explorer
+User-agent: HTTrack
+User-agent: Microsoft.URL.Control
+User-agent: EmailCollector
+User-agent: penthesilea
+Disallow: /

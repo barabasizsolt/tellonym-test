@@ -1,0 +1,4280 @@
+{
+    "AccountKit": {
+        "authError": {
+            "message": "電話番号を使用してログインしようとするとエラーが発生しました。もう一度お試しいただくか、他の認証方法をお選びください。",
+            "title": "申し訳ありません"
+        },
+        "connectError": {
+            "message": "残念ながら、電話番号を接続できませんでした。",
+            "title": "申し訳ありません"
+        }
+    },
+    "ActivationalTells": {
+        "YWN0aXZhdGlvbmFsX3RlbGw6MA": "年齢と出身地は？",
+        "YWN0aXZhdGlvbmFsX3RlbGw6MQ": "先週末は何をしましたか？",
+        "YWN0aXZhdGlvbmFsX3RlbGw6Mg": "あなたの友達はあなたを3つの言葉でどのように説明しますか?",
+        "addPhoto": "テルネームに回答を投稿する写真を持つユーザーは、2倍以上のテルを受け取ります。",
+        "addPhotoAndContactBook": "テルネームの人々は、あなたにテルを書くために私たちの検索を通してあなたを見つけられます。プロフィール写真を追加してさらに受け取り、連絡先帳を追加して友達を見つけましょう!",
+        "answerOnTellonym": "テルに回答すると、さらにテルが増えます！だから、良いものには必ず回答しましょう。",
+        "checkDiscover": "より多くのテルを受け取れるよう、お住まいの地域の人々にあなたを提案します。 探索ページで他のユーザーを検索することもできます。",
+        "shareAnswers": "ソーシャルメディアであなたの答えを共有することによって、あなたがどれほど人気があるかをあなたの友達に見せてください!",
+        "shareProfile": "ソーシャルメディアでプロフィールを共有して、友達からより多くのテルを受け取りましょう!"
+    },
+    "Adtell": {
+        "hide": "隠します"
+    },
+    "Announcement": {
+        "CODE_PUSH": {
+            "callToAction": "今すぐ再起動",
+            "description": "アプリを再起動してアップデートをインストールします。",
+            "title": "アップデートがあります"
+        },
+        "MODERATION": {
+            "callToAction": "今すぐモデレート",
+            "description": "前回のモデレーション セッション以降、 {{-points}}ポイントを獲得しました。"
+        },
+        "RECOMMENDATIONS_TELLS_REWORK": {
+            "callToAction": "プロファイルの探索",
+            "description": "あなたのテルが一新され、他のテルネームユーザーを様々なカテゴリから探せるようになりました。ご感想は@tellonymプロフィールまでお寄せください。",
+            "title": "新規テル画面とプロファイルの探索"
+        }
+    },
+    "AnswerItem": {
+        "anonymous": {
+            "alert": {
+                "text": "このテルの作成者として、この投稿に対するあなたのやりとりは匿名のままです。あなたの名前は「送信者」に置き換えられます。あなたは、送信者ステータスを解除することで、この回答を公に「いいね！」できます。ただし、取り消すことはできません。",
+                "title": "送信者のステータス"
+            },
+            "title": "あなたのやり取りは匿名です"
+        },
+        "like": {
+            "likedBy": "。。。が「いいね！」しました",
+            "other": "他{{-amount}}",
+            "others": "他{{-amount}}",
+            "sender": "送信者"
+        },
+        "recipientLikeAlert": {
+            "text": "テルの受信者{{-username}}がこの投稿に「いいね！」をしました。",
+            "title": "受信者"
+        },
+        "remove": {
+            "answer": "回答を削除",
+            "senderStatus": "送信者ステータスを削除"
+        },
+        "senderLikeAlert": {
+            "text": "このテルの作者はその投稿に「いいね！」しました。",
+            "title": "匿名の送信者"
+        }
+    },
+    "Authentication": {
+        "addLoginCredentials": {
+            "continueWithEmail": "メールで続行",
+            "continueWithPhone": "電話で続行",
+            "descriptionCredentials": "再度アカウントにログインするには、以下の情報を設定してください。",
+            "descriptionShare": "ユーザー名は正常に変更された。新しいリンクを友達と共有してください。",
+            "descriptionValidEmail": "パスワードを紛失した場合に備えて、有効なメールアドレスを入力することが重要です。",
+            "weKeepDataSave": "お客様のデータを安全に保管しております。プロモーションを送信することはありません。"
+        },
+        "newAccount": "新規アカウント",
+        "over17": {
+            "description": "テルネームは成人向けの視聴者を対象としています。テルネームを使用するのに十分な年齢であることを確認してください。",
+            "title": "あなたは12歳以上ですか？"
+        },
+        "parentalCheck": {
+            "button16": "私は16歳以上です",
+            "buttonAgain": "別のメールを送信",
+            "buttonCheck": "承諾の確認",
+            "description": "ご両親はまだテルネームの使用に同意していません。個人的に尋ねるか、別のメールを送信します。",
+            "title": "両親に思い出させます"
+        },
+        "parentalEmail": {
+            "description": "お客様は16歳未満であるため、当社のサービスの利用が許可されていることを保護者の方から確認する必要があります。確認をお願いできるように、メールアドレスを入力してください。彼らはあなたのテルを見ることができません。",
+            "title": "保護者の連絡先情報"
+        },
+        "recovery": {
+            "availableMethodsDescription": "アカウントには、次のログイン方法でアクセスできます。",
+            "forgotLoginQuestion": "ログイン情報をお忘れですか?",
+            "getHelp": "サインインに関するヘルプ",
+            "whichAccountQuestion": "どのアカウントにアクセスしますか?"
+        },
+        "register": "登録"
+    },
+    "BlockItem": {
+        "remove": "ブロック解除"
+    },
+    "Common": {
+        "accept": "同意",
+        "advertising": "広告",
+        "and": "および",
+        "areYouSure": "本当ですか？",
+        "back": "戻る",
+        "cancel": "キャンセル",
+        "close": "閉じる",
+        "confirm": "OK",
+        "confirmEmphasis": "はい、確かです",
+        "copied": "コピー済み",
+        "decline": "拒否",
+        "delete": "削除",
+        "done": "完了",
+        "emailPlaceholder": "メール",
+        "error": "エラー",
+        "invalidAction": {
+            "content": "このアクションは現時点では不可能であります。",
+            "title": "うーん...。"
+        },
+        "later": "後で",
+        "letsGo": "行こう！",
+        "loading": "読み込み中...",
+        "more": "もっと見ます",
+        "next": "次",
+        "no": "いいえ",
+        "noInternet": "インターネット接続なし",
+        "noThanks": "いいえ、結構です",
+        "notNow": "今ではありません",
+        "settings": "設定",
+        "showLess": "表示を減らす",
+        "showMore": "もっと見ます",
+        "skip": "スキップ",
+        "somethingWentWrong": "問題が発生しました。この問題が頻繁に発生する場合は、support@tellonym.me までご連絡ください。",
+        "sorry": "申し訳ありません",
+        "submit": "提出",
+        "success": "成功",
+        "updateNow": "今すぐ更新",
+        "yes": "はい"
+    },
+    "FriendsView": {
+        "ConnectHeader": {
+            "connect": "接続",
+            "contacts": {
+                "description": "知り合いのユーザーをフォロー",
+                "title": "連絡先を接続"
+            }
+        },
+        "ConnectPhoneHeader": {
+            "description": "友達があなたを見つけられるように、電話番号を追加してください。",
+            "title": "電話を接続"
+        },
+        "EmptyComponent": {
+            "description": "連絡先を接続し、テルネームでお友達を見つけます。",
+            "title": "友達を検索"
+        },
+        "SuggestionSlider": {
+            "seeAll": "すべて見ます",
+            "title": "友達の提案"
+        },
+        "howToActivateContacts": {
+            "description": "友達のおすすめを取得するには、スマートフォンの設定で連絡先の許可を有効にしてください。",
+            "title": "連絡先同期を有効にします"
+        }
+    },
+    "InTwoYearsIAmA": "2年以内に私は以下のことをやるつもりです",
+    "KeepOnIfyoudLikeToReceiveTellsBasedOnInterests": "選択した興味に基づいて当社からテルを受け取りたい場合は、これをオンにします",
+    "Lightbox": {
+        "Error": {
+            "text": "問題が発生しました。"
+        },
+        "Permissions": {
+            "text": "デバイスの設定を調整し、カメラまたはギャラリーへのアクセス許可を付与してください。"
+        }
+    },
+    "LikeItem": {
+        "sender": "送信者"
+    },
+    "LinkView": {
+        "copy": "コピー",
+        "description": "このリンクから、他の人があなたにテルを送信できます。お友達と共有してください：",
+        "faqLinkInInstagramBio": "インスタグラムのバイオへのリンクを追加するには?",
+        "faqLinkToSnapchat": "スナップにリンクを追加するには？",
+        "share": "共有",
+        "shareMessage": {
+            "message": "テルネームミー！",
+            "messageWithTag": "テルネームミー！#tellonym"
+        },
+        "title": "リンクを共有"
+    },
+    "ModalCreatePost": {
+        "0": "私は退屈です！私は何をすべきか？ 😫",
+        "1": "私とデートしてくれませんか？ ❤️",
+        "10": "私の外見を3つの言葉👀で説明します",
+        "11": "私と関係を始めませんか？",
+        "12": "いつも私に言いたかったことは何ですか？🤐",
+        "13": "私のユニークなところは？✨",
+        "14": "私は1から10までのスケールでどれほど面白いですか?😅",
+        "15": "私の名前を聞いて最初に頭に浮かぶことは何ですか？😇",
+        "16": "私の最高の質は？😇",
+        "17": "何をやめるべきですか？🤔",
+        "18": "私がいないと寂しいですか。🙄",
+        "19": "私と一緒にどこにいたいですか?🌴",
+        "2": "私と____はかわいいカップルになるでしょう 🙈",
+        "20": "私の性格をどのように説明しますか? ☺️",
+        "21": "私について😌本当にどう思うか教えてください",
+        "22": "私の何が一番美しいと思いますか？😌",
+        "23": "それがなければ私は私ではありません...? 😊",
+        "24": "ネットフリックスのおすすめは？🎥",
+        "25": "クールな新曲？🎵",
+        "26": "私に最もよく似合うものは何ですか?🤭",
+        "27": "初めて会ったきっかけは?😇",
+        "28": "私の何が変だと思いますか？😅",
+        "29": "私たちが共有する思い出を教えてくれたら、そして私はあなたが誰であるかを推測します!😇",
+        "3": "私に片思いしてる？❤️",
+        "30": "あなた自身を説明し、そして私はあなたが誰であるかを推測します!😊",
+        "31": "あなたの最大の秘密を告白🤫",
+        "32": "私との最高の思い出は? 😍",
+        "33": "あなた＋私＋部屋＝？🤭",
+        "34": "典型的な私とは？😅",
+        "35": "私との一番楽しい思い出は？🤣",
+        "36": "私たちはどうやって友達になったのですか？ ❤️",
+        "37": "初めて話した時、私のことが好きでしたか？ 🤨",
+        "38": "なぜ私のことが好きなのですか？",
+        "39": "何でも聞いてください！",
+        "4": "私の好きなところを教えてください❤️",
+        "40": "最初の5つの質問には100％正直に回答します",
+        "41": "私についてどう思いますか？100％正直に行きます",
+        "42": "私はあなたのタイプですか？",
+        "43": "私に合う車は？🚗",
+        "44": "私の好きな人は誰だと思いますか? 🤭",
+        "45": "私と戦うためにどんな武器を選択？👊",
+        "46": "私たちの関係を説明してくれ、そして私はあなたが🤗誰であるかを推測します",
+        "47": "私があなたに近づくなら、あなたは私にあなたの番号を教えてくれるか?😇",
+        "48": "私を一番愛しているのは誰ですか? 😍",
+        "49": "10年後、どこで私に会えるか？ 🕑",
+        "5": "私たちはデートにどれくらい近づいていますか？ 😅",
+        "50": "これまでに起こった最も不気味な出来事は何ですか? 👻",
+        "51": "あなたが私を責めるものはありますか?🤭",
+        "52": "孤独な島で一緒に立ち往生したらどうなるでしょうか。🏝",
+        "53": "私のキャラクターはどの映画に合いますか？🕵️‍♀️",
+        "54": "私たちの間に起こった気まずい状況は？🙈",
+        "55": "私は何の動物になるでしょうか？ 🦁",
+        "56": "何を始めればいいですか?🤔",
+        "57": "私を思い出させるものは？🥰",
+        "58": "これまで私たちに起こった最も面白いことは何ですか? 🤣",
+        "59": "どんなヘアスタイルを試すべきですか? 👩‍🎤",
+        "6": "どこで最初に私に会い、私についてどう思ったか?🙈",
+        "60": "なぜあなたは私の友達なのですか?👯‍♀️",
+        "61": "初めて私に会えるとしたら、何を変えますか?🤯",
+        "62": "私たちの友情について何を変えたいですか？👭",
+        "63": "あなたが世界のすべてのお金を持っていたら、あなたは私に何を贈るか?🎁",
+        "64": "私にどんな嘘をついたか？🥴",
+        "65": "絶対に私と話しないことは？🙄",
+        "66": "私のせいで泣いたことはありますか？ 🤕",
+        "67": "私はどのような形であなたの人生を変えたか？🌎",
+        "68": "もし私が別の国に引っ越したら、私について何を恋しくなるでしょうか? 😌",
+        "69": "私の何が印象的だと思いますか?😘",
+        "7": "どのカラーが私に一番似合うでしょうか？ 🌈",
+        "70": "私はどのような形であなたを鼓舞しますか？🤩",
+        "71": "私がどんな罪を犯すと思いますか？ 🦹‍♀️",
+        "8": "3つの言葉🙊で私を説明",
+        "9": "3 つの絵文字で私を説明🤗"
+    },
+    "ModalShareProfile": {
+        "button": "共有"
+    },
+    "Moderation": {
+        "OnboardingChosenView": {
+            "description": "ネガティブなコンテンツを排除することでコミュニティに貢献し、ポイントやあなたのプロフィールのための豪華なアイテムで報酬を得ましょう。",
+            "titleForModerator": "あなたはモデレータに選ばれた!",
+            "titleForNonModerator": "モデレーターになりたいですか?"
+        },
+        "Settings": {
+            "title": "理解できる言語を選択します"
+        },
+        "Tutorial": {
+            "END": {
+                "text": "いよいよ実際の報告の時間です。さらに詳しく知りたい場合は、疑問符アイコンをクリックします。",
+                "title": "やったね！"
+            },
+            "Infos": {
+                "BAD_ANSWER_INFO": {
+                    "NOT_OKAY": {
+                        "text": "個人データを公に投稿することは利用規約に違反するため、この投稿は削除されるべきです。",
+                        "title": "合っています"
+                    },
+                    "OKAY": {
+                        "text": "個人データを公に投稿することは利用規約に違反するため、この投稿は削除されるべきです。",
+                        "title": "間違い"
+                    },
+                    "SKIP": {
+                        "text": "よくわからない場合は、いつでもスキップするオプションがあります。この場合、個人情報が含まれているため、投稿は削除されるべきです。",
+                        "title": "オーケー"
+                    }
+                },
+                "BAD_TELL_INFO": {
+                    "NOT_OKAY": {
+                        "text": "よくできた！脅威は当社の利用規約に違反するものであり、歓迎されません。",
+                        "title": "合っています"
+                    },
+                    "OKAY": {
+                        "text": "脅威は当社の利用規約に違反するものであり、歓迎されません。",
+                        "title": "間違い"
+                    },
+                    "SKIP": {
+                        "text": "よくわからない場合は、いつでもスキップできます。この場合、誰かが脅されているので、テルは削除されるべきです。",
+                        "title": "オーケー"
+                    }
+                },
+                "GOOD_ANSWER_INFO": {
+                    "NOT_OKAY": {
+                        "text": "このメッセージには直接的な侮辱がないため、私たちの規約には違反しません。",
+                        "title": "間違い"
+                    },
+                    "OKAY": {
+                        "text": "このメッセージには直接的な侮辱がないため、私たちの規約には違反しません。",
+                        "title": "合っています"
+                    },
+                    "SKIP": {
+                        "text": "よくわからない場合は、いつでもスキップするオプションがあります。この場合、直接的な侮辱がないので、投稿は削除されるべきではありません。",
+                        "title": "オーケー"
+                    }
+                }
+            },
+            "Reports": {
+                "BAD_ANSWER": {
+                    "answer": "ああ！知っておいてよかった！",
+                    "tell": "ローラさんの番号は0158432であり、彼女は40フィッシャーストリートに住んでいます!"
+                },
+                "BAD_TELL": {
+                    "tell": "この前やったこと......もう一度やってみろ、お前のところにやってきて終わらせてやります！"
+                },
+                "GOOD_ANSWER": {
+                    "answer": "ジャスティンさんは本当にバカだよ",
+                    "tell": "ジャスティンさんに対しての意見は?"
+                }
+            },
+            "START": {
+                "text": "実際の投稿を始める前に、いくつか思いつきの投稿をお見せします。削除するかどうかはあなたが決めてください。テルネームのアイデアは、正直なフィードバックを得ることであることを心に留めておいてください。時には正直さが傷つくこともあります。一方、脅迫や侮辱は正直さとは無関係であり、テルネームにはふさわしくありません。",
+                "title": "ご協力ありがとうございます！"
+            }
+        },
+        "aboutPoints": {
+            "body": "決定ごとに1ポイントを受け取れます。コミュニティによる最終決定が行われた後、それが正しければポイントを受け取ります。そうでない場合、ポイントを失います。",
+            "title": "ポイント"
+        },
+        "agreeToTerms": {
+            "body": "私は、モデレーターエリアに表示されているいかなるコンテンツも公開しないこと、および私が18歳以上であることを確認します。",
+            "title": "規約に同意"
+        }
+    },
+    "ModerationView": {
+        "EmptyComponent": {
+            "description": "現在、未解決の報告はありません。\nご協力ありがとうございました！",
+            "title": "余暇時間"
+        },
+        "decisionActions": {
+            "allow": "削除しません",
+            "delete": "削除",
+            "skip": "分かりません",
+            "title": "このコンテンツは本当に削除されるべきなのか？"
+        },
+        "points": "ポイント",
+        "title": "節度"
+    },
+    "NotificationItem": {
+        "gotAnswer": "{{-username}}はあなたのテル\"{{-tell}}\" に回答しました。",
+        "gotLiked": "{{-username}}さんがあなたの回答\"{{-answer}}\"に「いいね！」しました。",
+        "gotLikedMultiple": "あなたの回答\"{{-answer}}\"は{{-username}}さんと他{{-amount}}人に「いいね！」された。",
+        "gotLikedMultipleWithOne": "あなたの回答\"{{-answer}}\"は{{-username}}さんと他{{-amount}}人に「いいね！」されました。",
+        "gotNewPublicSubscription": "{{-username}}はあなたを公開購読しました",
+        "gotNewPublicSubscriptions": "{{-amount}}人のユーザーがあなたを公開購読しました",
+        "gotNewSubscription": "誰かが匿名であなたを購読しました",
+        "gotNewSubscriptions": "{{-amount}}人のユーザーが匿名であなたを購読しました",
+        "gotReportingUpdate": "あなたに関係するサポートチケットに関するニュースがあります",
+        "gotTell": "新規テルを受信しました",
+        "gotTells": "{{-amount}}件の新規テルを受信しました",
+        "sender": "送信者",
+        "unknownUsername": "誰か"
+    },
+    "Notifications": {
+        "PushNotificationAlert": {
+            "askForPermissions": {
+                "body": "テルネームからのプッシュ通知を受信しますか？",
+                "title": "プッシュ通知"
+            },
+            "howToActivatePushNotifications": {
+                "body": "プッシュ通知を受信するには、スマートフォン設定で有効にしてください。",
+                "title": "プッシュ通知を有効にします"
+            }
+        },
+        "ScreenReportCase": {
+            "answer": "回答",
+            "contentDeleted": "{{-content}}を削除しました。",
+            "description": "以下の内容が報告されました：",
+            "failedToLoad": "ケースをロードできませんでした。",
+            "heading": "報告#{{-reportCaseId}}",
+            "isReported": "コンテンツを作成したため、ここに警告が表示されます。利用規約に複数回違反するユーザーを禁止することに注意してください。",
+            "message": "メッセージ",
+            "necessaryActionsTaken": "私たちはこのコンテンツの作成者に警告し、今後このようなことが繰り返されないよう、必要な措置を取るつもりです。",
+            "noFinalDecision": "このケースに関する最終決定はまだ行われていません。",
+            "noOffensiveContentOnProfile": "回答するテルを確認してください。利用規約に違反している場合は、回答せずに報告してください。",
+            "noViolationFound": "モデレーターがこのケースをチェックしたところ、利用規約違反は見つかりませんでした。",
+            "privateTellNotification": "このテルを報告していただきありがとうございます。\n\nサポートチームは、報告されたテルを確認し、適切な措置を講じます。\n\nテルの送信者をブロックする機能があることを忘れないでください。これを行うには、[テル]の3つのドットを押してコンテキストメニューに移動し、[送信者をブロックする]を選択します。",
+            "profileBanned": "アカウントは禁止されました。",
+            "profilePicture": "{{-username}}のプロフィール写真",
+            "showTerms": "条件を表示",
+            "tell": "テル",
+            "thanks": "ご協力ありがとうございます!",
+            "title": "サポートチケット",
+            "violationFound": "私たちのモデレーターはこの件をチェックし、私たちの利用規約に違反していると判断しました。"
+        }
+    },
+    "PageInteractions": {
+        "title": "インタラクション"
+    },
+    "Profile": {
+        "defaultStatus": "ねえ、テルを残してみませんか?",
+        "edit": "プロファイルを編集",
+        "followers": "フォロワー",
+        "followings": "フォローしている人",
+        "subscribe": "フォロー",
+        "tellAnonymousHint": "メッセージは匿名です",
+        "tells": "テル",
+        "unsubscribe": "フォローを解除",
+        "write": "匿名のテルを送信...",
+        "write_yourself": "自分に匿名のテルを送信"
+    },
+    "ProfileEmoji": {
+        "ANGRY_CENSORED": {
+            "emoji": "🤬"
+        },
+        "APE_HEAR_NO_EVIL": {
+            "emoji": "🙉"
+        },
+        "BASEBALL": {
+            "emoji": "⚾️"
+        },
+        "BASEKTBALL": {
+            "emoji": "🏀",
+            "howToGetDescription": "• 他の人からの{{-maxProgress}}のテルを受信"
+        },
+        "BAT": {
+            "emoji": "🦇"
+        },
+        "BEE": {
+            "emoji": "🐝"
+        },
+        "BEER": {
+            "emoji": "🍺"
+        },
+        "BEERS": {
+            "emoji": "🍻"
+        },
+        "BEETLE": {
+            "emoji": "🐞"
+        },
+        "BIKINI": {
+            "emoji": "👙"
+        },
+        "BLOOD_DROP": {
+            "emoji": "🩸"
+        },
+        "BOOKS": {
+            "emoji": "📚"
+        },
+        "BUTTERFLY": {
+            "emoji": "🦋"
+        },
+        "CAMERA_WITH_FLASH": {
+            "emoji": "📸"
+        },
+        "CELEBRATING": {
+            "emoji": "🥳",
+            "howToGetDescription": "• 他の人からの{{-maxProgress}}のテルを受信"
+        },
+        "CHAMPAGNE": {
+            "emoji": "🍾",
+            "howToGetDescription1": "• プロフィール写真を追加",
+            "howToGetDescription2": "• 電話番号を追加",
+            "howToGetDescription3": "•性別を選択"
+        },
+        "CHERRY_BLOSSOM": {
+            "emoji": "🌸"
+        },
+        "COFFIN": {
+            "emoji": "⚰️"
+        },
+        "COMET": {
+            "emoji": "☄️"
+        },
+        "COMPUTER": {
+            "emoji": "💻"
+        },
+        "CROWN": {
+            "emoji": "👑"
+        },
+        "CRYING": {
+            "emoji": "😭"
+        },
+        "DARK_SUNGLASSES": {
+            "emoji": "🕶"
+        },
+        "DIAMOND": {
+            "emoji": "💎"
+        },
+        "DNA": {
+            "emoji": "🧬"
+        },
+        "DOG": {
+            "emoji": "🐶"
+        },
+        "DOLPHIN": {
+            "emoji": "🐬"
+        },
+        "DOUGHNUT": {
+            "emoji": "🍩"
+        },
+        "DYNAMITE": {
+            "emoji": "🧨"
+        },
+        "EAGLE": {
+            "emoji": "🦅"
+        },
+        "EXPLODING_HEAD": {
+            "emoji": "🤯",
+            "howToGetDescription": "• 回答された他の人に{{-maxProgress}}のテルを送信"
+        },
+        "EYES": {
+            "emoji": "👀"
+        },
+        "FACE_TEAR": {
+            "emoji": "😢"
+        },
+        "FIRE_EXTINGUISHER": {
+            "emoji": "🧯"
+        },
+        "FIST_BUMP": {
+            "emoji": "👊",
+            "howToGetDescription": "•友達のフォローベルをアクティブにします"
+        },
+        "FLAME": {
+            "emoji": "🔥",
+            "howToGetDescription": "• {{-maxProgress}}日連続で、同じ日にそのテルに回答した他の人にテルを送信します。"
+        },
+        "FRIES": {
+            "emoji": "🍟"
+        },
+        "GHOST": {
+            "emoji": "👻",
+            "howToGetDescription": "• スナップチャットで回答を共有"
+        },
+        "GORILLA": {
+            "emoji": "🦧"
+        },
+        "GUITAR": {
+            "emoji": "🎸"
+        },
+        "GUN": {
+            "emoji": "🔫"
+        },
+        "HAMBURGER": {
+            "emoji": "🍔"
+        },
+        "HAMMER_AND_WRENCH": {
+            "emoji": "🛠"
+        },
+        "HEADPHONES": {
+            "emoji": "🎧",
+            "howToGetDescription": "• あなたのプロフィールを共有"
+        },
+        "HEART_EYES": {
+            "emoji": "😍",
+            "howToGetDescription": "• {{-maxProgress}}件の投稿に「いいね！」"
+        },
+        "HIGH_HEEL": {
+            "emoji": "👠"
+        },
+        "HOTDOG": {
+            "emoji": "🌭"
+        },
+        "HUNDRED": {
+            "emoji": "💯"
+        },
+        "ICECREAM": {
+            "emoji": "🍦"
+        },
+        "JACK_O_LANTERN": {
+            "emoji": "🎃"
+        },
+        "LIPSTIC": {
+            "emoji": "💄"
+        },
+        "LIPSTICK": {
+            "emoji": "💄"
+        },
+        "MONEYBAG": {
+            "emoji": "💰"
+        },
+        "MORTAR_BOARD": {
+            "emoji": "🎓"
+        },
+        "MOTOR_BOAT": {
+            "emoji": "🛥"
+        },
+        "MOUSE": {
+            "emoji": "🐭"
+        },
+        "NAIL_CARE": {
+            "emoji": "💅"
+        },
+        "PARTY": {
+            "emoji": "🎉",
+            "howToGetDescription": "• 他の人からの{{-maxProgress}}のテルを受信"
+        },
+        "PILL": {
+            "emoji": "💊"
+        },
+        "PIZZA": {
+            "emoji": "🍕"
+        },
+        "POO_FACE": {
+            "emoji": "💩",
+            "howToGetDescription": "• あなたのプロフィールを共有"
+        },
+        "RACING_CAR": {
+            "emoji": "🏎"
+        },
+        "RAINBOW": {
+            "emoji": "🌈"
+        },
+        "RAINBOW_FLAG": {
+            "emoji": "🏳️‍🌈"
+        },
+        "RING": {
+            "emoji": "💍"
+        },
+        "ROCKET": {
+            "emoji": "🚀"
+        },
+        "ROSE": {
+            "emoji": "🌹"
+        },
+        "ROTATING_LIGHT": {
+            "emoji": "🚨"
+        },
+        "SAD": {
+            "emoji": "😔"
+        },
+        "SHAMROCK": {
+            "emoji": "☘️"
+        },
+        "SHARK": {
+            "emoji": "🦈"
+        },
+        "SHOPPING_BAGS": {
+            "emoji": "🛍"
+        },
+        "SICK": {
+            "emoji": "🤒"
+        },
+        "SKULL": {
+            "emoji": "💀"
+        },
+        "SKULL_AND_CROSSBONES": {
+            "emoji": "☠️"
+        },
+        "SMILE_HEARTS": {
+            "emoji": "🥰"
+        },
+        "SMILING_EVIL": {
+            "emoji": "😈",
+            "howToGetDescription": "• {{-maxProgress}}テルに回答"
+        },
+        "SMOKING": {
+            "emoji": "🚬"
+        },
+        "SNOWFLAKE": {
+            "emoji": "❄️"
+        },
+        "SOCCER": {
+            "emoji": "⚽️",
+            "howToGetDescription": "• {{-maxProgress}}テルに回答"
+        },
+        "SPAGHETTI": {
+            "emoji": "🍝"
+        },
+        "SPIDER": {
+            "emoji": "🕷"
+        },
+        "SPIDER_WEB": {
+            "emoji": "🕸"
+        },
+        "STAR": {
+            "emoji": "⭐️",
+            "howToGetDescription": "• 最初のテルを送信"
+        },
+        "STAR_EYES": {
+            "emoji": "🤩",
+            "howToGetDescription": "• {{-maxProgress}}フォロワーを取得"
+        },
+        "STATUE_OF_LIBERTY": {
+            "emoji": "🗽"
+        },
+        "STETHOSCOPE": {
+            "emoji": "🩺"
+        },
+        "STRONG": {
+            "emoji": "💪",
+            "howToGetDescription1": "• プロフィール写真を追加",
+            "howToGetDescription2": "• 電話番号を追加",
+            "howToGetDescription3": "•性別を選択"
+        },
+        "SUNGLASSES": {
+            "emoji": "😎"
+        },
+        "SUNNY": {
+            "emoji": "☀️"
+        },
+        "SWEAT_DROPS": {
+            "emoji": "💦"
+        },
+        "SYRINGE": {
+            "emoji": "💉"
+        },
+        "TADA": {
+            "emoji": "🎉"
+        },
+        "TOILET_PAPER": {
+            "emoji": "🧻"
+        },
+        "TORNADO": {
+            "emoji": "🌪"
+        },
+        "TRANSGENDER_FLAG": {
+            "emoji": "🏳️‍⚧️"
+        },
+        "UNDERAGE": {
+            "emoji": "🔞"
+        },
+        "UNICORN": {
+            "emoji": "🦄"
+        },
+        "US": {
+            "emoji": "英語"
+        },
+        "VIDEO_GAME": {
+            "emoji": "🎮",
+            "howToGetDescription": "• {{-maxProgress}}件の投稿にいいね！"
+        },
+        "VIRUS": {
+            "emoji": "🦠",
+            "howToGetDescription": "• 手を洗う"
+        },
+        "WARNING": {
+            "emoji": "⚠️"
+        },
+        "WATCH": {
+            "emoji": "⌚️"
+        },
+        "WILTED_FLOWER": {
+            "emoji": "🥀"
+        },
+        "WINE_GLASS": {
+            "emoji": "🍷"
+        },
+        "WINK": {
+            "emoji": "😉"
+        },
+        "locked": "🔒",
+        "removeStatusEmoji": "ステータス絵文字を削除",
+        "statusEmojiEventStarted": "<0>新規イベントが開始されました:<\/0> <1>{{-statusEmojiEvent}}. 🤩 <\/1> <2>最新の絵文字を保護し、永遠に保存してください!<\/2> <3><\/3> <4>{{-createdAt}}<\/4>",
+        "statusEmojiEventWillEnd": "<0>イベント<\/0> <1>{{-statusEmojiEvent}}<\/1> <0>はもうすぐ終わります！😱<\/0> <2>全ての絵文字を受け取るラストチャンス<\/2> <3><\/3> <4>{{-createdAt}}<\/4>です！",
+        "toUnlockYouNeed": "絵文字のロックを解除するには、次のことが必要です：",
+        "whichDescribesYouBest": "あなたを最もよく表しているのはどれですか？",
+        "youAchievedStatusEmoji": "<0>新規ステータス絵文字を達成しました<\/0> <1>{{-emoji}}<\/1> <2><\/2> <3>{{-createdAt}}<\/3>",
+        "youAlreadyAt": "あなたはすでに次の場所にいます:",
+        "youUnlockedEmojis": "<1>{{-unlockedEmojisCount}}<\/1>\/<2>{{-unlockedEmojisMax}}<\/2>個の<3>絵文字<\/3>🎉の<0>ロックを解除しました<\/0>",
+        "youeEmojiWillBeVisible": "絵文字はプロフィール写真の横に表示されます。",
+        "yourEmoji": "あなたの絵文字"
+    },
+    "PwForgetView": {
+        "content": "心配しないで。下のフィールドにメールアドレスを入力するだけで、当社からメールが届きます。そのメール内のリンクを使用してパスワードをリセットします。",
+        "forgotPw": "パスワードをお忘れですか?",
+        "notFound": {
+            "content": "このメールアドレスに接続されているアカウントはありません。",
+            "title": "未登録ですか?"
+        },
+        "requested": {
+            "content": "まもなく、パスワードのリセット方法を記載したメールが送信されます。",
+            "title": "ありがとうございます"
+        },
+        "send": "送信"
+    },
+    "RecommendationCategory": {
+        "COMMUNITIES_POPULAR": {
+            "title": "人気のコミュニティ"
+        },
+        "DEFAULT": {
+            "title": "お勧めの人物"
+        },
+        "INTERESTS": {
+            "title": "{{-interestName}}に興味のあるユーザー"
+        },
+        "LOCATION": {
+            "title": "{{-cityName}}に近い人々"
+        },
+        "USERS_AFFINITY": {
+            "title": "お知り合いかも"
+        },
+        "USERS_AFFINITY_INDIRECT": {
+            "title": "友達の友達"
+        },
+        "USERS_FEMALE_YOUR_AGE": {
+            "title": "同年代の女性ユーザー"
+        },
+        "USERS_MALE_YOUR_AGE": {
+            "title": "同年代の男性ユーザー"
+        },
+        "USERS_MATCHES_COMPARISON": {
+            "amount": "{{-amount}}人の共通の友達",
+            "title": "共通の友達を持つ人々"
+        },
+        "USERS_MATCHES_DIRECT": {
+            "title": "連絡帳から"
+        },
+        "USERS_MATCHES_INDIRECT": {
+            "amount": "{{-amount}}人の共通の友達",
+            "title": "友達の友達"
+        },
+        "USERS_POPULAR_FEMALE": {
+            "title": "人気の女性ユーザー"
+        },
+        "USERS_POPULAR_MALE": {
+            "title": "人気の男性ユーザー"
+        },
+        "USERS_POPULAR_YOUR_AGE": {
+            "title": "同年代の人気のユーザー"
+        },
+        "USERS_YOUR_AGE": {
+            "title": "同年齢のユーザー"
+        }
+    },
+    "RegisterAuthView": {
+        "invalidEmail": "有効なメールアドレスを入力してください",
+        "invalidPassword": "パスワードは6文字以上である必要があります。",
+        "login": "ログイン",
+        "showPassword": "パスワードを表示"
+    },
+    "RegisterRootView": {
+        "policies": {
+            "privacy": "プライバシーポリシー",
+            "statementEnd": ".",
+            "statementMiddle": "および",
+            "statementStart": "同意",
+            "tos": "条件"
+        }
+    },
+    "ReplyView": {
+        "placeholder": "あなたの回答",
+        "publicAnswerHint": "あなたの回答はプロフィールに公開されます。",
+        "tellNotFound": "あなたはこのテルを削除または回答しました。",
+        "title": "回答"
+    },
+    "Report": {
+        "REASON": {
+            "DISLIKE": {
+                "emoji": "👎",
+                "text": "このプロフィールは好きではありません"
+            },
+            "FAKE": {
+                "emoji": "👤",
+                "text": "偽アカウント"
+            },
+            "HACKED": {
+                "emoji": "👻",
+                "text": "このプロフィールはハッキングされた"
+            },
+            "HATE_SPEECH": {
+                "emoji": "🤬",
+                "hint": "コンテンツは非常に不快ですか?",
+                "name": "ヘイトスピーチ",
+                "text": "ヘイトスピーチまたはシンボル"
+            },
+            "HIDE_FROM_USER": {
+                "emoji": "🚷",
+                "text": "この人には見られたくありません"
+            },
+            "INAPPROPRIATE_CONTENT": {
+                "emoji": "💩",
+                "text": "不適切なコンテンツの投稿"
+            },
+            "INAPPROPRIATE_PROFILE": {
+                "emoji": "🚫",
+                "text": "不適切です"
+            },
+            "INSULT": {
+                "emoji": "😡",
+                "hint": "コンテンツは非常に不快ですか?",
+                "name": "嫌がらせ",
+                "text": "嫌がらせおよび\/または虐待"
+            },
+            "NETZDG": {
+                "text": "NetzDG"
+            },
+            "NETZ_DG": {
+                "emoji": "🏢",
+                "text": "NetzDG"
+            },
+            "NUDITY_GRAPHIC_CONTENT": {
+                "emoji": "🚫",
+                "text": "ヌード、グラフィックコンテンツ"
+            },
+            "OLD_ACCOUNT": {
+                "emoji": "☠️",
+                "text": "私の古いアカウントです"
+            },
+            "PRIVATE_INFORMATION": {
+                "emoji": "🙅",
+                "hint": "投稿には住所、電話番号、または同様の情報が含まれていますか?",
+                "name": "個人情報",
+                "text": "個人情報を含む"
+            },
+            "SELFHARM": {
+                "emoji": "😟",
+                "hint": "誰かが自傷行為を要求されていますか？",
+                "name": "自傷",
+                "text": "自傷"
+            },
+            "SENSITIVE_MEDIA": {
+                "emoji": "🔞",
+                "hint": "コンテンツは不適切ですか?",
+                "name": "センシティブな画像",
+                "text": "センシティブな画像を表示"
+            },
+            "SPAM": {
+                "emoji": "✋",
+                "text": "スパム投稿"
+            },
+            "THREATENING": {
+                "emoji": "👮",
+                "hint": "誰かが脅迫されていますか?",
+                "name": "脅威",
+                "text": "脅威を含む"
+            }
+        },
+        "REPORT_TYPE": {
+            "ANSWER": {
+                "button": "返信を報告",
+                "emoji": "💬",
+                "item": "回答",
+                "name": "回答"
+            },
+            "COMMENT": {
+                "item": "コメント"
+            },
+            "COMMUNITY": {
+                "button": "コミュニティを報告",
+                "emoji": "👤",
+                "item": "コミュニティ",
+                "name": "コミュニティ"
+            },
+            "COMMUNITY_TELL": {
+                "button": "テルを報告",
+                "emoji": "📩",
+                "item": "コミュニティテル",
+                "name": "コミュニティテル"
+            },
+            "FILTERED_TELL": {
+                "button": "テルを報告",
+                "emoji": "📩",
+                "item": "テル",
+                "name": "テル"
+            },
+            "PRIVATE_TELL": {
+                "button": "テルを報告",
+                "emoji": "📩",
+                "item": "テル",
+                "name": "テル"
+            },
+            "PROFILE": {
+                "button": "プロファイルを報告",
+                "emoji": "👤",
+                "item": "プロファイル",
+                "name": "プロファイル"
+            },
+            "PROFILE_NAME": {
+                "button": "報告名",
+                "emoji": "👩🏼",
+                "item": "名前",
+                "name": "名前"
+            },
+            "PROFILE_PICTURE": {
+                "button": "写真を報告",
+                "emoji": "🏞",
+                "item": "写真",
+                "name": "写真"
+            },
+            "PROFILE_STATUS": {
+                "button": "ステータスを報告",
+                "emoji": "✍🏻",
+                "item": "ステータス",
+                "name": "ステータス"
+            },
+            "REQUEST_TELL": {
+                "button": "投稿を報告",
+                "emoji": "💬",
+                "item": "投稿",
+                "name": "投稿"
+            },
+            "TELL": {
+                "button": "テルを報告",
+                "emoji": "📩",
+                "item": "テル",
+                "name": "テル"
+            }
+        },
+        "action": "報告",
+        "actions": {
+            "block": {
+                "emoji": "⛔",
+                "text": "{{-username}}をブロック"
+            },
+            "celebrity": {
+                "emoji": "⭐️",
+                "text": "セレブ"
+            },
+            "communityGuidelines": {
+                "emoji": "📖",
+                "text": "コミュニティガイドライン"
+            },
+            "localPoliceNumber": {
+                "emoji": "🚨",
+                "text": "地元警察の電話番号"
+            },
+            "me": {
+                "emoji": "🤠",
+                "text": "私"
+            },
+            "moderate": {
+                "emoji": "💪",
+                "text": "中程度"
+            },
+            "none": {
+                "emoji": "😊",
+                "text": "私は報告したくありません"
+            },
+            "registeredOnly": {
+                "emoji": "😌",
+                "text": "登録ユーザーのみからのテル"
+            },
+            "report": {
+                "emoji": "👮‍♂️",
+                "text": "報告"
+            },
+            "sendFeedback": {
+                "emoji": "🙏",
+                "text": "{{-username}}のフィードバックを送信"
+            },
+            "sendLove": {
+                "emoji": "💛",
+                "text": "{{-username}}に愛を送信"
+            },
+            "someoneIKnow": {
+                "emoji": "👻",
+                "text": "知り合い"
+            },
+            "wordfilter": {
+                "emoji": "🤐",
+                "text": "言葉をフィルター"
+            }
+        },
+        "actionsDescription": "追加のアクションを実行したいですか?",
+        "actionsInfo": "ご協力ありがとうございます！ モデレーターからの決定についてお知らせします。",
+        "actionsTitle": "完了",
+        "onlyRegisteredDescription": "例えば、登録ユーザーからのみテルを受信するように指定できます。これは設定でいつでも取り消すことができます。",
+        "sender": "送信者",
+        "whatTitle": "何を報告したいのか？",
+        "whyDescription": "このコンテンツが適切ではないと思われる理由をお聞かせください。",
+        "whyTitle": "この{{-item}}を報告する理由は何ですか？"
+    },
+    "ScreenAnswer": {
+        "answerNotFound": "This answer has been deleted.",
+        "title": "回答"
+    },
+    "ScreenBlocks": {
+        "empty": "あなたはまだ誰もブロックしていません。",
+        "title": "ブロックされたユーザー"
+    },
+    "ScreenEditProfile": {
+        "avatarCategory": "プロフィール写真",
+        "backButtonAlert": {
+            "content": "保存しないと変更内容が消えてしまいます。今すぐ保存しますか？",
+            "title": "保存されていない変更"
+        },
+        "boy": "男の子👦",
+        "camera": "写真を撮ります",
+        "editLater": "プロフィールは後で編集できます。",
+        "gallery": "ギャラリーから選択",
+        "girl": "👧女の子",
+        "removeAvatar": "プロフィール写真を削除",
+        "setUp": "プロフィールを設定しましょう!",
+        "title": "プロファイルを編集"
+    },
+    "ScreenEmail": {
+        "descriptionConnect": "プロフィールをメールアドレスに接続できます。",
+        "descriptionOldEmail": "古いメールアドレス:",
+        "input1": "新規メールアドレス",
+        "input2": "新規パスワード",
+        "title": "設定",
+        "yourPw": "パスワード"
+    },
+    "ScreenFeed": {
+        "EmptyComponent": {
+            "button": "友達を検索",
+            "description": "フィードを豊かにする為、友達をフォローしましょう。連絡先を接続することや、ユーザー名を検索することで友達を見つけられます。",
+            "title": "これはあなたのフィードです"
+        },
+        "scrollTopLabelText": "新規投稿"
+    },
+    "ScreenFollowers": {
+        "anonymousFollower": {
+            "first": "あなたは",
+            "second": "匿名のフォロワー。"
+        },
+        "empty": {
+            "text": "フォロワーを得るために他の人に自分のリンクを送信し、頻繁に面白いテルを投稿します。",
+            "title": "まだフォロワーはありません。",
+            "titlePublic": "公開フォロワーはありません。"
+        },
+        "title": "フォロワー"
+    },
+    "ScreenFollowings": {
+        "empty": {
+            "text": "他の人のプロフィールにはフォローボタンがあります。他の人をフォローすると、新規テルが投稿されるたびに情報が得られます。",
+            "title": "あなたはまだ誰にもフォローしていません。",
+            "titlePublic": "一般のフォロワーがいません。"
+        },
+        "title": "フォローしている人"
+    },
+    "ScreenLikes": {
+        "title": "「いいね！」"
+    },
+    "ScreenMoreSettings": {
+        "account": {
+            "deletion": "アカウントを削除",
+            "title": "アカウント"
+        },
+        "infos": {
+            "analytics": "匿名の使用統計を許可",
+            "licenses": "オープンソースライセンス",
+            "privacy": "プライバシーポリシー",
+            "terms": "条件",
+            "title": "情報"
+        },
+        "privacy": {
+            "findByPhone": "他のユーザーが電話で私を見つけられるようにします",
+            "otherEmails": "トランザクション以外のメールを許可",
+            "showActivityIndicator": "アクティブステータスを表示",
+            "title": "プライバシー"
+        },
+        "tellonym": {
+            "title": "テルネーム"
+        }
+    },
+    "ScreenNotifications": {
+        "empty": "何かあったらお知らせします!",
+        "scrollTopLabelText": "新規通知"
+    },
+    "ScreenOAuth": {
+        "instagram": "インスタグラム",
+        "title": "ソーシャルメディア",
+        "twitter": "ツイッター"
+    },
+    "ScreenPassword": {
+        "input1": "現在のパスワード",
+        "input2": "新規パスワード",
+        "title": "設定"
+    },
+    "ScreenProfile": {
+        "empty": "あなたはまだテルに回答していません。あなたのプロフィールに公開するには、テルに回答します。",
+        "linkTooltip": "ここをクリックしてリンクを共有してください!",
+        "title": "プロファイル"
+    },
+    "ScreenPushNotificationsSettings": {
+        "sections": {
+            "pushNotificationSettings": "プッシュ通知の設定",
+            "pushNotificationsEnable": "プッシュ通知を受信"
+        },
+        "switches": {
+            "answer": "回答済みのテル",
+            "general": "プッシュ通知",
+            "liked": "「いいね！」を受け取ります",
+            "message": "チャットメッセージを受信",
+            "newPostByFriends": "友達の新規投稿",
+            "publicSubscription": "新規フォロワー",
+            "subscription": "新規匿名のフォロワー",
+            "tell": "テルを受信",
+            "userTagged": "誰かによってタグ付けされました"
+        }
+    },
+    "ScreenResult": {
+        "empty": "このユーザーはテルを投稿していません。最初の投稿を見逃さないようにフォローします。"
+    },
+    "ScreenSearch": {
+        "empty": "結果がありません",
+        "notSearched": {
+            "text": "検索語にぴったりのユーザーが表示されます。 適切なプロフィールが見つからない場合は、検索キーワードを調整してみてください。",
+            "title": "友達のユーザー名を検索"
+        }
+    },
+    "ScreenSettings": {
+        "aboutMe": {
+            "text": "ステータスを変更"
+        },
+        "appFunctionality": "アプリの機能",
+        "changeLanguage": "言語を変更",
+        "changeTranslationAlert": {
+            "text": "言語を変更するには、アプリを再起動する必要があります。 今すぐ再起動しますか？",
+            "title": "再起動が必要です"
+        },
+        "community": {
+            "giveFeedback": "フィードバックをお寄せください",
+            "onInstagram": "インスタグラムでテルネーム",
+            "onTwitter": "ツイッターでテルネーム",
+            "rules": "コミュニティルール",
+            "title": "コミュニティ"
+        },
+        "connectContacts": "連絡先を接続",
+        "connectEmail": "メールを接続",
+        "connectPhone": "電話を接続",
+        "darkmode": "ダークモード",
+        "deletionPopup": {
+            "content": "アカウントを本当に削除しますか?\n30日以内にログインしない場合は、無効になり、削除されます。",
+            "title": "本当に?"
+        },
+        "disconnectPhone": "電話を切断",
+        "displayName": {
+            "text": "名前を変更",
+            "title": "名前"
+        },
+        "email": "メールアドレスを変更",
+        "findFriendsViaContacts": "連絡先から友達を検索",
+        "generalSettings": "一般設定",
+        "interactions": {
+            "title": "コメント プライバシー"
+        },
+        "languageOption": "🇯🇵      日本語",
+        "logout": "ログアウト",
+        "more": "もっと見ます",
+        "notifications": {
+            "category": "通知",
+            "push": {
+                "title": "プッシュ通知"
+            }
+        },
+        "others": "その他",
+        "password": "パスワードを変更",
+        "privacy": {
+            "title": "プロフィールプライバシー"
+        },
+        "safety": {
+            "title": "安全"
+        },
+        "tellsOnlyFromRegistered": "登録ユーザーからのみのテルです",
+        "title": "設定",
+        "userSettings": "ユーザー設定",
+        "username": {
+            "text": "ユーザー名を変更",
+            "title": "ユーザー名"
+        },
+        "wordfilter": "ワードフィルター"
+    },
+    "ScreenTellonymContact": {
+        "header": {
+            "description": "何か報告したいことがあれば、メールでご連絡ください。",
+            "title": "問題や質問がある場合は、お問い合わせください："
+        },
+        "noAppFound": {
+            "text": "デバイスにメールアプリが見つかりませんでした。手動でお書きください。",
+            "title": "アプリが見つかりませんでした"
+        },
+        "onTellonym": "テルネーム",
+        "title": "連絡先"
+    },
+    "ScreenTells": {
+        "EmptyComponent": {
+            "button": "共有",
+            "buttonFollowFriends": "友達を検索",
+            "description": "まだテルを受信していません。\nなら、リンクを共有する時間です！",
+            "descriptionFollowFriends": "友達をフォローする事もできます！\n友達の返信を確認し、テルを書いて、投稿に「いいね！」します。",
+            "swipeToRefresh": "下にスワイプして、新規テルがあるかどうかを確認します!",
+            "title": "今、どうしますか?"
+        },
+        "scrollTopLabelText": "新規テル"
+    },
+    "ScreenWordfilter": {
+        "Alert": {
+            "text": "{{-limit}} までの単語がサポートされています。もう1つを追加する前に、1つを削除してください。",
+            "title": "制限に達しました"
+        },
+        "hint": "このフィルターには最大{{-limit}}個の単語を追加します。これらの単語のいずれかを含むテルは、あなたに配信されません。",
+        "placeholder": "単語を追加",
+        "title": "ワードフィルター"
+    },
+    "SearchBar": {
+        "placeholder": "検索"
+    },
+    "Share": {
+        "dialogTitle": "リンクを共有",
+        "title": "ねえ、私にテルを残したいですか？ #テルネーム"
+    },
+    "StoreRating": {
+        "appFeedback": {
+            "content": "あなたが気に入らないことについて私たちにテルを送信してください。",
+            "later": "後で",
+            "never": "絶対に!",
+            "title": "私たちは改善したいです"
+        },
+        "appStoreRating": {
+            "confirm": "行こう！",
+            "content": "私たちのアプリを評価していただけると本当に助かる! ❤️",
+            "title": "私たちは本当に感謝しています"
+        },
+        "likeApp": {
+            "content": "あなたはテルネームアプリが好きですか?",
+            "title": "あなたの意見は重要です"
+        }
+    },
+    "SubscribeButton": {
+        "anonymous": "匿名"
+    },
+    "TabsRecommendations": {
+        "title": "おすすめ"
+    },
+    "TellItem": {
+        "answerTellonymErrorMsg": "テルネームよりのテルには回答できません。",
+        "answerTellonymErrorTitle": "申し訳ありません :(",
+        "block": "送信者をブロック",
+        "blockMsg": "本当にこのユーザーをブロックしたいのですか？",
+        "blockMsgTitle": "本当に?",
+        "fromTellonym": "テルネームによる",
+        "remove": "テルを削除",
+        "report": "テルを報告"
+    },
+    "TellsScreenEmpty": {
+        "Messages": {
+            "0": "匿名のAI音声メッセージを送信ください！",
+            "1": "匿名のメッセージを送信してください！",
+            "2": "最初の5つの質問には100％正直に回答",
+            "3": "匿名でアドバイスを求めます",
+            "4": "あなたの告白を共有:",
+            "5": "スマッシュ😍またはパス🥱のための名前を落とします",
+            "6": "あなた自身についてのランダムな事実を送信し、そして私はあなたに🚩言いますか ✅"
+        }
+    },
+    "Validation.aiVoiceIssues.content": "AI 音声メッセージは現在問題が発生しています。後でもう一度お試しください。",
+    "Validation.aiVoiceIssues.title": "AI 音声",
+    "Validation": {
+        "aboutMeInvalid": {
+            "content": "ステータスの最大長は 150 文字です。",
+            "title": "あなたのステータス"
+        },
+        "addPassword": {
+            "content": "メールでログインを有効にするには、パスワードを追加してください。",
+            "title": "パスワードの追加"
+        },
+        "alreadyConnected": {
+            "content": "あなたはすでに接続されています。",
+            "title": "接続済み"
+        },
+        "alreadyConnectedOther": {
+            "content": "このアカウントはすでに接続されています",
+            "title": "接続済み"
+        },
+        "alreadyConnectedOtherPhone": {
+            "content": "この電話番号はすでに別のアカウントに接続されています。",
+            "title": "すでに使用済み"
+        },
+        "answerGiven": {
+            "content": "あなたはすでにこのテルに回答しました。",
+            "title": "回答済み"
+        },
+        "answerInvalid": {
+            "content": "回答は 1 ～ 15,000 文字である必要があります。",
+            "title": "回答の長さ"
+        },
+        "appNotAvailable": {
+            "content": "共有オプションは、適切なアプリをインストールした場合にのみ利用できます。",
+            "title": "利用不可"
+        },
+        "badWordOnly": {
+            "content": "利用規約に従わない回答は投稿しないでください。",
+            "title": "意地悪しないでください"
+        },
+        "banned": {
+            "content": "あなたは私たちの利用規約に従わず、アクセスを禁止されました。\n\n禁止は10日後に無効になります。",
+            "title": "あなたは禁止された"
+        },
+        "chatRequestLimitExceeded": {
+            "content": "フォローしていない人とのチャットの回数には制限があります。明日もう一度お試しください。",
+            "title": "1日の上限を超えた"
+        },
+        "common": {
+            "content": "問題が発生しました。私たちはすでに解決策に取り組んでいます。ご迷惑をおかけして申し訳ありません。",
+            "title": "おっと…"
+        },
+        "disconnectNoOther": {
+            "content": "アカウントにログインした最後の可能性を削除することはできません。",
+            "title": "不可能"
+        },
+        "displayNameInvalid": {
+            "content": "名前は3〜30文字である必要があります。",
+            "title": "名前を変更"
+        },
+        "dmSharingCommentInvalid": {
+            "content": "チャットできるようにするには、まず{{-username}}とのチャットをリクエストする必要があります。 4文字以上のメッセージをご記入ください。",
+            "title": "チャットリクエストが必要です"
+        },
+        "emailInUse": {
+            "content": "このメールはすでに使用されています。ログインするか、別のものを使用して登録します。",
+            "title": "メールはすでに使用されています"
+        },
+        "emailInvalid": {
+            "content": "このメールは取得できませんか、当社によってブラックリストに登録されています。\n別のメールを使用してください。",
+            "title": "メールは使用できません"
+        },
+        "emailNotValid": {
+            "content": "有効なメールアドレスを入力してください。",
+            "title": "メールが無効です"
+        },
+        "featureDeprecated": {
+            "content": "アプリのバージョンが古くなっており、一部の機能がサポートされていません。 早めにアップグレードしてください。",
+            "title": "機能は使用できません"
+        },
+        "followingTooMuch": {
+            "content": "フォローできる人数の上限に達しました。",
+            "title": "制限に達しました"
+        },
+        "forceUpdate": {
+            "content": "アプリのバージョンはかなり古く、サポートされていません。 最新のアップデートをダウンロードしてください。",
+            "title": "期限切れ"
+        },
+        "imageNotUsable": {
+            "content": "残念ながら、この画像は処理できません。他の画像を選択してください。",
+            "title": "エラー"
+        },
+        "imageToBig": {
+            "content": "残念ながら、この画像は処理できません。おそらく大きすぎます。\n別のものを選択してください。",
+            "title": "画像は使用できません"
+        },
+        "incorrectCredentials": {
+            "content": "メール\/ユーザー名またはパスワードが間違っています。",
+            "title": "ログイン"
+        },
+        "maintenance": {
+            "content": "テルネームをより快適にご利用いただくために、サーバーの改善に努めています。\n\n後でもう一度お試しください。",
+            "title": "テルネームの改良が進んでいます"
+        },
+        "mediaNotFound": {
+            "content": "画像のアップロード中に問題が発生した。もう一度お試してください。",
+            "title": "アップロードエラー"
+        },
+        "noDiscSpace": {
+            "content": "このアプリのすべての機能を適切に使用するには、十分なディスク容量がありません。",
+            "title": "空き容量がありません"
+        },
+        "noUsernameMatch": {
+            "content": "お探しのユーザー名に該当するユーザー名は見つかりませんでした",
+            "title": "マッチ無し"
+        },
+        "notAllowed": {
+            "content": "リクエストの処理ができません。ご迷惑をおかけして申し訳ありません。"
+        },
+        "notFound": {
+            "content": "エントリが見つかりませんでした。",
+            "title": "もうありません"
+        },
+        "notRegistered": {
+            "content": "まだアカウントがありません。",
+            "title": "未登録"
+        },
+        "passwordInvalid": {
+            "content": "パスワードが間違っています。"
+        },
+        "paymentFailed": {
+            "content": "何か問題が発生しましたが、ご心配なく、もう一度お試しください。すでにお支払い済みの場合は、追加料金は発生しません。この問題が頻繁に発生する場合は、support@tellonym.meまでご連絡ください。",
+            "title": "購入時のエラー"
+        },
+        "paymentTransactionAlreadyUsed": {
+            "content": "登録したアカウントが多すぎます。最大3つのアカウントで購入できます。ご不明な点がございましたら、support@tellonym.meまでお問い合わせください。",
+            "title": "最大アカウント数に達しました"
+        },
+        "productAlreadyPurchased": {
+            "content": "別のアカウントでこの商品を購入済みです。設定タブで購入履歴を復元できます。",
+            "title": "購入済み商品"
+        },
+        "ratelimitReached": {
+            "content": "サーバーが回復するのにしばらくお待ちください。",
+            "title": "休憩が必要"
+        },
+        "remoteLoginFailed": {
+            "content": "ソーシャル ログインに失敗した。もう一度試して、アクセスを許可してください。",
+            "title": "うまくいきませんでした"
+        },
+        "rtPostInvalid": {
+            "content": "投稿の文字数は1～15,000文字です。",
+            "title": "投稿の長さ"
+        },
+        "searchNotAvailable": {
+            "content": "残念ながら、現時点では検索サービスはご利用いただけません。しばらくしてからもう一度お試しください。",
+            "title": "検索できません"
+        },
+        "serviceTimeout": {
+            "content": "サービスは一時的に利用できません。後でもう一度お試しください。",
+            "title": "サービスは利用できません"
+        },
+        "smallImage": {
+            "content": "画像サイズは少なくとも50×50ピクセルである必要があり、別のものを試してください。",
+            "title": "画像が小さすぎ"
+        },
+        "socialUsernameInvalid": {
+            "content": "あなたの{{-network}}ユーザー名は無効です。",
+            "title": "無効なユーザー名"
+        },
+        "tellInvalid": {
+            "content": "テルは1〜15,000文字である必要があります。",
+            "title": "テルの長さ"
+        },
+        "userBlocked": {
+            "content": "このユーザーはあなたをブロックしました。\n追加ブロックを避けるため、利用規約に違反するテルを送信しないでください。",
+            "title": "あなたはブロックされています"
+        },
+        "userDeniedAccess": {
+            "content": "ソーシャルアカウントでログインするには、そのアカウントへのアクセスを許可する必要があります。",
+            "title": "アクセスをを許可"
+        },
+        "usernameInvalid": {
+            "content": "ユーザー名は1〜30文字の長さで、文字、数字、アンダースコア、ドットのみを含められます。",
+            "title": "あなたのユーザー名"
+        },
+        "usernameNotAvailable": {
+            "content": "このユーザー名はもう使用できません。別のユーザー名を使用してください。",
+            "title": "名前は使用できません"
+        },
+        "usernameOrEmailInvalid": {
+            "content": "続行するには、有効なユーザー名またはメールを入力してください。",
+            "title": "無効なログイン"
+        },
+        "weakPassword": {
+            "content": "パスワードは6文字以上である必要があります。",
+            "title": "弱いパスワード"
+        }
+    },
+    "WarningReason": {
+        "FAKE_ACCOUNT": {
+            "emoji": "👤",
+            "text": "偽アカウント"
+        },
+        "HARASSMENT": {
+            "emoji": "🦅",
+            "text": "嫌がらせ"
+        },
+        "HATE_SPEECH": {
+            "emoji": "✋",
+            "text": "ヘイトスピーチ"
+        },
+        "INAPPROPRIATE_CONTENT": {
+            "emoji": "⛔️",
+            "text": "不適切なコンテンツ"
+        },
+        "INAPPROPRIATE_USERNAME": {
+            "emoji": "🅰️",
+            "text": "不適切なユーザー名"
+        },
+        "SELFHARM": {
+            "emoji": "🤕",
+            "text": "自傷"
+        },
+        "SEXUAL_CONTENT": {
+            "emoji": "🔞",
+            "text": "性的なコンテンツ"
+        },
+        "title": "警告の理由"
+    },
+    "WriteView": {
+        "hint": "{{-username}}はあなたのメッセージを受信します。親切にしてください。",
+        "placeholder": "あなたのメッセージ",
+        "title": "テルを書きます"
+    },
+    "abandonAccountAndLogout": "アカウントの放棄とログアウト",
+    "aboutMe": "自己紹介",
+    "accept": "承諾",
+    "acceptAndContinue": "同意して続行します",
+    "acceptChatRequest": "チャットリクエストを承諾",
+    "acceptChatRequestQuestion": "チャットリクエストを承認しますか？",
+    "accessAllYourBenefitsInOnePlace": "すべての特典を一か所でアクセス",
+    "accountVerification": "アカウント認証",
+    "actionTaken": "完了",
+    "activateAllPromptsToGetTheMostTells": "最大限のTellsを得るために、全てのプロンプトを活性化してください。",
+    "activateDarkModeInStream": "ストリーム内のエレメントのダークモードを有効にします。",
+    "activateTellPrompts": "Tellプロンプトを活性化",
+    "activatedTellPromptsAreShownOnYourProfile": "活性化されたTellプロンプトは、訪問者に対してランダムにあなたのプロフィールに表示されます。これらは人々にあなた宛のTellsを送るアイデアを与えるのに役立ちます。",
+    "activeNow": "現在アクティブ",
+    "activeRecently": "最近アクティブ",
+    "activeTimeAgo": "{{-time}}前にアクティブ",
+    "activitiesTitle": "アクティビティ",
+    "addAProfilePhotoToBeRecommendedToOtherUsers": "<0>プロフィール写真を追加<\/0>して他のユーザーに推薦されます。",
+    "addAProfilePicture": "プロフィール写真を追加",
+    "addAccount": "アカウントを追加",
+    "addAnotherBoost": "別のブーストを追加",
+    "addApple": "アップルを追加",
+    "addBackupMethod": "バックアップ方法を追加すると、非常に簡単に戻れます。",
+    "addBackupMethodForgetPassword": "メールアドレスを追加すれば、パスワードを忘れてももう問題ありません。",
+    "addEmail": "メールを追加",
+    "addGoogle": "グーグルを追加",
+    "addInterest": "興味を追加",
+    "addInterests": "興味を追加",
+    "addItToInsta": "インスタグラムに追加",
+    "addItToSnap": "スナップに追加",
+    "addItToYourInstaStorySoItsEasierForFriends": "インスタグラムのストーリーに追加することで、友達が簡単にテルを送信します。",
+    "addLinkToBio": "バイオにリンクを追加",
+    "addLinkToInstaBio": "インスタプロフィールにリンクを追加",
+    "addLinkToInstagramBio": "インスタグラム・バイオにリンクを追加",
+    "addLinkToNetworkBio": "{{-network}}プロフィールへのリンクを追加",
+    "addMessage": "メッセージを追加。。。",
+    "addMorePhotosOfYourself": "自分の写真をさらに追加",
+    "addMyInterests": "興味を追加",
+    "addNew": "追加",
+    "addNewSourceInStreamingSoftware": "これを行うには、ストリーミングソフトウェアに新しいソースとして追加し、[一般的なソース]セクションで[ブラウザソース]を選択して、新しいソースを追加します。",
+    "addNow": "今すぐ追加",
+    "addPersonalInfoToYourProfileStatus": "プロフィールステータスに個人情報を追加します",
+    "addPhone": "電話を追加",
+    "addPhoneNumberGetSuggestionsFromFriends": "あなたの電話番号を追加すると、お友達からの提案を取得できます。あなたの電話番号はあなたにのみ表示され、共有されることはありません。",
+    "addPicture": "写真を追加",
+    "addPofileDescriptionToHelpOthersGetToKnowYouBetter": "<0>プロフィールの説明を追加して<\/0> 他の人があなたをよりよく知ることができるようにします。",
+    "addProfileDescription": "プロフィールの説明を追加",
+    "addProfileLinkTo": "。。。にプロフィールリンクを追加",
+    "addProfilePicture": "プロフィール写真を追加",
+    "addProfilePictureDescription": "プロフィール写真のあるユーザーは、プロフィール写真のないユーザーの4倍のテルを受信する傾向があります。",
+    "addRecoveryMethod": "回復方法を追加",
+    "addStreamLinkInUrlField": "URLフィールドにテルネームストリームリンク（tellonym.me\/stream\/dir93n03のようなもの）を追加します。幅と高さを自由に設定でき、テルもそれに合わせて拡大縮小する必要があります。終わりで確認すると、あなたのストリームの一部になります。",
+    "addTellToLiveStreamSelectingOne": "テルを1つずつ選択してライブストリームに追加します。",
+    "addThisLinkToYourStories": "ストーリーへのリンクを追加。",
+    "addThreeTimeSlotsThatWork": "ご都合のよい時間帯を 3 つ追加",
+    "addToInstBioTitle": "インスタグラムバイオに追加",
+    "addToTwitterBioTitle": "X バイオに追加",
+    "addYourCommentHere": "ここにコメントを追加",
+    "addYourEmail": "メールを追加",
+    "addYourEmailAddress": "メールアドレスを追加",
+    "addYourGender": "見つけやすくするために、最も共感する性別を選択します。",
+    "addYourInterests": "あなたの興味を追加",
+    "addYourLink": "あなたのリンクを追加",
+    "addYourLinkExcl": "!! リンクを追加してください !!",
+    "addYourLinkTitle": "ストーリーにリンクを追加",
+    "addYourLinkToInstaBio": "インスタのプロフィールにリンクを追加してください",
+    "addYourLinkToInstaBioToReceiveHonestQuestionsFromYourFriends": "<0>インスタバイオにリンクを追加<\/0>して友達からの正直な質問を受け取ります！",
+    "addYourLinkToProfileInstagram": "インスタグラムのプロフィールにリンクを追加",
+    "addYourPhoneNumber": "電話番号を追加",
+    "addYourPhoneNumberNew": "電話番号を追加",
+    "addYourProfileLink": "プロフィールリンクを追加",
+    "addedYourLinkToBio": "バイオにリンクを追加しましたか?",
+    "additionalDetailsDotDotDotOptional": "その他の詳細...（オプション）",
+    "additionalInfo": "追加情報",
+    "additionalSettings": "追加設定",
+    "adjustFiltersYourself": "すべてのフィルタを自分で調整",
+    "adjustSettings": "設定を調整します",
+    "adjustSettingsOrComeBackLater": "設定を調整するか、後で戻ってきてください。",
+    "adjustSticker": "ステッカーを調整",
+    "adjustText": "テキストを調整",
+    "admin": "管理者",
+    "admins": "管理者",
+    "adminsHaveToApproveIt": "管理者の承認が必要です",
+    "adsKeepLightsOnNoMoreAdsForYou": "広告は、購入と同様にライトを点灯し続ける。したがって、もう広告はありません",
+    "ageGroup": "年齢層",
+    "aiVoiceFeatureOnlyAvailableForSharing": "AI音声は現在、インスタグラムへの共有にのみ対応しています。テルネームアプリでは、書き起こしを表示します。",
+    "aiVoiceGenerationFailedTryAgainLater": "AI音声の生成に失敗しました。後でもう一度お試しください。",
+    "aiVoiceTells": "AI音声テル",
+    "all": "すべて",
+    "allDone": "すべて完了！🎉",
+    "allTellsWillBeShownHere": "あなたが送信するすべてのテルがここに表示されます。誰かにテルを送信してみます：",
+    "allVerificationPhotosAreCheckedManually": "すべての認証写真も手動でチェックされます。もしあなたが検証ルールに違反した場合、私たちはあなたの検証ステータスを削除できます。",
+    "allowFeaturing": "フィーチャリングを許可",
+    "allowOthersMyLocation": "他の人が場所で自分を見つけられるようにします",
+    "allowOthersToFindYouByLocationIfYouWantToGetBoostedAndBeSeen": "あなたはブーストを取得し、あなたの位置情報の人々に見てもらいたい場合は、他の人があなたの位置情報を見つけられるようにします。",
+    "allowPushNotifications": "プッシュ通知を許可",
+    "alreadyAdded": "すでに追加済み",
+    "alreadyConnectedShareLink": "接続済みですか？次に、リンクを友達と共有して、テルネームについて教えます!",
+    "alreadyHaveAnAccount": "すでにアカウントをお持ちですか？",
+    "alrigthGotIt": "よし、分かった！",
+    "alwaysShowMostRecent": "常に最新のものを表示",
+    "amazingSnapchatStickers": "素晴らしいスナップチャットステッカー",
+    "amountBoostPerMonth": "月額の{{-amount}}ブースト",
+    "amountComparisonMatches": "{{-amount}}マッチ",
+    "amountEach": "それぞれ{{-amount}}",
+    "amountGirls": "🙍‍♀️ {{-amount}}人の女の子",
+    "amountGuys": "🙍‍♂️ {{-amount}}人",
+    "amountLeft": "{{-amount}}残り",
+    "amountMembers": "{{-amount}}人のメンバー",
+    "amountNewEmojis": "{{-amount}}新規絵文字",
+    "amountNewProfileColors": "{{-amount}}新規プロフィールカラー",
+    "amountOffNextMonth": "<0>{{-amount}}割引<\/0> <1>翌月<\/1>",
+    "amountShares": "{{-amount}}の共有",
+    "amountTellsAmountFollowings": "<0>{{-amountTells}}<\/0> <1>テル<\/1> <2>{{-amountFollowings}}<\/2> <3>フォロー<\/3>",
+    "andFollowSomeOfYourFriends": "...そして友達をフォローします",
+    "andStartGettingMessages": "そしてメッセージを受け取るように開始",
+    "anonymityAdvantage": "これまで勇気がなかったことを彼らに尋ねます",
+    "anonymous": "匿名",
+    "anonymousFollowers": "匿名のフォロワー",
+    "anonymousMessaging": "匿名のメッセージング...",
+    "anonymousSender": "匿名の送信者",
+    "answer": "回答",
+    "answerAsTell": "テルとして回答",
+    "answerRegularly": "定期的に回答",
+    "answerRegularlyDescription": "あなたが投稿するすべての回答は、あなたがまだテルネームを使用していることをあなたの友達に思い出させ、より多くのテルにつながります。したがって、定期的にテルに返信することを忘れないでください。",
+    "answerTell": "テルに回答",
+    "answerTellsFrequently": "頻繁にテルを回答します",
+    "answerWithTell": "テルで回答",
+    "answerYourFirstTell": "最初のテルに回答",
+    "answerYourself": "回答",
+    "answer_plural": "回答",
+    "answered": "回答済み",
+    "answeredSentTellLiked": "<0>{{-username}}<\/0> は <1>あなたのいくつかのテルに反応しました<\/1> <2><\/2> <3>{{-createdAt}}<\/3>",
+    "answeredSentTellLikedMultiple": "<0>あなたの回答済みのテルは<\/0> <1>\"{{-tell}} \"<\/1> <3>{{-username}}<\/3> <4>および<\/4> <5>{{-count}}<\/5> <6>他 人 <\/6> <7> <\/7> <8>{{-createdAt}}<\/8> <2>が「いいね！」されました<\/2>",
+    "answeredSentTellLikedMultiple_plural": "<0>あなたの回答済みのテルは<\/0> <1>\"{{-tell}} \"<\/1> <3>{{-username}}<\/3> <4>および<\/4> <5>{{-count}}<\/5> <6>他人 <\/6> <7> <\/7> <8>{{-createdAt}}<\/8><2>が「いいね！」されました<\/2>",
+    "answeredSuccessfully": "正常に回答されました",
+    "answeredTell": "回答したテル",
+    "answering": "回答",
+    "answeringThisLeadsToInterestingConversations": "一部のユーザーにとって、この質問に答えることは友達との興味深い会話につながるので、私たちはあなたがそれを望んでいると思いました。",
+    "answersAdvantage": "友達について新しいことを見つけます",
+    "answersCommentsAndMentionsWillAppearHere": "回答、コメント、言及がここに表示されます",
+    "answersTo": "。。。への回答",
+    "anwerTellFillProfile": "あなたのプロフィールを埋めるためにテルに回答します。\n受信したすべてのテルは、回答するまで受信トレイにのみ表示されます。",
+    "any": "どれでも",
+    "anyone": "誰でも",
+    "appAdModalType": {
+        "CONVERSATION": {
+            "description": "アプリでチャットに参加して友達とつながります",
+            "title": "会話全文を見ます"
+        },
+        "FEATURES": {
+            "description": "一部の機能はアプリでのみ使用できます",
+            "title": "すべての機能にアクセス"
+        },
+        "PROFILE": {
+            "description": "{{-username}} の完全なプロフィールをアプリで見ます",
+            "title": "見逃しているものを見ます"
+        },
+        "REACTIONS": {
+            "description": "リアクションで気持ちを共有します",
+            "title": "残してリアクションを見ます"
+        },
+        "REGISTERED": {
+            "description": "このユーザーは、登録ユーザーからのテルのみを受け入れます。ログインまたはサインアップしてください。",
+            "title": "登録ユーザーのみ"
+        }
+    },
+    "appFunctionality": "アプリの機能",
+    "appIcons": "アプリのアイコン",
+    "appIsOutdatedDescription": "アプリを更新してこの要素を表示し、最新の機能をお楽しみください。",
+    "appIsOutdatedTitle": "アプリが古くなったようです",
+    "appLanguage": "アプリ言語",
+    "appOnly": "アプリのみ",
+    "appeal": "アピール",
+    "apply": "申し込む",
+    "art": "芸術",
+    "asPremiumSubscriberEnjoyFreeBoostEveryMonth": "プレミアム加入者として、毎月無料のブーストをお楽しみください",
+    "askAQuestionOrSaySomethingSweet": "質問をしたり、甘いことを言ったりしてください。匿名です!",
+    "askAndFollow": "他の人に匿名でない質問をして、フォローします",
+    "askAndFollowDescription": "他のユーザーはあなたがテルネームを使用していることを見て、あなたが面白いと思うかもしれなく、そしてそれはしばしばあなたがより多くのテルを受信することにつながります。",
+    "askMeAnythingAnonymously": "匿名で何でも聞いてください",
+    "askMeLater": "後で聞きます",
+    "askMyTopThree": "私のトップ3に聞きます",
+    "askTheCommunityAQuestion": "コミュニティに質問",
+    "askYourChild": "お子様に新しいものをリクエストするように伝えてください。",
+    "askYourFriendsAQuestion": "友達が伝えるべきことを共有します",
+    "atLeast6Chars": "少なくとも 6 文字を使用してください。",
+    "atLeastSixCharacters": "少なくとも6文字",
+    "atTheMomentOnlyAvailableToListenWhenSharedWithFriendsOnInsta": "現時点では、AI 音声メッセージは、インスタグラムで友達と共有した場合にのみ聞くことができます",
+    "attachToSnapTitle": "スナップに貼り付ける",
+    "attachment": "🧷添付ファイル",
+    "automaticRenewalChangeInSettings": "サブスクリプションは自動的に更新されます{{-renewal}}。サブスクリプションを変更またはキャンセルする場合は、<1>電話の設定<\/1>にアクセスしてください。",
+    "automaticRenewalTerms": "購入後、{{-account}}アカウント{{-period}}から{{-price}}の価格で購読が自動更新されます。{{-ctaString}}を押すと、自動更新、利用<1>規約<\/1>、<3>プライバシーポリシーに<\/3>同意したことになります。購読を変更またはキャンセルしたい場合は、<5>アカウント設定を<\/5>ご覧ください。",
+    "avatar": "アバター",
+    "backToLogin": "ログインに戻る",
+    "backToOldDesign": "古いデザインに戻る",
+    "background": "背景",
+    "badWordsInTell": "コミュニティガイドラインを念頭に置き、それに違反するテルには回答しないようにしてください。",
+    "badgeBought": "購入したバッジ",
+    "bannerOpenInAppCta": {
+        "BANNER_CTA_1": "すぐに参加",
+        "BANNER_CTA_2": "アプリを入手",
+        "BANNER_CTA_3": "チェックしてみます"
+    },
+    "bannerOpenInAppTitle": {
+        "BANNER_TEXT_1": "あなたの{{-count}}人の友達は既にここにいます",
+        "BANNER_TEXT_2": "テルネームで{{-username}}に参加します",
+        "BANNER_TEXT_3": "{{-username}}さんからもっと見るべきものがあります。",
+        "BANNER_TEXT_4": "他人の意見を気にしないことを示します",
+        "BANNER_TEXT_5": "友達はあなたについて思っていることがあります",
+        "BANNER_TEXT_6": "{{-username}}もあなたにテルを送信したいです",
+        "BANNER_TEXT_7": "自分だけのテルを手に入れて、回答をIGで共有します",
+        "BANNER_TEXT_8": "自分だけのメッセージを取得しましょう"
+    },
+    "beATopProfileInYourAreaForAmountMinutes": "{{-amount}}分間、あなたの地域でトップ・プロフィールになります",
+    "beNotified": "通知されます",
+    "beRegisteredForAtLeastXDays": "少なくとも {{-dayCount}}日間以内、登録したこと",
+    "beSeenByMorePeopleInYourAreaForAmountMinutes": "{{-amount}}分間、お住まいの地域のより多くの人に見られるようになります",
+    "beTheFirstToAnswer": "最初に回答する",
+    "beYourselfMakeNewFriendsEngage": "素直になれ。新規友達を作る。従事します。",
+    "becomeOne": "一つになろう！",
+    "beforeWeContinue": "続ける前に",
+    "bestChancesForLoadsOfTells": "多くのテルの最高のチャンス",
+    "beta": "⚙️ ベータ版",
+    "betaWithCogEmoji": "⚙️ ベータ版",
+    "billedPricePerTimeFrameShort": "請求額{{-price}} \/ {{-timeFrame}}",
+    "billingUnavailable": "請求不可",
+    "bio": "プロフィール",
+    "blackFridayDeal": "🎁 ブラックフライデーのスペシャルディール！",
+    "blockUser": "ユーザーをブロック",
+    "blockUsernameCompletely": "{{-username}}をブロックすると、その人の投稿を見ることも含めて、その人とのやりとりを完全にブロックできます。相手のユーザはあなたのブロックを見ることができます。",
+    "blockUsersFromCommunity": "コミュニティからユーザーをブロック",
+    "blocked": "ブロックされました",
+    "blockedSelfSentTellDescription": "<0>あなたが自分で送信しようとしたテルを有害な可能性があると判断し、自動的に削除しました。\n\n自分でテルを送信することは全く問題ないし、あなたが送信者であることを誰も知ることはありませんが、安全でないコンテンツを削除することで、あなたや他のユーザーを保護することは私たちの責任です。\n\n私たちの<\/0> <1>ガイドライン<\/1><2>に違反するテルの送信はやめてください。体調が良くなくい場合は、以下のボタンからお近くのヘルプラインにご連絡ください。\n\n<\/2><3>ご理解いただきありがとうございます！<\/3>",
+    "blockedUsers": "ブロックされたユーザー",
+    "blocks": {
+        "actions": {
+            "block": "ブロック",
+            "unblock": "ブロックを解除"
+        },
+        "status": {
+            "blocked": {
+                "text": "このユーザーのブロックを解除すると、回答が表示されます。"
+            },
+            "blockedBy": {
+                "text": "このユーザーはあなたをブロックしました。",
+                "title": "ブロックしました"
+            }
+        }
+    },
+    "boost": "ブースト",
+    "boostAgain": "もう一度ブーストします",
+    "boostBought": "ブースト購入済み",
+    "boostProfileToGetMoreTells": "プロフィールをブーストして、より多くのテルを獲得しましょう!",
+    "boostYourProfileToGetMoreTells": "プロフィールをブーストして、より多くのテルを獲得しましょう!",
+    "boosted": "ブーストされました",
+    "boosting": "ブースト",
+    "boosts": "ブースト",
+    "boostsAmountLeft": "<0>ブースト:<\/0> <1>{{-amount}}<\/1> <2>残り<\/2>",
+    "boughtTokens": "テルトークンを購入しました",
+    "boxActivatedStreamAlwaysShowsMostRecent": "このボックスが有効の場合、ストリームには常に追加したテルが表示されます。",
+    "buttonOnlyWorksForFriends": "このボタンはあなたの友達にのみ機能し、彼らがあなたにテルを送信することをより簡単にします。作成後の投稿の外観を示すために、ここに追加しました。",
+    "buttonOpensLinkExtraBrowser": "このボタンは、ストリーミングソフトウェアに含められる追加ブラウザウィンドウへのリンクをを開き、コピーします。",
+    "buttonToRemoveAllTellsFromStream": "このボタンを使って、ストリームからすべてのテルを削除し、最初からやり直します。",
+    "byAddingYourContactBook": "連絡帳を追加することで",
+    "byAddingYourPhoneNumber": "電話番号を追加することで",
+    "byAnsweringAcceptChat": "メッセージに回答することで、そのリクエストを承認したことになります。",
+    "byTellonym": "テルネーム",
+    "callWithTellonymMember": "本日または明日、テルネームチームメンバーと15分間の通話を行います。",
+    "callosumSoftware": "カロサムソフトウェア",
+    "canOpenSenderHintsDuringAfterTheyDisappear": "72時間以内は送信者ヒントを開くことができます。その後、ヒントは永遠に消えます。",
+    "cancelSharing": "共有をキャンセル",
+    "captchaExpired": "キャプチャ期限切れ",
+    "careAboutPrivacyAndShowingAds": "私たちはあなたのプライバシーとデータのセキュリティを大切にします。私たちは広告を表示することにより、このアプリを無料に保ちます。",
+    "change": "変更",
+    "changeAppIcon": "アプリのアイコンを変更！",
+    "changeChoiceAnytime": "アプリの設定でいつでもテルネームの選択を変更できます。",
+    "changePicture": "写真を変更",
+    "changePositionToLeft": "ポジションを左に変更",
+    "changePositionToMiddle": "ポジションを真ん中に変更",
+    "changePositionToRight": "ポジションを右に変更",
+    "changeToSharingMethod": "<0><\/0> <1>を<\/1> <2>{{-sharingMethod}}<\/2>に変更",
+    "changeYourPhoneNumber": "電話番号を変更",
+    "changedYourMind": "気が変わった？",
+    "changelog": "バグ修正とパフォーマンスの向上",
+    "chatMessagesWillBeSentAsRequest": "あなたをフォローしていないユーザーとのチャットメッセージはリクエストとして送信され、非表示のテルとして承諾したり回答したりされます。\nリクエストが承諾されると、通常にチャットできます。",
+    "chatPrivately": "プライベートにチャットします",
+    "chatRequest": "チャットリクエスト",
+    "chats": "チャット",
+    "check": "チェック",
+    "checkInbox": "受信トレイを確認",
+    "checkInboxText": "あなたの受信トレイにメールを送信しました。メールをご確認の上、パスワード再設定のリンクをクリックし、パスワードを変更してください。",
+    "checkNow": "今すぐチェック",
+    "checkOutAvailableSharingOptions": "利用可能な共有オプション🔥を確認",
+    "checkOutTheResult": "結果をチェック",
+    "chooseCustomAppIconForHomeScreen": "デバイスのホーム画面にカスタムアプリのアイコンを選択します。",
+    "chooseEmojiDescribesYouBest": "あなたを最もよく表す絵文字を選択",
+    "chooseFriendToChat": "チャットする友達を選択",
+    "chooseFromKeyboard": "キーボードから選択",
+    "chooseHowMuchRecommendedTellSenders": "テルの送信者にどの程度推薦されたいかを選択してください。",
+    "chooseLink": "リンクを選択",
+    "chooseLocation": "ロケーションを選択",
+    "chooseOneOfTheMostPopularStickers": "ユーザーの間で現在最も人気のあるステッカーを1つ選択します",
+    "chooseOneOfTheOptionsYourVoteIsAnonymous": "オプションの1つを選択してください、あなたの投票は匿名です",
+    "chooseOneYourFriendsCanRecognize": "友達が認識できるものを選択",
+    "chooseOrganisationToDonate": "寄付先の支援団体を 1 つ選択",
+    "chooseProfileBadge": "プロフィールバッジを選択",
+    "chooseRecoveryMethod": "回復方法を選択",
+    "chooseRegistrationMethod": "登録方法を選択",
+    "chooseReportLanguages": "報告言語を選択",
+    "chooseSocial": "ソーシャルを選択",
+    "chooseSticker": "ステッカーを選択",
+    "chooseWhereToSend": "送信先を選択",
+    "chooseWhoCanCommentOnYourAnswersAndPosts": "回答や投稿にコメントできる人を選択します：",
+    "chooseYourColor": "カラーを選択",
+    "chooseYourFavoriteColor": "お好きなカラーを選択",
+    "chooseYourOccupation": "職業を選択",
+    "city": "都市",
+    "closeToLocation": "{{-location}}に近い",
+    "collectDataAndUniqueIdentifier": "当社のパートナーはデータを収集し、広告を表示するためにお客様のデバイス上の一意の識別子を使用します。",
+    "color": "カラー",
+    "colors": {
+        "0": "ピンク",
+        "10": "ターコイズ",
+        "2": "黄色",
+        "3": "赤",
+        "4": "緑",
+        "5": "パープル",
+        "6": "ダークオレンジ",
+        "7": "ダークグリーン",
+        "8": "ピンク",
+        "9": "ブルー"
+    },
+    "comeBackJustOneStep": "戻ってきたい場合は、テルネームプラスが一歩先です。",
+    "comeBackToAppWeWillShowABanner": "アプリに戻ります。リンクをコピーするためのバナーが表示されます。",
+    "commentAnswers": "回答をコメント",
+    "commentingHasBeenRestrictedByCreator": "投稿者によりコメントが制限されています。",
+    "commentingIsOnlyAvailableInTheApp": "コメントはアプリ内でのみ可能です。",
+    "commentsAreDisabledOrRestrictedByThePostOwner": "コメントは投稿主によって無効または制限されます。",
+    "commentsOnThisPostHaveBeenLimited": "この投稿へのコメントは限られています",
+    "commentsPrivacyHintTitle": "コメント プライバシー",
+    "commonInterest": "{{-count}}共通の興味",
+    "commonInterest_plural": "{{-count}}共通の興味",
+    "communities": "コミュニティ",
+    "community": "コミュニティ",
+    "communityAdminsInfo": "すべての管理者は全権を持っており、あなたを管理者から外すことができます。コミュニティのメンバーのみが管理者になることができます。",
+    "communityAvatar": "コミュニティアバター",
+    "communityDescription": "説明",
+    "communityFilters": {
+        "ANSWERS_NEW": "新しい答え",
+        "ANSWERS_TOP": "上位の回答",
+        "TELLS_MOST_ANSWERED": "最も多く回答された",
+        "TELLS_NEW": "新たなテル",
+        "TELLS_UNANSWERED": "未回答"
+    },
+    "communityGuidelines": "コミュニティガイドライン",
+    "communityHasNotBlockedAnyUser": "コミュニティはいかなるユーザーもブロックしていません。",
+    "communityId": "コミュニティID",
+    "communityIdNotPossible": "このIDは使用できません",
+    "communityName": "コミュニティ名",
+    "communityProfile": "コミュニティプロフィール",
+    "communityTell": "コミュニティテル",
+    "communityTellOftenAnsweredByOtherUsers": "コミュニティテルは、他のユーザーによってよく回答されるテルです。あなたの意見を共有し、コミュニティの一員になりましょう。",
+    "communityTells": "コミュニティテル",
+    "completeProfile": "プロフィールを完成",
+    "completed": "完了",
+    "complimentsSexualQuestions": "褒め言葉や性的な質問",
+    "complimentsSexualQuestionsDescription": "褒め言葉や性的な質問は、誠実で嫌がらせを意図していない限り許可されます。",
+    "confirm": "確認",
+    "confirmAtBottomAndYouAreReadyToGo": "下部で確認し、準備完了です。",
+    "congratsYouAreOnOurBestPlanSavingPercentage": "おめでとう！あなたはベストプランで{{-maxSavePercentage}}%を節約しています！😎",
+    "congratulationsYourProfileHasBeenVerified": "おめでとうございます！あなたのプロフィールが認証され、認証済みバッジが表示されました。",
+    "connectApple": "アップルアカウントに接続",
+    "connectAppleMostSecure": "アップルに接続（最も安全）",
+    "connectContactsToFindFriends": "連絡先に接続し、テルネームでお友達を見つけます。",
+    "connectContactsToFindFriendsEasier": "連絡先を接続すると、友達を簡単に見つけられます。",
+    "connectGoogle": "グーグルアカウントに接続",
+    "connectGoogleMostSecure": "グーグルに接続（最も安全）",
+    "connectSnapchat": "スナップチャットのアカウントに接続",
+    "connectSnapchatMostSecure": "スナップチャットに接続（最も安全）",
+    "connectTwitter": "ツイッターに接続",
+    "connectWithFriendsToSeePostsHere": "友人とつながり、彼らの投稿を見ます",
+    "connectWithThoseWhoAreIntoTheSameThings": "興味に基づいて、同じことに興味がある人々とつながり、テルを受け取ります",
+    "connectYourContacts": "連絡先を接続",
+    "connectionFailed": "接続に失敗しました",
+    "constructiveCriticism": "建設的な批判",
+    "constructiveCriticismDescription": "建設的な批判は許可されます。時には建設的であることが傷つけることもあります。批判が誰かに改善のための情報を提供することを意図している限り、それは建設的であるとみなされます。",
+    "contactBook": "連絡帳",
+    "contactInformation": "連絡先",
+    "contactTellonymSupport": "テルネームサポートへのお問い合わせ",
+    "contentLanguage": "コンテンツ言語",
+    "contentMightViolateGuidlinesLeadingToBan": "このコンテンツはコミュニティ ガイドラインに違反する可能性があります。このような違反は永久的な禁止につながる可能性があることに注意してください。",
+    "contentYouMightLike": "あなたが好きかもしれないコンテンツ",
+    "continue": "続ける",
+    "continueForAmount": "{{-amount}}で続ける",
+    "continueUsingDataForAds": "お客様に合わせて広告をカスタマイズするために、引き続きお客様のデータを使用できますか?",
+    "continueWithApple": "アップルで続ける",
+    "continueWithGoogle": "グーグルで続ける",
+    "continueWithSnapchat": "スナップチャットを続ける",
+    "control": "コントロール",
+    "cookies": "クッキー",
+    "copyData": "データをコピー",
+    "copyLink": "リンクをコピー",
+    "copyYourLink": "リンクをコピー",
+    "couldntFindAppsOnDevice": "お使いのデバイスでサポートされているアプリが見つかりませんでした。",
+    "countHintsAvailable": "利用可能なヒントが{{count}}つあります",
+    "countHintsAvailable_plural": "{{count}}ヒントが利用可能",
+    "create": "作成",
+    "createACommunity": "コミュニティを作成",
+    "createAccount": "アカウントを作成",
+    "createAnAccount": "アカウントを作成",
+    "createCommunityGetPlusToStart": "心配ない！テルネームプラスを手に入れて今すぐコミュニティを始めましょう！",
+    "createCommunityMemberSkip": "テルネームプラスのメンバーはこれらの条件をスキップして、いつでも自分のコミュニティを作成することができます",
+    "createCommunityNeedRequirements": "コミュニティを作成するために、次の基準を満たす必要があります：",
+    "createCommunityReachedLimit": "{{-creationCountMax}}の新しいコミュニティの作成上限に達しました。後でもう一度試してください。",
+    "createPassword": "パスワードを作成",
+    "createPost": "投稿を作成",
+    "createUsernameFriendsCanFind": "あなたのユーザー名は友達に見つけられてきました。あなたの名前に関連するものを使用することをお勧めします。",
+    "crownExclusiveForTellonymPlusMembers": "<0> 👑 限定の<\/0> <1>テルネーム<\/1> <2>プラス<\/2> <3>メンバー。<\/3>",
+    "currentPlan": "現在のプラン",
+    "currentlyActive": "現在アクティブ",
+    "customAppIcons": "アプリのアイコンをカスタマイズ",
+    "customAppIconsExclamation": "アプリのアイコンをカスタマイズ！",
+    "customization": "カスタマイズ",
+    "customizePost": "投稿をカスタマイズ",
+    "cutie": "キューティー、",
+    "dailyLimitForEarningTokensResetsAtMidnight": "トークンを獲得できる1日の上限は午前0時にリセットされます。",
+    "dailyLimitForEarningTokensResetsMidnight": "テルトークンを獲得できる1日の上限は午前0時にリセットされます。",
+    "dailyProgress": "日々の進歩",
+    "dailyStreak": "毎日のストリーク",
+    "dark": "ダーク",
+    "dayStreak": "日連続",
+    "decideWhoIsAllowedToLeaveCommentsUnderYourAnswersAndPosts": "誰かからコメントをもらいました。あなたの回答や投稿にコメントを残すことを許可できる人を決めましょう。",
+    "decline": "拒否",
+    "defaultCity": "ホグワーツ",
+    "definesSensitivityHarassmentFilter": "セクハラフィルターの感度を定義します。レベル1は非常に低く、非常に嫌がらせのメッセージのみをフィルターします。レベル5は非常に高く、不快と思われるものすべてをフィルターします。レベル3をお勧めします。",
+    "definesSensitivityOffensesFilter": "オフェンスフィルターの感度を定義します。レベル1は非常に低く、非常に不快なメッセージのみをフィルターします。レベル5は非常に高く、攻撃的と見なされる可能性のあるすべてのものをフィルターします。レベル 3 をお勧めします。",
+    "definesSensitivitySpamFilter": "スパムフィルターの感度を定義します。レベル1は非常に低く、非常に明白なスパムのみをフィルターします。レベル5は非常に高く、スパムの可能性のあるもの全てをフィルターします。レベル3をお勧めします。",
+    "deleteChat": "チャットを削除",
+    "deleteChatRequest": "チャットリクエストを削除",
+    "deleteCommunity": "コミュニティを削除",
+    "deleteCommunityContent": "この行為は取り消すことができません。",
+    "deleteCommunityTitle": "コミュニティを削除してもよろしいですか?",
+    "deleteForMe": "削除",
+    "deletePhoto": "写真を削除",
+    "delivered": "配信済み",
+    "description": "テルネームを使用すると、自分にとって重要なすべての人から正直で匿名のフィードバックを受け取れます。",
+    "didNotAnswerYet": "{{-username}}はまだ回答していません",
+    "didNotWorkTryAnotherBrowser": "これは機能しませんでした。他のブラウザをお試しいただき、問題が解決しない場合はサポートまでご連絡ください。",
+    "didTheySeeYourTell": "彼らはあなたのテルを見ましたか？",
+    "didntReceiveEmail": "メールが届きませんか？",
+    "didntReceiveEmailText": "メールが届かない場合は、迷惑メールフォルダをご確認の上、再度お試しください。",
+    "directMessagesShort": "DM",
+    "disconnectApple": "アップルアカウントの接続を解除",
+    "disconnectGoogle": "グーグルアカウントの接続を解除",
+    "displayNameAnswers": "{{-displayName}}の回答",
+    "displayNameErrorHelper": "3 ～ 30 文字を使用してください",
+    "distanceInKm": "{{-distanceInKm}}KM",
+    "diverse": "多様",
+    "dm": "DM",
+    "doYouWantToDeleteTell": "このテルを削除しますか？",
+    "doYouWantToReload": "このページを今すぐリロードしますか?",
+    "doYouWantToTryAgain": "もう一度やってみますか？",
+    "dontAskAgain": "二度と聞かないでください",
+    "dontMissOutBlackFriday": "特別なブラックフライデー価格を見逃さないで",
+    "dontMissWhen": "その時をお見逃しなく...",
+    "dontMissYourDeal": "🚨あなたのお得な情報を逃さないで！",
+    "dontNeedRecoveryMethod": "回復方法は必要ありません",
+    "dontWantAccountAnymore": "いや、このアカウントはもういりません",
+    "dontWantToMissAnythingGoingOnHere": "何も見逃したくないですか？",
+    "dontWorryMoreFunQuestionsAreOnTheWay": "ご心配なく、もっと楽しい質問が進行中です。 乞うご期待!",
+    "downloadAppReceiveTells": "アプリをダウンロードして、自分自身でテルスを受け取ります。",
+    "downloadHere": "ダウンロードはこちら",
+    "downloadNow": "今すぐダウンロード",
+    "downloadTheApp": "アプリをダウンロード",
+    "downloadTheAppOnYourMobilePhone": "携帯電話にアプリをダウンロードします",
+    "earlier": "ついさっき",
+    "earlyVersionOfStreamModeHearFeedback": "ストリームモードの初期バージョンですので、ぜひフィードバックをお寄せください。ストリームリンクを添付して{{-email}}までメールを送信すると、大変感謝しております！",
+    "easierToFindYourFriends": "友達を見つけやすくなります",
+    "edit": "編集",
+    "editBackground": "背景を編集",
+    "editCommunity": "コミュニティを編集",
+    "editProfilePhoto": "プロフィール写真を編集",
+    "editSelection": "選択範囲を編集",
+    "editSticker": "ステッカーを編集",
+    "editText": "テキストを編集",
+    "editTextOrPostItAndShare": "テキストを編集または投稿して、インスタグラムとスナップチャットに共有します",
+    "educateYourselfAboutWhatExpect": "何が予想されるか、そしてどのように制御し続けるかについて学びましょう。",
+    "eighteenPlusCommunitiesAreNotRecommendedToOtherUsers": "< 0 > 18 歳以上のコミュニティは他のユーザーには推奨されません。 < \/0 > < 1 >コミュニティテルのルールを確認してください。 < \/1 >",
+    "eitherOrGameSharePostPlaceholder": "[どちらか\/または投票]",
+    "eitherOrGameSkip": "スキップ",
+    "enable": "有効にします",
+    "enableGeolocation": "ジオロケーションを有効にして、お住まいの地域のユーザーの提案を取得します。",
+    "enableLocation": "位置情報を有効にします",
+    "enablePushNotisToBeNotified": "プッシュ通知を有効にして、新規テルについて通知されるようにします",
+    "enableYourLocation": "あなたの位置情報を有効にします",
+    "encourageFriendsToSendYouTellsWithPost": "投稿を作成することで、友達にテルを送信するように促します。投稿にあるボタンを使って、直接あなたにテルを送信できます。",
+    "endLiveStream": "ライブストリームを終了",
+    "enjoyTwentyPlusNewBackgroundsForYourInstaStories": "無料でインスタストーリー用20以上の新背景を楽しみましょう",
+    "enterEmail": "アカウントに登録されているメールアドレスを入力してください。",
+    "enterId": "IDを入力",
+    "enterName": "名前を入力",
+    "enterNewPassword": "新しいパスワードを入力",
+    "enterPostHere": "あなたの投稿をここに入力",
+    "enterSafetyCode": "安全コードを入力",
+    "enterYourEmail": "メールアドレスを入力",
+    "enterYourPassword": "現在のパスワードを入力してください。",
+    "enterYourPhoneNumber": "電話番号を入力してください",
+    "environment": "環境",
+    "equipItOnYOurProfile": "<0>あなたの<\/0> <1>プロフィール<\/1に装備>",
+    "errorEnableAllPhotosAccessInSettings": "エラー! 設定で「すべての写真」へのアクセスを有効にしてください。",
+    "everyone": "皆",
+    "everythingAllowedUseSomeEmojis": "すべて許可され、いくつかの絵文字🔥を使用します",
+    "exclusiveForTellonymPlusMembers": "<0>限定の<\/0> <1>テルネーム<\/1> <2>プラス<\/2> <3>メンバー<\/3>",
+    "exit": "退出",
+    "expectAFewTellsPerWeek": "週に数個のテルに期待",
+    "expectLotsOfTellsPerDay": "１日に多くのテルに期待",
+    "expectSomeTellsPerDay": "1日にいくつかのテルに期待",
+    "expires": "有効期限は{{-expiresIn}}です",
+    "explore": "探検",
+    "explorePeopleInYourArea": "お住まいの地域の人々を探索",
+    "exploreYourPlusBenefits": "プラスの特典を見てみよう！",
+    "extendYourLimitInTheAppWithTellonymPlus": "テルネームプラスでアプリでアプリ内の制限を拡張しましょう!",
+    "extendYourLimitToAmountTellsPerDay": "制限を 1 日あたり{{-amount}}テルまで拡張します",
+    "extendYourLimitToAmountVoiceTellsPerDayWithTellonymPlus": "制限を テルネームプラスで1 日あたり{{-amount}}音声テルまで拡張しましょう！",
+    "failedToLoad": "読み込みに失敗しました。",
+    "fakeQuestions": {
+        "1": "ご両親に隠していた秘密👀",
+        "2": "とんでもありません",
+        "3": "ペットはいますか？",
+        "4": "あなたは後部座席の運転手ですか？",
+        "5": "ご両親とは仲が良いですか?",
+        "6": "タトゥーを入れるつもりですか",
+        "7": "あなたは批判的ですか",
+        "8": "現在、あなたは誰かとデートしたいですか？",
+        "9": "あなたはノンケですか？",
+        "10": "誰かと話していますか？",
+        "11": "仕事をクビになったことはありますか？",
+        "12": "お気に入りの映画／テレビシリーズ",
+        "13": "男の最大の赤信号は？",
+        "14": "最大の後悔は？",
+        "15": "ボディ・カウントは😳？",
+        "16": "私たちは親友になれますか",
+        "17": "うまくいった最もクレイジーなピックアップラインは",
+        "18": "あなたには空想上の友達がいましたか？",
+        "19": "ゲーム・オブ・スローンズを見ましたか？",
+        "20": "犬を飼っていますか？",
+        "21": "学校も好きですか?",
+        "22": "ミドルネームはありますか？",
+        "23": "可愛い友達はいますか？",
+        "24": "ピアスはありますか？",
+        "25": "信頼の問題はありますか？",
+        "26": "自分の人生に感謝していますか？",
+        "27": "あなたは瞑想しますか？",
+        "28": "いびきをかきますか？",
+        "29": "他の言語を話せますか？",
+        "30": "あなたは結局子供が欲しいですか?",
+        "31": "犬か猫か？",
+        "32": "私を知らないままにしないでください",
+        "33": "夢の仕事は？",
+        "34": "スキニーディッピングに行ったことはありますか？",
+        "35": "すべて大丈夫ですか?",
+        "36": "現在のお気に入りの番組は？",
+        "37": "あなたの靴のサイズはどれくらいですか?",
+        "38": "あなたのお気に入りのブランドは何ですか?<3",
+        "39": "私はあなたに片思いしています",
+        "40": "ネットフリックスのおすすめはありますか？",
+        "41": "私はコロナウイルスに感染していますが、何かお勧めの番組はありますか?",
+        "42": "ブレイキング・バッドを見ましたか",
+        "43": "麻薬🍃をやったことがありますか",
+        "44": "浮気したことはありますか、正直に言わなければなりません（笑）",
+        "45": "映画🤷の中で泣いたことはありますか?",
+        "46": "キスマークをつけたことはありますか？",
+        "47": "殴り合いになったことはありますか？",
+        "48": "手術を受けたことがありますか",
+        "49": "ハリーポッターを見たことがありますか?",
+        "50": "あなたがやった中で変なトレンド？",
+        "51": "最も熱いスポーツ? 🥵",
+        "52": "今日の気分はどうですか ：）",
+        "53": "今日はお元気ですか❤️‍🩹",
+        "54": "あなたは1から10までどのくらいのオタクですか",
+        "55": "元恋人は何人いますか？",
+        "56": "昨夜は何時間寝ましたか？",
+        "57": "子供は何人欲しいですか",
+        "58": "あなたは1日に何枚自撮りをしますか？",
+        "59": "あなたはぬいぐるみをいくつ持っていますか？",
+        "60": "あなたは何歳ですか？",
+        "61": "何歳で結婚したいですか？",
+        "62": "あなたの身長はどのくらいですか",
+        "63": "大好きですぅぅぅぅ！！",
+        "64": "あなたに会いたいです",
+        "65": "私は本当にあなたが好きです",
+        "66": "女の子にとって最大の危険信号は?",
+        "67": "内向的か外向的か？",
+        "68": "それは本当ですか???",
+        "69": "テルネームは最高のアプリですか:)",
+        "70": "私はあなたが何をしたか知っています",
+        "71": "すべての元恋人に名前を付けます",
+        "72": "ネットフリックス・アンド・チル？👀",
+        "73": "判断するつもりはありませんが、なぜ...",
+        "74": "あなたが感謝する一人の友人は。。。？",
+        "75": "それなしでは生きていけないものは？",
+        "76": "鳥についての意見は？",
+        "77": "あなたの最大の危惧は何ですか？",
+        "78": "今日はどうお過ごしですか??!",
+        "79": "性格か見た目か？",
+        "80": "いつもうまくいくピックアップラインを教えてください",
+        "81": "ここで正直に言うべきですか?",
+        "82": "シャウト・ミー・アウト",
+        "83": "シングル？",
+        "84": "スナップ？",
+        "85": "お茶をこぼします",
+        "86": "ファーストキスでお茶をこぼします。",
+        "87": "面白い冗談を言ってくれ",
+        "88": "偶然の事実を教えて",
+        "89": "シャワーを浴びずに過ごした最長時間は？",
+        "90": "今までで一番恥ずかしかったことは？",
+        "91": "今までトイレに行った中で一番変な場所は?",
+        "92": "今まで食べた中で一番変なものは?",
+        "93": "今までで最悪のアドバイスは?",
+        "94": "今までで最悪のデートは？",
+        "95": "今まで食べた中で最悪の食べ物は？",
+        "96": "今まで聞いた中で最悪のピックアップラインは？",
+        "97": "子供の頃に経験した最悪のトラブルは?",
+        "98": "今週末は忙しいですか？",
+        "99": "えー、朝食は何を食べましたか？",
+        "100": "私たちはもっと話すべきです",
+        "101": "今週末の予定は何ですか?",
+        "102": "何を着ていますか？",
+        "103": "あなたの部屋は何色ですか？",
+        "104": "昨夜はどんな夢を見ましたか?",
+        "105": "何のために居残りをしましたか",
+        "106": "どんな音楽を聴きますか",
+        "107": "どの電話をお持ちですか?",
+        "108": "昨夜は何時に寝ましたか?",
+        "109": "普段寝るのは何時ですか？",
+        "110": "今年これまでで最高の日はどんな日でしたか？",
+        "111": "今までで最悪の日はどんな日でしたか?",
+        "112": "子供の頃に好きだった番組は何ですか?",
+        "113": "スポティファイのトップソングには何が入っていますか",
+        "114": "最後に食べたものは何ですか？",
+        "115": "子供の頃に考えた最も愚かなことは何ですか?",
+        "116": "あなたの好きな本は何ですか",
+        "117": "あなたの好きな飲み物は何ですか",
+        "118": "あなたの好きな食べ物は何ですか",
+        "119": "あなたの好きな映画は何ですか",
+        "120": "あなたの好きな曲は何ですか",
+        "121": "あなたの好きなテレビ番組は何ですか",
+        "122": "あなたの方向性は何ですか",
+        "123": "あなたの最大の不安は何ですか🤔",
+        "124": "あなたの夢の家は何ですか",
+        "125": "あなたの好きなスポーツは何ですか？",
+        "126": "スポティファイであなたのナンバーワンの曲は何ですか",
+        "127": "あなたのサインは何ですか",
+        "128": "最後に泣いたのはいつですか？",
+        "129": "最後に嘘をついたのはいつですか？",
+        "130": "最後におねしょをしたのはいつですか？",
+        "131": "ファーストキスはいつでしたか？",
+        "132": "どこの出身ですか...？",
+        "133": "ご両親はどちらのご出身ですか？",
+        "134": "あなたの親友の女の子は誰ですか",
+        "135": "ワッツアップで誰をピン留めしましたか",
+        "136": "あなたが最も恋しいのは誰ですか",
+        "137": "あなたは誰に最もテキストメッセージを送りますか?",
+        "138": "最後にテキストメッセージを送った男の子は誰ですか?",
+        "139": "最後にテキストメッセージを送った女の子は誰ですか?",
+        "140": "中学時代の片思いの人は誰でしたか（笑）",
+        "141": "ファーストキスは誰でしたか?",
+        "142": "誰と付き合おうとしていますか 👀",
+        "143": "2024 年に誰に投票しようとしていますか 👀",
+        "144": "最後にテキストメッセージを送った人は誰ですか?",
+        "145": "あなたの親友は誰ですか",
+        "146": "あなたの片思いの人は誰ですか?",
+        "147": "あなたの最悪の敵は誰ですか😈",
+        "148": "最後にインスタグラム検索をしたのは誰ですか?",
+        "149": "あなたの最後のスナップは誰からのものですか？",
+        "150": "なぜ私の片思いの人は私を好きにならないのですか 😭",
+        "151": "今まで見た中で最悪の映画は何ですか？",
+        "152": "セフレになれるでしょうか",
+        "153": "私と付き合ってくれますか？~ N",
+        "154": "あなたは大切な人をセレブのために残しますか",
+        "155": "デートに誘ったらイエスと言いますか",
+        "156": "あなたは何をしていますか",
+        "157": "明日は何をしますか",
+        "158": "よ、私を読まないでおくのをやめなさい",
+        "159": "お前は仲間です",
+        "160": "テレポートする能力を持つことを考えたことはありますか?",
+        "161": "卑劣なリンクを持っていますか？",
+        "162": "あなたは良いスタイルをしています",
+        "163": "あなたは点灯しました",
+        "164": "タトゥーを入れた方がいい",
+        "165": "もっと自撮り写真を投稿したほうがいいですよ💕",
+        "166": "あなたはあなたがしたことのためにワイルドします",
+        "167": "あなたのセレブ・クラッシュは？",
+        "168": "あなたの好きな趣味は何ですか？",
+        "169": "あなたの体の好きな部分は何ですか？",
+        "170": "あなたのスポティファイでの最後の曲は何ですか？",
+        "171": "あなたは本当に魅力的です",
+        "172": "あなたの最悪の習慣は何ですか？",
+        "173": "あなたの最悪の性格特性は何ですか？",
+        "174": "あなたは親友です",
+        "175": "あなたはかわいいです"
+    },
+    "featureAvailableOnlyInApp": "この機能は私たちのアプリでのみ利用可能です。今すぐダウンロードして、お友達と個人的なチャットをお楽しみください！それ以外の場合、これはテルとして回答されますが、送信者は非表示になります。",
+    "featureHintInstagram": "インスタグラムで回答を共有できます！応答中にアイコンを押すだけです。",
+    "feedInteraction": {
+        "0": "＃無視してください＃",
+        "1": "<0>{{-username}}<\/0>は<1>コメントしました<\/1>"
+    },
+    "female": "女性",
+    "filterSentTells": "送信されたメッセージをフィルター",
+    "findFriendAlreadyUsingTellonym": "テルネームを使っている友達を検索します。テルを送信して、相手の回答を見ることができます。",
+    "findFriends": "友達を検索",
+    "findFriendsSearch": "友達を検索",
+    "findFriendsToFollow": "友人を見つけてフォローします",
+    "findFriendsViaContacts": "連絡先から友達を検索",
+    "findLocalHelplines": "地域のヘルプラインを検索",
+    "findOnTopSharePlaceholder": "上から探す",
+    "findOutWithReadReceipts": "既読受信で調べる",
+    "findOutWorldTellYou": "世界があなたに伝えたいことを見つけます",
+    "findTellSharingOptionInThisMenu": "<0>このメニューでテル共有を見つけます<\/0> <1><\/1>",
+    "findWellLitEnvironment": "まぶしさや逆光のない明るい環境を検索",
+    "findYourFriendsReceiveTellsFromThem": "友達を見つけ、友達からテルを受信します",
+    "findYourRealLifeFriends": "あなたの現実の友達を見つけます",
+    "firstBackupThenTellsDescription": "すべてのテルを表示するには、アカウント回復方法を追加します。",
+    "firstBackupThenTellsInfo": "これにより、パスワードを忘れた場合でもアカウントにアクセスできます。",
+    "firstBackupThenTellsTitle": "あなたは新規テルを手に入れました！",
+    "firstMonthPrice": "<0>初月 <\/0> <1>{{-price}}<\/1>",
+    "firstTellFromSenderInAWhile": "この送信者からのテルは久しぶりです",
+    "firstTellInWhile": "久しぶりのテル",
+    "firstWeekPrice": "<0>初週<\/0> <1>{{-price}}<\/1>",
+    "firstYearPrice": "<0>初年<\/0> <1>{{-price}}<\/1>",
+    "flameCountShares": "🔥 {{-shareCount}}シェア",
+    "flowers": "花",
+    "followAll": "すべてをフォロー",
+    "followFriendsSeeTells": "友達をフォローして、友達が話していることを参照します",
+    "followFriendsToSeeContent": "友達をフォローして、彼らが共有するコンテンツを見ます。",
+    "followFriendsToSeeTheirContent": "友達をフォローして、彼らのコンテンツを見ます。",
+    "followOtherUsersToSeeTheirContentHere": "他のユーザーをフォローすると、ここで最新のコンテンツが表示されます。",
+    "followYourFriends": "友達をフォロー",
+    "followersThatIFollowBack": "私がフォローバックするフォロワー",
+    "following": "フォロー中",
+    "followingAnonymously": "匿名でフォロー中",
+    "forAssistanceOrConcernsRegardingVerficationProcessContactSupport": "ご不明な点がございましたら、サポートチームまでお問い合わせください。",
+    "forMatureAudience": "テルネームは成熟した聴衆を対象としています",
+    "forMoreInfoOnHowWeUseYourPersonalDataPleaseReadPrivacyPolicy": "<0>当社がお客様の個人情報をどのように使用し、保持し、保護するかについての詳細は、当社の<\/0> <1>プライバシーポリシーをご覧ください。<\/1>",
+    "forSomeTellsWeCanGiveYouHints": "一部のテルについては、送信者に関するヒントを提供できます。私たちはそれらを決して明らかにしません!",
+    "forStickerMethods": "ステッカーメソッドの場合",
+    "forYou": "あなたへ",
+    "forever": "永遠に",
+    "forgotSafetyCode": "安全コードをお忘れですか?",
+    "forgotToShare": "共有を忘れました",
+    "friends": "友達",
+    "friendsCanSendTellsByLink": "あなたのリンクを開くことで、友達があなたにテルを送信できます。",
+    "friendsCanSendYouCategoriesTopThreeHelper": "友達からカテゴリーを送ってもらい、トップ3つを回答します。インスタやスナップで共有する場合は、テンプレートを作成します。",
+    "friendsCanSendYouTellsByUsingYourProfileLink": "友達はこのリンクを使用してあなたにテルを送信できます。送信しましょう🔥",
+    "friendsCanSendYouTellsOnlyThroughThisLink": "友だちはこのリンクを通してのみ、あなたにテルを送信できます。すでにコピーされています。",
+    "friendsFollowYou": "友達があなたをフォローしています",
+    "friendsJoin": "友達が参加します",
+    "friendsOnTellonym": "テルネームの友達",
+    "friendsOnTellonym_plural": "テルネームの友達",
+    "from": "から",
+    "fromContactBook": "連絡帳から",
+    "fullName": "フルネーム",
+    "fullNamesAddressesPhones": "住所、電話番号",
+    "fullNamesAddressesPhonesDescription": "個人の住所や電話番号は、個人が自分のデータを投稿した可能性がある場合でも許可されません。",
+    "galleryPermissionsAndEnoughStorage": "ギャラリーのパーミッションが有効で、十分なストレージがあることを確認するべきです。",
+    "gameNotAvailableInRegion": "このゲームは現在、あなたの国または地域では利用できません。",
+    "gamesForSnapAndInsta": "スナップやインスタグラム用のゲーム",
+    "gender": "性別",
+    "gendersYouAreInterestedIn": "興味のある性別",
+    "generatedWithName": "{{-name}}で生成",
+    "generatingAndSendingYourVoiceTell": "音声テルを生成して送信しています。。。",
+    "getAllPremiumFeaturesDiscount": "今週だけ！全てのプレミアム機能を{{-amount}}%オフで手に入れよう！",
+    "getAmountBoostsForPriceTelloTokens": "{{-amount}}ブーストを{{-price}}のテルトークンで獲得しましょう",
+    "getAmountTelloTokenForEveryReactionYouLeave": "誰かの投稿にリアクションを残すごとに{{-amount}}テルトークンを受け取ります",
+    "getAmountTelloTokensForEveryTellYouAnswer": "テルを回答するごとに{{-amount}}テルトークンを受け取ります",
+    "getAmountTelloTokensForPrice": "{{-price}}で{{-amount}}テルトークンを受け取ります",
+    "getAmountTelloTokensWhenSomeoneAnswersATellYouSent": "送信済みテルに誰かが答えると{{-amount}}を受け取ります",
+    "getAnonymousMessages": "匿名のメッセージを受け取ります！",
+    "getAnonymousQuestionsAndCompliments": "匿名の質問や褒め言葉を受け取ります",
+    "getAppToSeePostsJoinCommunity": "投稿を見たり、このコミュニティに参加するために、アプリを入手してください。",
+    "getBadgeToShowSupport": "必要に応じて、サポートを示すためにプロフィールのバッジを受け取ります。",
+    "getBoosted": "ブーストを受けましょう",
+    "getInstantAccessToAllAppleEmojis": "すべてのアップル絵文字にすぐにアクセスして、プロフィールを充実します",
+    "getInstantAccessToAllGoogleEmojis": "すべてのグーグル絵文字にすぐにアクセスして、プロフィールを充実します",
+    "getItFromPlayMarket": "プレイストアから今すぐ入手",
+    "getMoreBoosts": "より多くのブーストを入手",
+    "getMoreTelloTokens": "テルトークンをもっと受け取ります",
+    "getMoreTellsBeingRecommendedFrequentlySendingTells": "頻繁にテルを送信する人々に推薦されることで、もっと多くのテルを受け取ります。",
+    "getNewestVersionApp": "最新バージョンのアプリがインストールされていないようです。今すぐ入手してください！",
+    "getNotified": "通知されます",
+    "getNotifiedWhenTellsAnswered": "あなたのテルが回答されたら通知を受け取ります",
+    "getPercentageOffYourFirstDuration": "{{-percentage}}%を手に入れる\nあなたの最初の{{-duration}}",
+    "getPremium": "テルネームプラスをを入手",
+    "getRecommendedToPeopleFrequentlySendingTells": "頻繁にテルを送信する人に推薦されます",
+    "getRewardedForActivityInAppWithTelloTokens": "テルトークンを使用してアプリ内の活動に対して報酬を獲得しましょう",
+    "getSenderHints": "送信者のヒントを得ます",
+    "getStarted": "始めましょう",
+    "getTelloTokens": "テルトークンを受け取ります",
+    "getTells": "テルを入手",
+    "getTellsAndSee": "テルを受信して、友達が話していることを参照します",
+    "getTellsButton": "テルを手に入れ",
+    "getTellsFromYourFriendsOnSocials": "ソーシャルネットワークで友達からテルを受け取ります",
+    "getTellsThroughThisLinkItIsAlreadyCopiedForYou": "このリンクからテルを取得してください！すでにコピーされています。",
+    "getTheApp": "アプリを入手",
+    "getTheAppToSeeTheAnswer": "アプリで回答を見ます",
+    "getTheFullExperience": "テルネームアプリを最大限に活用しましょう",
+    "getTierSubscription": "{{tier}}サブスクリプションを受け取ります",
+    "getUnsendFeature": "送信取り消し機能を取得",
+    "getVerified": "認証されます",
+    "getYourOwnMessages": "自分のメッセージを手に入れましょう！",
+    "getYourUsername": "ユーザー名を入手",
+    "getyourOwnVoiceTells": "自分だけの音声テルを受け取りましょう！",
+    "giveUsFeedback": "フィードバックをお寄せください",
+    "goBack": "戻る",
+    "goToAccountVerification": "アカウント認証へ",
+    "goToGooglePlayStore": "グーグルプレイストアへ",
+    "goToInstagram": "インスタグラムへ",
+    "goToMembership": "メンバーシップへ移動",
+    "goToProfile": "プロフィールへ",
+    "goToProfileClickHere": "ここを押してプロフィールを開きます",
+    "goToSentTells": "送信済みテルのページへ",
+    "goToSettings": "設定へ",
+    "goToSnapchat": "スナップチャットへ",
+    "goToSocial": "{{-network}}に移動",
+    "goToTelloTokens": "テルトークンへ",
+    "goToTells": "テルへ",
+    "gotIt": "了解しました！",
+    "gotItExclamation": "了解しました！",
+    "grabYourLink": "リンクを取得: {{-link}}",
+    "gradient": "勾配",
+    "hangTight": "頑張るんだ！",
+    "hasSentYouMultipleTellsRecently": "最近、あなたにいくつかのテルを送信しています",
+    "hasToBeFourDigits": "4 桁である必要があります",
+    "haveAWorkingInternetConnection": "インターネットに接続できること",
+    "haveAtLeastXAnswers": "プロフィールに少なくとも{{-answerCount}}件の回答があります",
+    "haveSuggestionForTellForCommunity": "コミュニティテルとして素晴らしいと思うテルの提案がある場合は、下のボタンから提案を送信してください!",
+    "heardAboutTheApp": "アプリについて聞いたことがありますか?",
+    "help": "ヘルプ",
+    "helpCenter": "ヘルプセンター",
+    "helpForUkraine": "ウクライナへの支援",
+    "helpFriendsFindYouThroughSocials": "あなたが使っているプラットフォームのユーザーネームを使って、友達があなたを見つけられるようにします。",
+    "helpOthersGetToKnowYou": "他の人があなたを知ってもらえるよう助ける",
+    "helplinesLink": "{{-base}}suicide-hotlines.html",
+    "here": "ここ",
+    "hereIsContentYouMightEnjoy": "以下は、あなたが楽しめるかもしれないコンテンツです。",
+    "hereIsHowYourLastBoostWent": "前回のブーストの様子はこちらです",
+    "heyGetAVerificationBadge": "おい、{{name}} さん、検証バッジを手に入れましょう！",
+    "heyTellonymCeoJoinMyChannelToHearUpdates": "👋 こんにちは、テルネームのCEOです!私のチャンネルに参加して、機能の更新について聞いてください。",
+    "hiJoinMeInTheCommunityOnTellonym": "こんにちは、テルネームの「{{-name}} 」コミュニティに参加して、毎日興味深い質問を受けましょう。",
+    "hiUsername": "こんにちは、{{-username}}さん。",
+    "hidden": "非表示",
+    "hiddenSender": "非表示の送信者",
+    "hiddenSenderMeaning": "このテルは匿名で送信されませんでしたが、{{-username}}は送信者のユーザー名を表示しないことに決めました。",
+    "hideAll": "全て隠す",
+    "hideAnswerFromCommunity": "コミュニティからの回答を隠す",
+    "hideFromThisView": "このビューで非表示にします",
+    "hideSender": "送信者を非表示",
+    "hidingThisElementCantBeUndone": "エレメントの非表示は元に戻せません。",
+    "high": "高い",
+    "highQualityTellSent": "高品質のテルが送信されました",
+    "highSchool": "高校",
+    "highestSafetyLevel": "最高の安全レベル",
+    "holdStillWhenTakingYourSelfie": "自撮りをするときは、3秒間静止します",
+    "howCanIGetVerified": "どうすれば認証されますか？",
+    "howManyTellSenderSentRecently": "送信者は最近３つのテルを送信しました",
+    "howTellsAndAnswersWork": "回答されたテルのみがプロフィールに表示されます。これらの回答は公開されており、友達が見ることができます。誰かがあなたにテルを送信するとき、あなただけがプライベート受信トレイでそれを見ることができます。",
+    "howToAddLinkToYourStory": "ストーリー🔗にリンクを追加する方法",
+    "howToAddYourLink": "リンクを追加する方法:",
+    "howToEarnTelloTokens": "テルトークンを受け取るには？",
+    "howToPlay": "どのようにプレーしますか？",
+    "howToShareOnInstagram": "テルを押すと、そのテルに対する答えを入力するウィンドウが開きます。右側にはインスタグラムのロゴがあり、これを押して共有をオンにできます。回答を入力するとすぐにインスタグラムが開き、投稿できる画像が表示されます。",
+    "howToStart": "始め方",
+    "howWeSyncContacts": "連絡先は定期的に同期され、当社のサーバーに安全に保存されます。当社のサーバーから連絡先を削除するには、設定に移動し、それらを切断します。",
+    "hundredsOfMessagesAndWhatTheyThink": "あなたの友達から何百通もの正直なメッセージを取得し、彼らがどう考えているかを調べます。",
+    "iAm12andAgree": "あなたの年齢が12歳以上であることや以下の文書を読み、同意することを確認してください：",
+    "iAm17andAgree": "あなたの年齢が17歳以上であることや以下の文書を読み、同意することを確認してください：",
+    "iConfirm": "はい、確認します",
+    "iEyourFirstName": "つまり、あなたの名前",
+    "iIdentifyAs": "私は次のように認識しています",
+    "iWillAnswerWithMyTopThree": "私は私のトップ3で回答します",
+    "iapNotSupportedByGoogleInRegion": "申し訳ありませんが、お住まいの地域では Google はアプリ内購入をサポートしていません。",
+    "iapNotSupportedForYourDevice": "申し訳ありまませんが、あなたのデバイスではアプリ内購入がサポートされていません。",
+    "ideaFrom": "からのアイデア",
+    "ideas": "アイデア",
+    "ifConnectedMoreTells": "連絡帳に接続しているユーザーは、友達からより多くのテルを受信できます！",
+    "ifDontWantToShowTels": "あなたが彼または彼女にあなたのプロフィールと回答を見せたくない場合。",
+    "ifForgotPw": "パスワードをお忘れの場合は、ログイン画面のヘルプをご利用ください。",
+    "ifForgottenPw": "<0>パスワードを忘れた場合は、<\/0> <1>検証方法<\/1> <2>のいずれかを使用してログインします<\/2>",
+    "ifNotContactedMakeSureNextFeedback": "もしご連絡がない場合は、次回のフィードバックのために必ず検討させていただく！",
+    "ifThatDoesNotWorkCheckOutHere": "それがうまくいかない場合は、<1>ここを<\/1>チェックアウトします",
+    "ifThisYourAccount": "これが古いアカウントの場合は、アカウントにログインし、設定でアカウントを削除してください。",
+    "ifUnderagePleaseAskParents": "未成年の場合は、保護者に同意を求めてください。",
+    "ifYouHaveCommonFollowings": "共通のフォロー",
+    "ifYouStarEachOtherMatchCreated": "3.お互いに星をつけた場合、マッチが成立し、双方に通知されます🔥。",
+    "ifYouWantToCommentOnAResultPostItToYourProfile": "結果にコメントしたい場合は、プロフィールに投稿してください",
+    "igStoryPacks": "IGストーリーパック！",
+    "imAware": "承知しています",
+    "imageOfanswerSavedToGallery": "あなたの回答の画像がギャラリーに保存されました。下のボタンを押して{{-network}}を開きます。",
+    "imageSavedAndLinkCopied": "画像を保存し、リンクをコピーしました",
+    "imprint": "インプリント",
+    "inAppNotifications": "アプリ内通知",
+    "inCaseYouForgetYourCredentials": "ログイン情報を忘れてしまった場合は、回復方法を使用します。",
+    "inCity": "{{-city}}にあります",
+    "inSpotlight": "注目を浴び",
+    "individualsAreNotAssociatedWithTellonym": "ここに表示されている個人はテルネームとは関係ありません。AI音声は、著作権フリーのデータで学習させたオープンソースのAIモデルで生成されています。",
+    "infoCenter": "情報センター",
+    "instagramDoesOverrideYourClipboardEveryTime": "インスタグラムは共有するたびにクリップボードを上書きします。そのため、共有するたびに再度コピーする必要があります。戻ってきたときに私たちはバナーを表示して簡単にできるようにします。",
+    "install": "インストール",
+    "instantlyVisibleAndQuickerThanATellButNeverAnonymous": "すぐに表示され、テルよりも高速ですが、匿名ではありません。",
+    "interests": "興味",
+    "interestsFeature.categories.creativity": "創造性",
+    "interestsFeature.categories.fitness": "フィットネス",
+    "interestsFeature.categories.gaming": "ゲーミング",
+    "interestsFeature.categories.music": "音楽",
+    "interestsFeature.categories.selfdiscovery": "自己発見",
+    "interestsFeature.categories.sports": "スポーツ",
+    "interestsFeature.categories.stayingin": "家で過ごすとこ",
+    "interestsFeature.interests.actionadventure": "アクション・アドベンチャー",
+    "interestsFeature.interests.astrology": "占星術",
+    "interestsFeature.interests.baking": "ベーキング",
+    "interestsFeature.interests.basketball": "バスケットボール",
+    "interestsFeature.interests.boardgames": "ボードゲーム",
+    "interestsFeature.interests.concertsandfestivals": "コンサートや祭り",
+    "interestsFeature.interests.cooking": "料理",
+    "interestsFeature.interests.dancing": "ダンス",
+    "interestsFeature.interests.drawing": "ドローイング",
+    "interestsFeature.interests.edm": "イーディーエム",
+    "interestsFeature.interests.esports": "エスポーツ",
+    "interestsFeature.interests.fashion": "ファッション",
+    "interestsFeature.interests.gaming": "ゲーミング",
+    "interestsFeature.interests.gym": "ジム",
+    "interestsFeature.interests.handball": "ハンドボール",
+    "interestsFeature.interests.hiking": "ハイキング",
+    "interestsFeature.interests.hiphop": "ヒップホップ",
+    "interestsFeature.interests.horsebackriding": "乗馬",
+    "interestsFeature.interests.makingvideos": "ビデオの作成",
+    "interestsFeature.interests.martialarts": "武道",
+    "interestsFeature.interests.mentalhealth": "メンタルヘルス",
+    "interestsFeature.interests.movies": "映画",
+    "interestsFeature.interests.music": "音楽",
+    "interestsFeature.interests.painting": "ペインティング",
+    "interestsFeature.interests.photography": "写真撮影",
+    "interestsFeature.interests.pop": "ポップ",
+    "interestsFeature.interests.rap": "ラップ",
+    "interestsFeature.interests.reading": "読書",
+    "interestsFeature.interests.roleplaying": "ロールプレイ",
+    "interestsFeature.interests.running": "ランニング",
+    "interestsFeature.interests.shooters": "シューティング",
+    "interestsFeature.interests.skateboarding": "スケートボード",
+    "interestsFeature.interests.soccer": "サッカー",
+    "interestsFeature.interests.sportsgames": "スポーツゲーム",
+    "interestsFeature.interests.survivalandhorror": "サバイバル＆ホラー",
+    "interestsFeature.interests.swimming": "水泳",
+    "interestsFeature.interests.tattoos": "タトゥー",
+    "interestsFeature.interests.traveling": "旅行",
+    "interestsFeature.interests.tvshows": "テレビ番組",
+    "interestsFeature.interests.volleyball": "バレーボール",
+    "interestsFeature.interests.volunteering": "ボランティア",
+    "interestsFeature.interests.worldbuilding": "ワールドビルディング",
+    "interestsFeature.interests.writingandblogging": "執筆とブログ",
+    "interestsFeature.interests.yoga": "ヨーガ",
+    "introduceYourselfAnsweringQuestions": "これらの質問に答えて自己紹介をします",
+    "introduceYourselfByAnsweringQuestions": "これらの質問に回答して自己紹介をします。他のユーザーにあなたのことを知ってもらいましょう!",
+    "invalidCode": "無効なコード",
+    "invite": "招待",
+    "inviteMessage": "テルネームで友達から匿名の質問を受け取ります。",
+    "inviteMessageWithFriendsCount": "テルネームで友達から匿名の質問をもらいましょう。そのうち{{-friendsCount}}人はすでに参加しています。",
+    "inviteYourFriends": "友達を招待",
+    "isLinkInBio": "リンクはバイオにありますか?",
+    "isLinkStillInBio": "リンクはまだプロフィールにありますか?",
+    "isLovedByMillionsHardToControl": "。。。は何百万人にも愛されていますが、コントロールするのは難しいです。",
+    "isSending": "送信中...",
+    "isThisCorrect": "これは正しいですか?",
+    "isTooLong": "{{-type}}は長すぎます",
+    "itAllowsFriendsWithNumberToFindYou": "これにより、あなたの電話番号を知っている友達があなたを見つけられます。",
+    "itIsRequirementToBeRecommendedToOtherUsers": "他のユーザーに推薦されることは必須です。",
+    "itShouldBeUnique": "それはユニークであるべきです",
+    "itsAlreadyAttachedWhenYouShare": "共有するとすでに添付されていいます。",
+    "itsAlreadyCopied": "すでにコピーされています",
+    "itsBetterWithFriends": "友達と一緒の方がいいです",
+    "itsEasyAndFree": "簡単で無料です",
+    "join": "参加",
+    "joinChannel": "チャンネルに参加",
+    "joinCommunity": "コミュニティに参加",
+    "joinTellonymChannel": "テルネームチャンネルに参加",
+    "joinTellonymPlus": "<1>テルネームプラス<\/1>に<0>参加<\/0>",
+    "joinTellonymPlusSplit": "<1>テルネーム<\/1><2>プラス<\/2>に <0>参加<\/0>",
+    "joinToReceiveTellsFromCommunity": "このコミュニティからのテルを受信するために参加",
+    "justNow": "ちょうど今",
+    "keepItInYourBioToGetTellsAnytime": "いつでもテルを受け取れるようにバイオに保管する必要があります",
+    "keepItRealVerifyYourIdentity": "リアルを保つ！自撮り写真で身元を確認します。",
+    "keepMyBenefits": "特典はそのままにしておく",
+    "keepSwipingOrAdjustSettings": "スワイプを続けるか、設定を調整してみます。",
+    "keepTextUnderAmountCharactersToUseVoiceGenerator": "AI音声ジェネレーターを使うには、テキストを{{-amount}}文字以下に保つこと",
+    "keepTierFor": "{{-tier}}を {{-price}} \/{{-timeFrame}} で継続",
+    "keepTrackOfBalanceOnHomeFeed": "ホームフィードで残高を追跡します",
+    "languageFilters": "言語フィルター",
+    "languageOfTheCommunity": "コミュニティの言語",
+    "lastChanceToGetAllPremiumFeatures": "全プレミアム機能を70％オフで手に入れる最後のチャンスです！",
+    "learnAboutTellonymPlus": "テルネームプラスについて学ぶ",
+    "learnAboutVision": "私たちのビジョンについてはこちらをご覧ください。",
+    "learnMoreAboutTellPrompts": "Tellプロンプトについてもっと学ぶ",
+    "learnWhoCollects": "テルネームとパートナーがデータをどのように収集し、使用するかをご覧ください。",
+    "leave": "退会",
+    "leaveCommunity": "コミュニティから退出",
+    "leftReaction": "残したリアクション",
+    "leftToday": "本日の残り",
+    "letEveryoneKnowAskQuestions": "匿名の質問をできることを皆に知らせます！",
+    "letRealLifeFriendsFindYou": "現実の友達に見つけてもらいます",
+    "letUsNotifyYou": "新規テルを受信したり、何か他のことが起こったりする場合は、あなたにお知らせします。",
+    "letUsNotifyYouWhenCommunityPostsTells": "このコミュニティが新しいテルを投稿する時にお知らせします",
+    "letUsNotifyYouWhenNewTellsArrive": "新規テルが届いたらお知らせします",
+    "letYourFriendsSendYouQuestionsByUsingYourProfileLink": "あなたのプロフィールのリンクを使って、友達に質問を送ってもらいましょう。",
+    "letsContinueSettingUpYourProfile": "プロフィールの設定を続けましょう！",
+    "letsDoIt": "やってみましょう",
+    "letsPickOneNow": "今すぐ 1 つ選んでみましょう!",
+    "letsPlay": "プレイしましょう",
+    "letsPlayGame": "ゲームをしましょう！",
+    "lifestyle": "ライフスタイル",
+    "likeThisPreviewForStickers": "このステッカー🔥のプレビューにいいね!",
+    "likesAndFollowersTitle": "いいねとフォロワー",
+    "limitResetReadyToPlayAgain": "リミットリセット！もう一度プレイする準備はできていますか？",
+    "limitedTimeOnly": "期間限定",
+    "linkCopied": "リンクがコピーされました",
+    "linkCopiedExcl": "リンクをコピーしました!",
+    "linkInBio": "バイオにリンク",
+    "linkToBio": {
+        "instagram": "インスタグラムバイオ",
+        "snapchat": "スナップ",
+        "twitter": "X バイオ"
+    },
+    "linkToInStream": "インストリームへのリンク",
+    "linkedItemsDeactivatedCausingOutOfContextContent": "リンクされたテルと回答のリンクが無効になり、一部のコンテンツがコンテキストから外れて表示される可能性があります。",
+    "liveStream": "ライブストリーム",
+    "location": "ロケーション",
+    "locationToGetSuggestions": "現在地を有効にすると、提案を取得したり、他の人に提案されたりすることができます。",
+    "loggingOutRemovesAccountFromList": "ログアウトすると、このリストからアカウントが削除されます。",
+    "loginWithPassword": "パスワードでログイン",
+    "low": "低い",
+    "maintenanceMode": "一時的に利用できません。すぐに再開します。",
+    "makeProfileNiceWithPicture": "自分の写真であなたのプロフィールを素敵に見せましょう!",
+    "makeProfileSpecialByUsingNewEmoji": "これらの新しい絵文字のいずれかを使用して、プロフィールを特別なものにします",
+    "makeSureYouHaveOnePhotoWhereFaceIsVisible": "プロフィールに少なくとも1枚、あなたの顔がはっきりと写っている写真を掲載してください。",
+    "makeYourFirstPost": "最初の投稿をします",
+    "makesSureOnlyYouCanLogin": "自分だけがログインできるようにします",
+    "male": "男性",
+    "manageSubscriptionsInSettings": "設定でサブスクリプションを管理します",
+    "manageYourVisibility": "あなたの視認性を管理",
+    "managingCommunity": "コミュニティの管理",
+    "manual": "手動",
+    "maxAmountTellsReached": "テルの最大量に達しました",
+    "maxCharactersCommunityDescription": "最大長に達しました",
+    "maximum": "最大",
+    "maximumAmountOfGamesReached": "1 日に 1 つのゲームしか共有できません",
+    "maximumAttemptsReached": "最大試行回数に達しました！",
+    "maybeLater": "たぶん後で",
+    "medium": "中程度",
+    "members": "メンバー",
+    "membership": "メンバーシップ",
+    "membershipWillExpireNoLongerAccess": "<0>あなたのメンバーシップは<\/0> <1>{{date}}<\/1><2>\nに有効期限が切れます。それ以降、Sender Hints、認証バッジなどのPlus機能を利用できなくなります。<\/2>",
+    "men": "男性",
+    "mentalHealth": "メンタルヘルス",
+    "message": "メッセージ",
+    "messageWillBeSentAsRequest": "メッセージはリクエストとして送信されます。",
+    "minimumSafetyLevel": "最低安全レベル",
+    "modeAllowsIntegrateTellsIntoStream": "このモードでは、テルを簡単にストリームに組み込んで、ライブQ&Aやコメント告白など、あなたが思いついたことを行うことができます。StreamLabのようなストリーミングソフトウェアとうまく連動するように設計されています。",
+    "moderationSettings": "モデレーション設定",
+    "moderator": "モデレーター",
+    "moderators": "モデレーター",
+    "moderatorsCanSeeAllInformation": "モデレーターは指示を公開し、投稿を編集し、ユーザーのブロック（解除）、返信を非表示することができます。モデレーターになれるのはコミュニティのメンバーだけです。",
+    "monthlyPlan": "月額プラン",
+    "moreInfo": "詳細情報",
+    "moreProfileEmojisForYou": "あなたのための{{amount}}より多くのプロフィール絵文字",
+    "moreTellsQuestionmark": "もっとテル？",
+    "moreToShare": "他に共有したいことはありますか?",
+    "moreWaysToCustomizeProfileColors": "プロフィールをカスタマイズするその他の方法。",
+    "moreWaysToExpressYourselfWithColors": "排他的なカラーで自分自身を表現するより多くの方法",
+    "moreWaysToExpressYourselfWithUniqueColors": "排他的カラーで自分自身を表現するより多くの方法",
+    "mostPopular": "最も人気のあり",
+    "msgWillBeSentAsTellUsernameCanAccept": "あなたのメッセージはテルとして送信されます。{{-username}}はチャットへの招待を承諾できます。",
+    "msgWillBeSentAsTellUsersCanAccept": "あなたのメッセージは、あなたをフォローしていないユーザーにテルとして送信されます。彼らはあなたのチャットの招待を承諾できます。",
+    "multiShareFeatureInstruction": "<0>プロフィールにアクセスし<\/0> <1><\/1> <2>共有ボタンを押し、\"{{-shareMethod}}\" を選択します。<\/2>",
+    "multiTellsMode": "マルチテルモード",
+    "multiple": "複数",
+    "multishare": "マルチ共有",
+    "myAgeIs": "私の年齢は",
+    "myLocation": "私のロケーション",
+    "myMembership": "私のメンバーシップ",
+    "myPhoto": "私の写真",
+    "myTellonymLink": "私のテルネームリンク：",
+    "myTellonymPlus": "私のTellonymPlus！",
+    "nature": "自然",
+    "needABoost": "ブーストが要りますか？",
+    "needHelp": "ヘルプが必要ですか?",
+    "needHelpLogin": "ログインでお困りですか？",
+    "needHelpSignIn": "サインインでお困りですか？",
+    "neverMissATell": "テルを見逃さないように！",
+    "new": "新しい",
+    "newAnswers": "新規回答",
+    "newContentAvailable": "新規コンテンツが利用可能です",
+    "newFeature": "新規機能",
+    "newFeatureCommentsTitle": "コメント🎉",
+    "newFollowerAnonymous": "<1>誰かがあなたを匿名でフォローしています<\/1> <2><\/2> <3>{{-createdAt}}<\/3>",
+    "newFollowerAnonymous_plural": "<0>{{-count}}<\/0>の <1>ユーザーは匿名であなたをフォローしました<\/1> <2><\/2> <3>{{-createdAt}}<\/3>",
+    "newFollowerPublic": "<0>{{-username}}<\/0> <1>があなたをフォローしています。<\/1> <2><\/2> <3>{{-createdAt}}<\/3>",
+    "newGamesSoon": "新しいゲームが近日公開予定",
+    "newIgDarkPacks": "新しいIGダークパック！",
+    "newPassword": "新規パスワード",
+    "newPasswordText": "今後のログインのために新しいパスワードを入力してください",
+    "newPricesAtNextBillingCycle": "次の請求サイクルで新しい料金が請求されます",
+    "newProfileColors": "新しいプロフィールカラー！",
+    "newSharingNetworksAvailable": "回答を共有するための新しいネットワークが利用可能になりました🔥",
+    "newStatusEmoji": "新しいステータス絵文字",
+    "newStatusEmojiUnlocked": "新しいステータス絵文字のロックが解除されました",
+    "newTellsArrive": "新規テルが到着します",
+    "noAccess": "アクセス不可",
+    "noAccessPostWasDeleted": "アクセスできません。この投稿は削除されました",
+    "noAds": "広告なし",
+    "noAnswersYet": "まだ回答はありません",
+    "noAppsToShare": "共有するアプリはありません",
+    "noCommunityMembersYet": "このコミュニティにはまだメンバーがいません。最初に参加してください！",
+    "noCommunityTellAnswersYet": "このコミュニティ回答にはまだ回答がない。最初に回答してください！",
+    "noCommunityTellsYet": "このコミュニティはまだコミュニティテルを送信していません。参加すると最初のものを見逃すことはありません！",
+    "noFriendsToStartChat": "新しいチャットを始める友達がいません",
+    "noHintAvailable": "ヒント無し",
+    "noHintsAvailable": "ヒントはありません",
+    "noLessRelevantAds": "いいえ、関連性の低い広告が見たいです",
+    "noLongerAccessTo": "以下にアクセスできなくなります：",
+    "noLongerAvailable": "利用できません",
+    "noMessagesYet": "メッセージはまだありません",
+    "noNewsYet": "ニュースはまだありません",
+    "noOne": "誰も",
+    "noOneHereYet": "まだ誰もいません",
+    "noRecoveryMethodLooseAccount": "アカウントに接続されている回復方法はありません。パスワードを忘れたり、誰かがパスワードを変更したりする場合、アカウントを回復することはできず、失われます。",
+    "noSetIt": "いいえ、設定してください",
+    "noShowMeHow": "いや、どうすればいいか教えてくれ",
+    "noTellSelected": "テルがまだ選択されていません。",
+    "noTellsHereYet": "テルはまだないです",
+    "noThankYou": "いいえ、結構です",
+    "noUpdateIt": "いいえ、更新してください",
+    "noUsersAbleToChat": "これは実験的な機能で、まだすべてのユーザーがチャットできるわけではありません。まもなく、すべての友達をここで見つけられます。",
+    "nobodyHereWeNotifyYou": "まだ誰もいませんが、変更になり次第、すぐにお知らせします！",
+    "nobodyHereYet": "ここにはまだ誰もいません。",
+    "nobodyHereYetGetNotified": "まだ誰もいません。プッシュ通知を有効にして、友達が参加したらすぐに通知できるようにします。",
+    "none": "なし",
+    "normallyPrice": "通常は{{-price}}です",
+    "notEnoughBenefits": "十分なメリットがありません",
+    "notEnoughMoney": "お金が足りません",
+    "notFound": "見つかりません",
+    "notMeetingRequirementsYet": "まだ基準を満たしていませんか？",
+    "notNow": "今ではありません",
+    "notOldEnoughToUse": "あなたにはテルネームを使用する資格がありませんが、チェックアウトしていただきありがとうございます。",
+    "notPossibleYetFeatureIsStillInRollout": "残念ながら、このユーザーにはまだテスト段階にあるため、コメント機能はまだありません。",
+    "nothingHereYet": "まだ何もありません",
+    "nowYouCanCommentOnQuestionsYourFriendsAnswer": "友達が答えた質問にコメントできるようになりました。",
+    "nsfw": "閲覧注意",
+    "nsfwCommunity": "閲覧注意コミュニティ",
+    "numberOutOfTotalNumber": "{{-totalNumber}}のうち{{-number}}",
+    "occupation": "職業",
+    "offensesLevel": "オフェンス",
+    "offensesLevelInformation": "オフェンス",
+    "offerEndsInCountdown": "オファーは{{-countdown}}で終了します",
+    "oftenAnsweredOnTellonym": "このテルは、テルネームで頻繁に回答されます",
+    "olderFeedElements": "以前のフィード要素",
+    "olderPosts": "以前の投稿",
+    "olderTells": "以前のテル",
+    "onAllTellsWhereYouSeeThisIcon": "ヒントは、このアイコンが表示されるすべてのテルで使用できます。このアイコンは、プラスサブスクライバーでない場合にも表示されます。",
+    "onThisLevelFiltersActive": "このレベルでは、安全フィルターはアクティブですが、適切でない可能性が高いメッセージのみをフィルターします。",
+    "oneFreeBoostWithTellonymPlusEachMonth": "<1>テルネームプラス<\/1>で<2>毎月<\/2><0>1 回の無料ブースト<\/0> ",
+    "only12HoursLeft": "⌛️あと12時間だけ！",
+    "only24HoursLeft": "💥残り24時間だけ！",
+    "onlyCommunityAdminsCanSeeTheFullList": "コミュニティ管理者のみが完全なリストを見ることができます",
+    "onlyForRegisteredUsers": "登録ユーザーのみ",
+    "onlyNameCanSeeTheFullList": "<1>{{-name}}<\/1> <0>のみ<\/0> <2>は全てのリストを見ることができます<\/2>",
+    "onlyNameCanSeeThemAll": "<1>{{-name}}<\/1><0>のみ<\/0><2>がすべてを見ることができます。<\/2>",
+    "onlyPasswordConnectedSecureYourAccount": "あなたはパスワードを接続しただけです。パスワードを忘れたり、誰かが変更したりすると、あなたのアカウントは永遠に失われてしまいます。\n\nあなたのアカウントを保護するのに20秒かかります：",
+    "onlyShowAnsweredTells": "回答されたテルのみを表示",
+    "onlyUseLevelIf18": "１８歳以上の場合だけこのレベルを使用しましょう。 このレベルでは、私たちの安全フィルターはほとんどアクティブではなく、非常に明らかに適切でないメッセージをフィルターします。",
+    "onlyUsedToRecoverYourAccount": "アカウントを回復するためにのみ使用されます",
+    "onlyWorksIfBothOfYouHaveMoreThan": "両方が{{-amount}}以上のフォローを持つ場合のみ機能します",
+    "oopsEnteredCodeWrong": "入力されたコードが間違っています。もう一度入力してください。",
+    "oopsWeAreOutOfQuestions": "おっとっと！質問は終わりです",
+    "openCommunityInApp": "コミュニティをアプリで開きます",
+    "openInApp": "アプリで開きます",
+    "openInstagram": "インスタグラムを開きます",
+    "openProfileInApp": "アプリでプロフィールを開きます",
+    "openSnapAndSwipeUpwards": "スナップを開き、上にスワイプ。",
+    "openSnapSwipeUpAndSelectCameraRoll": "スナップを開き、上にスワイプして「カメラロール」を選択します",
+    "openSnapSwipeUpwardsSelectCameraRoll": "スナップを開き、上にスワイプして、カメラロールを選択します。",
+    "openSocialMedia": {
+        "instagram": "インスタグラムを開きます",
+        "snapchat": "スナップチャットを開きます",
+        "twitter": "ツイッターを開きます"
+    },
+    "openTellonymApp": "テルネームアプリを開きます",
+    "openTells": "回答されないテル",
+    "openTheLink": "リンクを開きます",
+    "openTheLinkInMyInstaBio": "インスタバイオのリンクを開きます",
+    "openedReportsLanguage": "あなたの言語で報告を開きます。",
+    "or": "または",
+    "other": "その他",
+    "otherBenefits": "その他の特典",
+    "otherPlans": "その他のプラン",
+    "otherPrivateInfo": "その他の個人情報",
+    "otherPrivateInfoDescription": "社会保障 ID、銀行口座の詳細、および公開が想定されていない同様のデータなどの個人情報は許可されません。",
+    "otherSocialAccounts": "•そのアカウントへの接続を明確に示す他のソーシャルアカウント",
+    "otherUsersAnsweredSimilarQuestions": "他のユーザーも同様の質問に回答しました",
+    "otherUsersSimilarQuestionsAnsweredTell": "あなたと同じような質問に回答する他のユーザーは、このテルに回答しました",
+    "otherUsersYourAgeInterestedInAnswer": "同年代の他のユーザーは、この「テル」に対する回答に興味を持っています。",
+    "othersCanSendYouTellsWithThisLink": "他の人はこのリンクを使用してあなたにテルを送信できますます",
+    "ourFiltersOnlyEnglishGerman": "当社の言語フィルターは、英語とドイツ語のテルのみで有効です。 お客様の言語に対応できるように努めています。",
+    "ourFiltersOperateHigher": "私たちのフィルターはこのレベルより高く動作し、不適切な可能性のあるものをフィルターします。",
+    "ourFiltersOptimalAdjusted": "私たちのフィルタは、このレベルで最適に調整され、おそらく適切でないものをフィルターします。",
+    "ourTermsAndPolicies": "当社の利用規約とポリシー",
+    "outOfFive": "5つのうち",
+    "overlayOpensToControlSlideshow": "スライドショーをコントロールできるオーバーレイが開きます。スライドショーでフォーカスされているテルは、追加のブラウザウィンドウに表示され、ストリームに含められます。",
+    "ownPhoto": "自分の写真",
+    "passportPictureMatchAvatar": "•写真がアバターと一致するパスポート(個人情報を認識できないようにしてください)",
+    "paste": "ペースト",
+    "pasteTextFromClipboard": "クリップボードからテキストを貼り付ける",
+    "pasteYourLink": "リンクを貼り付けます",
+    "pasteYourLinkInUrlAndTapDone": "URLにリンクを貼り付けて、[完了]を押します",
+    "pasteYourLinkWeHaveCopiedItForYouAlready": "リンクを貼り付けてください。すでにコピーしています。",
+    "pasteYourTellonymLink": "テルネームのリンクを貼り付けます",
+    "pastel": "パステル",
+    "pastingImageToInsta": "写真をギャラリーにコピーしました。手動でストーリーに追加する必要があります。",
+    "pastingImageToSnap": "スナップに画像を貼り付ける",
+    "pastingLinkToInstagram": "インスタグラムへのリンクを貼り付ける",
+    "pastingLinkToSnapchat": "スナップチャットにリンクを貼り付ける",
+    "patterns": "パターン",
+    "peopleJustTappedTheButton": "< 0 > 👇 < \/0 > < 1 > {{-count}}人がボタンをタップしました< \/1 > < 2 > 👇 < \/2 >",
+    "peopleWithSameInterest": "同じ興味を持つ人々",
+    "percentageOff": "{{-amount}}% OFF！",
+    "permissions": {
+        "askAtt": {
+            "description": "この機能により、お客様に関連する広告を表示できます。当社はドイツのデータ保護基準に従います。",
+            "title": "アプリ追跡の透明性"
+        },
+        "askCameraRoll": {
+            "text": "カメラロールを有効にしますか?",
+            "title": "カメラロール"
+        },
+        "askContacts": {
+            "description": "あなたと友達を照合するために、あなたの連絡帳の番号のみを当社のサーバーにアップロードします。",
+            "title": "連絡帳"
+        },
+        "askLocation": {
+            "text": "お住まいの地域にいる人を見つけるために位置情報を有効にしますか?",
+            "title": "ロケーション"
+        },
+        "askNotification": {
+            "text": "テルネームからのプッシュ通知を受信しますか？",
+            "title": "プッシュ通知"
+        },
+        "askStorage": {
+            "description": "デバイスから写真を選択するためのストレージへのアクセスを許可しますか?",
+            "title": "ストレージへのアクセス"
+        },
+        "att": {
+            "description": "スマートフォンの設定で「アプリ追跡の透明性」オプションを切り替えることができます。",
+            "title": "アプリ追跡の透明性"
+        },
+        "camera": {
+            "description": "テルに回答するためのプロフィール写真や画像を撮ります",
+            "title": "テルネームにカメラへのアクセスを許可"
+        },
+        "cameraRoll": {
+            "description": "プロフィール写真を選択し、テル画像をライブラリに保存します",
+            "title": "テルネームに写真へのアクセスを許可します"
+        },
+        "location": {
+            "text": "周囲の人を見るには、スマートフォンの設定で位置情報の許可を有効にしてください。",
+            "title": "位置情報を有効にします"
+        },
+        "storage": {
+            "description": "スマートフォンの設定でストレージオプションを切り替えると、プロフィール写真を選択できます。",
+            "title": "テルネームにあなたのストレージへのアクセスを許可"
+        }
+    },
+    "personWillSeeTheSender": "誰がこのテルを送信したかが分かります！受信者は、返信とともにユーザー名を表示するかどうかを決定できます。",
+    "personalOpinion": "個人的な意見",
+    "personalOpinionDescription": "私たちは言論の自由を尊重し、個人的で物議を醸す意見を許可します。意見の唯一の意図が誰かを侮辱したり嫌がらせをしたりすることではない限り、それは許可されます。",
+    "personaliseHomeScreenWithBrandNewIcons": "新規テルネームアプリのアイコンでホーム画面をパーソナライズ！",
+    "personaliseHomeScreenWithPremiumIcons": "手作りのプレミアムアイコンでホーム画面をパーソナライズ！",
+    "personsOfPublicInterest": "公益人",
+    "personsOfPublicInterestDescription": "公益人からの公開データは許可されます。",
+    "pets": "ペット",
+    "phoneNumber": "電話番号",
+    "phoneNumberWeCanContactYou": "連絡可能な電話番号を教えてください。",
+    "photoVerification": "写真認証",
+    "pickAnyEmojiFromYourKeyboard": "キーボードから絵文字を選択してください",
+    "picture": "写真",
+    "pictureCouldContainDisturbingContent": "この写真には、一部の人々が不快に感じたり、不穏に感じたりする内容が含まれている可能性があります。",
+    "pictureForFriends": "プロフィール写真を追加して、友達があなたを認識できるようにします。",
+    "pictureMode": "画像モード",
+    "pin": "ピン留め",
+    "pinModalText": "ピン留めされた投稿はプロフィールの上部に表示されます。一度に1つの投稿をピン留めできます。",
+    "pinModalTitle": "投稿をプロフィールにピン留めしますか？",
+    "pinPost": "プロフィールにピン留め",
+    "pingMeLetsChat": "私にピングして、チャットしましょう!",
+    "pinnedPost": "ピン留めされた投稿",
+    "placeYourLinkAndYouAreReadyToGo": "確認後、リンクを貼って準備完了です🎉。",
+    "pleaseAddCorrectEmail": "正しいメールを追加してください。",
+    "pleaseAvoidSpecialCharactersAndEmptySpaces": "特殊文字や空白は避けてください。",
+    "pleaseBeSureSafetyCode": "間違いがないかご確認ください。有効なメールがない場合、安全コードを変更することはできません。",
+    "pleaseCheckAndTryAgain": "ご確認の上、再度お試しください。",
+    "pleaseCheckYourInternetConnectionRestartTheApp": "インターネット接続を確認し、アプリを再起動するか、後でもう一度お試しください。それでも問題が解決しない場合は、テルネームサポートまでお問い合わせください。",
+    "pleaseChooseAtLeastOneAdmin": "少なくとも 1 人の管理者を選択してください",
+    "pleaseContactUsAndSendInfo": "あなたのアカウントであることの証明などのユーザー名、できるだけ多くの情報をお送りいただき、メールでご連絡ください。 24 ～ 48 時間以内に返信が届きます。",
+    "pleaseDontUseUnder18FiltersMin": "１８歳未満の場合はこのフィルターを使用しないでください。 フィルターはほとんどアクティブでなく、最低限の保護しか提供できません。",
+    "pleaseEnableAllPhotosAccessInYourSettings": "続行するには、設定で「すべての写真」へのアクセスを有効にしてください。",
+    "pleaseEnterYourEmailAddress": "本当のメールアドレスを入力してください",
+    "pleaseEnterYourRealName": "本名を入力してください",
+    "pleaseGoIntoDetail": "<0>このアカウントが私たちの<1>ガイドライン<\/1>に違反していることを詳しく説明してください。<\/0>",
+    "pleaseMakeSureThatYouFollowTheGuidelinesBelow": "必ず以下のガイドラインに従ってください。",
+    "pleaseNote": "ご注意ください！",
+    "pleaseNoteAiModelDisclaimer": "ご注意：ここに表示されている個人はテルネームとは関係ありません。AI音声は、著作権フリーのデータで学習させたオープンソースのAIモデルで生成されています。",
+    "pleaseRespectOurCommunityGuidelines": "<1>コミュニティテルに関するガイドラインを<\/1>尊重してください",
+    "pleaseSetBackupEmail": "バックアップ用のメールアドレスを設定してください:",
+    "pleaseSetSafetyCode": "安全コードを設定してください:",
+    "pleaseTryAgain": "もう一度お試しください",
+    "pleaseUploadAProfilePhotoWithYourFaceClearlyVisible": "顔がはっきり見えるプロフィール写真をアップロードして、再申請してください。",
+    "pleaseUseMailIfPhoneDoesntWork": "電話を接続できませんでした。代わりにメールアドレスを接続してください。",
+    "pleaseUseOneEmoji": "絵文字は1つだけ使用してください。",
+    "pleaseWait": "お待ちください。。。",
+    "pleaseWaitWhileWereCheckingYourPhoto": "写真をチェックする間、しばらくお待ちください。",
+    "plus": "プラス",
+    "plusAccountRemovesAds": "プラスアカウントではすべての広告が削除されます",
+    "plusBonus": "+{{-amount}}ボーナス",
+    "plusFeatureRemovalDescription": "{{-date}}に{{-feature}}機能が削除されます。",
+    "plusFeatureRemovalTitle": "テルネームプラスの変更",
+    "politicalOpinion": "政治的な意見",
+    "politicalOpinionDescription": "政治的な意見及び物議を醸す意見は、憎悪的なスピーチを助長したりコミュニティガイドラインに違反しない限り、許可されます。",
+    "post": "投稿",
+    "postDeleted": "この投稿は削除されました",
+    "postLiked": "<0>{{-username}}<\/0> <1>あなたの回答に反応しました<\/1> <2><\/2> <3>{{-createdAt}}<\/3>",
+    "postLikedEmptyAnswer": "<0>{{-username}}<\/0> <1>はあなたの投稿に「いいね！」しました<\/1> <2><\/2> <3>{{-createdAt}}<\/3>",
+    "postLikedMultiple": "<0>あなたの投稿は<\/0> <1>{{-answer}}<\/1> <3>{{-username}}<\/3> <4>および<\/4> <5>{{-count}}<\/5> <6>他 人 <\/6> <7> <\/7> <8>{{-createdAt}}<\/8><2>が「いいね！」されました<\/2>",
+    "postLikedMultipleEmptyAnswer": "<0>あなたの投稿は<\/0> <2> {{-username}} <\/2> <3>および<\/3> <4>他{{-count}}<\/4> <5>人<\/5> <6>< \/6 > <7> {{-createdAt}}<\/7> <1>が「いいね！」されました<\/1>",
+    "postLikedMultipleEmptyAnswer_plural": "<0>あなたの投稿は<\/0> <2> {{-username}} <\/2> <3>および<\/3> <4>他{{-count}}<\/4> <5>人<\/5> <6><\/6 > <7> {{-createdAt}}<\/7> <1>が「いいね！」されました<\/1>",
+    "postLikedMultiple_plural": "<0>あなたの投稿は<\/0> <1>{{-answer}}<\/1> <3>{{-username}}<\/3> <4>および< \/4> <5>{{-count}}<\/5> <6>他 人<\/6> <7> <\/7> <8>{{-createdAt}}<\/8> <2>が「いいね！」されました<\/2>",
+    "postMyVote": "投票を投稿",
+    "postRelatedAnswers": "投稿に関連する回答",
+    "postToTellonym": "テルネームに投稿",
+    "preparingAnImageForYou": "あなたのために写真を準備しています",
+    "pressButtonToChooseOne": "回答を共有するための新しいネットワークが利用可能になりました🔥",
+    "pressButtonToChooseSharingMethod": "回答を共有するための新しいネットワークが利用可能になりました🔥",
+    "pressForMoreInfo": "詳細については、押してください",
+    "pressHere": "ここを押します",
+    "pressLinkToSendMeTells": "テルを送信するには📎を押します",
+    "pressOnAnswerThatYouWantToShare": "共有したい回答を押します",
+    "pressOnIconToShareAnswer": "いずれかのアイコンを押して、回答を共有します。",
+    "pressStickersOnTopRight": "インスタグラムで右上のステッカーを押します",
+    "pressTheAttachmentIconOnTheRight": "右側の添付ファイルアイコンを押して、最初のリンクを選択します",
+    "pressTheLinkStickerAndPasteYourLink": "リンクステッカーを押し、リンクを貼り付ける",
+    "pressThisIconOnTheRight": "右のアイコンを押します。",
+    "pressToSeeAnswer": "押して回答を見ます",
+    "pressToSeePost": "押すと投稿が表示されます",
+    "pressToSeeProfile": "押してプロフィールを見ます",
+    "pressToShare": "押して共有します",
+    "pressUsernameToHideSender": "ユーザー名を押して送信者を隠す",
+    "pressUsernameToHideSenderCommunity": "その人は、提案されたテルとして表示されます。送信者を非表示にするには、ユーザー名を押します。",
+    "pressYourNameToOnlyShowItToReceiver": "自分の名前を押すと、受信者だけに表示されます。他の人には匿名です。",
+    "pressYourUsernameToShowItEveryone": "自分のユーザー名を押して、全員に表示。",
+    "pressYourUsernameToShowItUser": "ユーザー名を押すと、{{-username}}だけに表示されます。",
+    "preview": "プレビュー",
+    "previewForShareMethod": "{{-shareMethod}}のプレビュー",
+    "pricePerTimeFrameShort": "<0>{{-price}}<\/0> <1>\/{{-timeFrame}}<\/1>",
+    "privacySettings": "プライバシー設定",
+    "privateChatWithRequestingUser": "リクエストしているユーザーと個人的にチャットできます。\n個人情報は決して共有せず、不快に感じたらユーザーを報告します。",
+    "proTip": "プロヒント",
+    "proTips": "プロのヒント",
+    "problemWithCaptcha": "キャプチャに問題があった。もう一度やり直してください。",
+    "proceed": "進む",
+    "profileAddStatus": "ステータスを追加",
+    "profileBadge": "プロフィールバッジ",
+    "profileBoost": "プロファイルブースト",
+    "profileColor": "プロフィールカラー",
+    "profileComplete": "プロフィールが完成しました！",
+    "profileContactsConnect": "コンタクトを接続",
+    "profileEmoji": "プロフィール絵文字",
+    "profileFindFriends": "すでに知っている友達を見つけられます",
+    "profileLinkInBio": "バイオのプロフィールリンク?",
+    "profileLinkInBioDescription": "テルネームのプロフィールリンクを{{-shareMethod}}に追加すると、友達があなたにテルを送信しやすくなります。",
+    "profileLooksPerfect": "これでプロフィールは完璧だ！",
+    "profileMostUsers": "ほとんどのユーザーは都市と年齢を追加",
+    "profilePhoneNumberUse": "あなたの電話番号をすでに知っている人を見つけるためにのみ使用されます",
+    "profileRecognize": "友達にあなたのプロフィールを認識してもらいます",
+    "profileSettings": "プロファイル設定",
+    "profileShare": "プロフィールを共有",
+    "profileUpdatesAndOtherActivitiesWillAppearHere": "プロフィールの更新とその他のアクティビティがここに表示されます",
+    "profileUpdatesTitle": "プロフィールの更新",
+    "profileViews": "プロフィールのビュー",
+    "profileVisits": "プロフィールへの訪問",
+    "profilesWithPicsReceiveMoreTells": "写真付きプロファイルは平均4倍の通知を受け取ります",
+    "prompts": "プロンプト",
+    "proofsSufficient": "多くの場合、十分である証明：",
+    "provideMoreInfo": "詳細情報を提供します",
+    "purchase": "購入",
+    "pushNotificationsForNewTells": "新規テルのプッシュ通知",
+    "pushPermissionsForFollow": "通知をオンにして、このユーザーがあなたをフォローバックしたことを知らせます",
+    "pushPermissionsForQuickResponse": "通知をオンにして、テルが届いたらすぐに回答できるようにします",
+    "pushPermissionsForTellArrival": "お友達からテルが届いたらお知らせします。",
+    "pushPromotionChristmas1Body": "すべてのプレミアム機能をお得にゲット - 期間限定！",
+    "pushPromotionChristmas1Title": "🎄 このホリデーシーズンは70％オフでお得！",
+    "pushPromotionChristmas2Body": "プレミアム機能が70％オフ！",
+    "pushPromotionChristmas2Title": "✨ ホリデーが終わる前にアップグレードしよう",
+    "pushPromotionChristmas3Body": "このクリスマス、自分自身を70％オフでご褒美しましょう！",
+    "pushPromotionChristmas3Title": "🎅 ホーホーホー、ホリデーオファー",
+    "pushPromotionChristmas4Body": "ラストチャンスー このホリデーにプレミアムを70％オフで！",
+    "pushPromotionChristmas4Title": "⏰ 残り12時間だけ！",
+    "pushPromotionNewYear1Body": "プレミアムを70％オフでアップグレード— オファーは近日終了！",
+    "pushPromotionNewYear1Title": "🎊 2025年 への準備はできてる？",
+    "pushPromotionNewYear2Body": "プレミアムを70％オフで新年を祝おう— あと24時間！",
+    "pushPromotionNewYear2Title": "⌛️ 2025年向けのセービングをカウントダウンしよう",
+    "pushPromotionNewYear3Body": "70％オフのプレミアム— 真夜中前の最後のチャンスです！",
+    "pushPromotionNewYear3Title": "⏰ 今夜が期限！",
+    "putItHere": "ここに書く",
+    "questionLimitReached": "質問の限界に達しました！",
+    "racism": "人種差別",
+    "racismDescription": "個人またはグループに対するいかなる種類の人種差別も固く禁じられています。",
+    "randomColor": "ランダムカラー",
+    "randomPicture": "ランダム写真",
+    "randomize": "ランダムにします",
+    "reactToAnswers": "回答に反応",
+    "reactToPostsFromOthers": "他の人からの投稿に反応",
+    "reacting": "反応",
+    "reactionsAndNewFollowersWillBeShownHere": "リアクションと新しいフォロワーがここに表示されます",
+    "readReceipts": "既読受信",
+    "readyToExploreAllYourBenefits": "すぐに全ての会員特典を探索しますか？",
+    "reallyWantToHide": "本当にこれを非表示にしますか?",
+    "receiveAnonymousQuestionsFromFriends": "友達から匿名の質問を受け取ります🔥",
+    "receiveTellsFromTellonymTeam": "テルネームチームからテルを受け取ります",
+    "receiveTellsWithMyInterests": "自分の興味に合ったテルを受信",
+    "receivedStars": "受け取った星",
+    "recentActivity": "最近の活動",
+    "recentChats": "最近のチャット",
+    "recommended": "推薦されました",
+    "recommendedContent": "おすすめのコンテンツ",
+    "recoverByEmail": "メールで回復",
+    "recoveryMethod": "回復方法",
+    "recoveryMethodWontBeSupportedAddAnother": "使用した回復方法は今後サポートされなくなります。もう 1 つを追加してください:",
+    "recurringBillingCancelAnytime": "定期的な請求、いつでもキャンセル可。",
+    "registerNowToGetNotified": "今すぐ登録して、回答が得られたときに通知を受け取ります!",
+    "registerToWriteTell": "このユーザーは、登録済みユーザーからのみテルを受信したいと考えています。サインアップまたはログインしてください。",
+    "registerWithEmail": "メールで登録",
+    "registerWithPassword": "パスワードで登録",
+    "rememberHearingOpinionFromFriends": "友達から面白いと思った意見を聞いたのに、自分では聞いていなかったことを覚えていますか?　これが私たちがあなたにこれを尋ねる理由です。",
+    "rememberToAddALinkInsta": "あなたのストーリーにあなたのリンクを追加することを忘れないで、それはすでにコピーされています。",
+    "rememberToAddALinkSnap": "あなたのスナップにあなたのリンクを追加することを忘れないで、それはすでにコピーされています。",
+    "rememberToAddALinkToYourSnapShort": "スナップにリンクを追加しますか？",
+    "rememberToAddALinkToYourStory": "インスタグラムが開いたらすぐにストーリーへのリンクを追加することを忘れないでください。",
+    "rememberToAddALinkToYourStoryShort": "ストーリーにリンクを追加しますか？",
+    "remindAboutNewReports": "報告を思い出させる",
+    "remove": "削除",
+    "removeAds": "広告を削除",
+    "removeAnyHatsSunglassesAndFacecoverings": "帽子、サングラス、フェイスカバーを外す",
+    "removeInterest": "興味を削除",
+    "removeMiddlePicture": "真ん中の写真を削除",
+    "removePicture": "写真を削除",
+    "removeSafetyCode": "安全コードを削除",
+    "removeSubmitterStatus": "送信者ステータスを削除",
+    "renewsAtPriceAfterFirstPeriod": "最初の{{-period}}の後は{{-price}}で更新されます",
+    "reply": "返事",
+    "reportId": "報告ID{{-reportId}}",
+    "reportProfile": "プロファイルを報告",
+    "reportUpdated": "<0>あなたが気になるサポートチケットに関するニュースがあります<\/0> <1><\/1> <2>{{-createdAt}}<\/2>",
+    "reportUser": "ユーザーを報告",
+    "requestingSelfInjury": "自傷の要求",
+    "requestingSelfInjuryDescription": "自分自身を傷つけるような要求は固く禁じられています。",
+    "resentlySearchedPeople": "最近検索された人々",
+    "resetAll": "すべてリセット",
+    "respond": "応答",
+    "respondingTell": "テルに回答",
+    "restorePurchases": "購入を復元",
+    "retry": "再試行",
+    "roughLocationOfSender": "送信者の大まかな場所",
+    "sadThatYouGoWhatsTheReason": "あなたがいなくなるのは悲しい理由は何ですか？",
+    "sadToSeeYouGo": "あなたが行くのを見るのは悲しいです",
+    "safeAccountMoreTells": "安全なアカウント、より多くのテル、簡単なログイン",
+    "safeYourAccountConnectingPhone": "携帯電話を接続してアカウントを保護します",
+    "safetyCodeMustContain": "安全コードは 4 桁である必要があります",
+    "safetyCodeRemoved": "安全コードが正常に削除されました",
+    "safetyOptions": "安全オプション",
+    "safetyOptionsSaved": "Safety options saved",
+    "save": "保存",
+    "saveAmountPercentage": "{{-amount}}%を保存",
+    "savePercentage": "{{-percentage}}% 節約",
+    "saveToCameraroll": "カメラロールに保存",
+    "saveUpToBySwitchingPlans": "プランを切り替えることで最大{{count}}%節約",
+    "saveUpToPercentageBySwitchingPlans": "プラン変更で最大{{-maxSavePercentage}}%節約",
+    "saved": "保存されました",
+    "savedToGallery": "ギャラリーに保存しました",
+    "savedToTheGalleryNowDoThis": "ギャラリーに写真を保存しました。これで、スナップで共有できます。",
+    "savingPercentage": "{{-percentage}}% を節約しています",
+    "saySomething": "何か言って...",
+    "sectionPostAnswered": "回答済みのテル",
+    "sectionPostUnanswered": "回答されないテル",
+    "seeAHint": "ヒントをご覧ください！",
+    "seeAllAnswersFromFriends": "友達の回答をすべて見ます",
+    "seeAllAnswersInApp": "アプリ内の{{-username}}からのすべての回答を参照します",
+    "seeAllAnswersInTheTellonym": "テルネーム アプリですべての回答を表示します",
+    "seeAllAnswersInTheTellonymApp": "<0>全ての回答を見ます<\/0> <1>テルネーム<\/1>",
+    "seeAllFollowersInTheTellonymApp": "<0>フォロワーを全員見ます<\/0> <1>テルネーム<\/1>",
+    "seeAllFollowingsInTheTellonymApp": "<0>フォローしている全員を見ます<\/0> <1>テルネーム<\/1>",
+    "seeCountHints": "{{count}}のヒントを見てみて",
+    "seeCountHints_plural": "{{count}}のヒントを見る",
+    "seeHints": "ヒントを見る",
+    "seeHow": "詳細はこちらです",
+    "seeHowOthersVoted": "他の人がどのように投票したかを見ます",
+    "seeIfTellsGotDeliveredWithNewFeature": "送信済みテルが配信されたかどうか、およびこの新しい独占プレミアム機能で表示されたかどうかを確認します",
+    "seeIfYourSentTellsGotDeliveredAndIfTheyWereSeen": "送信済みテルが配信されたかどうか、および見られたかどうかを確認します",
+    "seeInFullScreen": "フルスクリーンで見ます",
+    "seeMore": "もっと見ます",
+    "seeMoreAnswersFrom": "テルネームアプリで{{-username}}の他の回答を見ます",
+    "seeMoreAnswersToThisQuestion": "この質問に対する回答をもっと見ます",
+    "seePossibleHints": "利用可能なヒントを見ます",
+    "seeWhatOthersAnswered": "他の人の回答を見ます",
+    "seeWhoCheckedYouOut": "誰があなたをチェックアウトしたかを確認します",
+    "seeWhoGaveYouStar": "誰があなたに星をつけたか見て、新しい友達を見つけよう。",
+    "seen": "見た",
+    "selectAiVoice": "AI音声を選択<1>（オプション）<1>",
+    "selectCameraRoll": "カメラロールを選択",
+    "selectOccupationWeSuggestPeople": "あなたの現在の職業を選択すると、関連する人々を提案できます。",
+    "selectSavedPictureFromTellonymAndSendIt": "テルネームから保存した写真を選択して送信します。",
+    "selectSavedPictureTapEditIcon": "保存した写真を選択し、左下の「編集」アイコンを押します。",
+    "selectTells": "テルを選択",
+    "selectTheLatestPictureAndPressTheEditButton": "最新の写真を選択し、左下の編集ボタンを押します",
+    "selectTheLatestPictureAndPressTheStickerButton": "最新の写真を選択し、ステッカーボタンを押します",
+    "selectYourAgeGroup": "どの年齢層に属するかを選択",
+    "selfharmPromotion": "自傷の助長",
+    "selfharmPromotionDescription": "自傷の助長は固く禁じられています。これには、挑戦、写真、自傷を示唆する文章も含まれます。",
+    "sendAChatRequestTo": "チャット リクエストを次の宛先に送信：",
+    "sendAnonymous": "匿名で送信",
+    "sendAnonymousMessagesToYourFriendsOrExplore": "友達に匿名のメッセージを送信したり、他のプロフィールを探索したりできます。",
+    "sendAnotherTell": "別のテルを送信",
+    "sendDm": "DMを送信",
+    "sendFriendsSomeTells": "友達にテルを送信",
+    "sendMeAnonymousMessages": "匿名のメッセージを送ってください...",
+    "sendMeCategory": "カテゴリーを回答",
+    "sendMeCategoryGiveYouMyTopThree": "カテゴリーを送れば、私のトップ3を教える",
+    "sendMeHonestMessages": "私にテルを送信",
+    "sendMeTells": "私にテルを送信",
+    "sendNetzdgReport": "NetzDG報告を送信",
+    "sendOneToYourself": "自分自身に送信",
+    "sendSnap": "スナップを送信",
+    "sendSomeTells": "いくつかのテルを送信",
+    "sendTell": "テルを送信",
+    "sendTellSending": "送信中のテル",
+    "sendTellToAllMembers": "メンバー全員にテルをす送信",
+    "sendTellsToFriends": "友達にテルを送信",
+    "sendTellsUsingVoicesOfYourFavoriteCelebs": "究極のメッセージングの匿名性のために、お気に入りのセレブの音声を使い、テルを送信します。",
+    "sendWarning": "警告を送信",
+    "sendYourFirstTell": "最初のテルを送信！",
+    "senderAlmostNeverSendsTells": "送信者は通常、ほとんどテルを送信しません",
+    "senderDoesNotFollowManyOfYourFriends": "送信者はあなたの友達をあまりフォローしていません",
+    "senderDoesNotHaveMoreThanAmountFollowers": "送信者は{{-value}}以上のフォロワーを持っていません",
+    "senderDoesNotHaveOneOfThoseEmojis": "ユーザーはこれらの絵文字の1つを持っていません: {{-value}}",
+    "senderFollowsSimilarPeopleAsYouDo": "送信者はあなたと同じような人をフォローしています",
+    "senderFollowsSomeOfYourFollowings": "送信者はあなたのフォローのいくつかもフォローしています",
+    "senderFollowsYouAnonymously": "送信者は匿名であなたをフォローしています",
+    "senderHasAmountAnswersOnProfileAndIsVeryActive": "送信者はプロフィールに{{-value}}以上の回答があり、非常にアクティブです",
+    "senderHasNoBadgeOnProfile": "送信者のプロフィールにバッジがありません",
+    "senderHasNoChatWithYou": "送信者はあなたとアクティブなチャットをしていません",
+    "senderHasNotLikedAnyOfYourPostsRecently": "送信者は最近あなたの投稿に「いいね！」をしていません",
+    "senderHasNotReceivedMoreThanAmountTells": "送信者は{{-value}}以上のテルを受信していません",
+    "senderHasSeenAllYourRecentAnswers": "送信者はあなたの最近の回答をすべて見ています",
+    "senderHintAvailable": "送信者のヒントが利用可能",
+    "senderHintInformationAvailableOnlyReceivingUser": "送信者ヒント情報は、受信ユーザーのみが利用可能です",
+    "senderHints": "送信者のヒント",
+    "senderHintsNotInterestingEnough": "送信者のヒントが十分に面白くありません",
+    "senderIsComingFromInstagram": "送信者はインスタグラムから来た",
+    "senderIsComingFromSnapchat": "送信者はスナップチャットから来た",
+    "senderIsNotFollowingYou": "送信者はあなたをフォローしていません",
+    "senderIsNotUsingIphone": "送信者がiPhoneを使っていません",
+    "senderIsRegisteredForOverCreatedAt": "送信者は{{-value}}以上登録されています。",
+    "senderJustRegistered": "送信者が登録したばかりです",
+    "senderKnowsYouPersonally": "送信者はあなたを個人的に知っています",
+    "senderLikely18To22Years": "送信者はおそらく 18 ～ 22 歳です",
+    "senderLikelyDoesNotKnowYouPersonally": "送信者はあなたのことを個人的に知らない可能性が高いです",
+    "senderLikelyKnowsYouPersonally": "送信者はおそらくあなたを個人的に知っています",
+    "senderMostLikelyKnowsYouPersonally": "送信者はおそらくあなたを個人的に知っています",
+    "senderProfileColorIsNot": "送信者のプロファイルのカラーは、{{-value}}、{{-value1}}、{{-value2}}のいずれでもありません。",
+    "senderSentYouTellsRecently": "送信者は最近、あなたにいくつかのテルを送信しました。",
+    "senderUsesAndroidPhone": "送信者がアンドロイド携帯を使っています",
+    "senderUsesIphone": "送信者はアイホンを使っています",
+    "senderWasCloseToTown": "送信者はあなたの町内またはその近くにいた",
+    "senderWasInAnotherCity": "送信者は別の都市にいた",
+    "senderWasInAnotherCountry": "送信者が別の国にいた",
+    "senderWasInYourTown": "送信者はあなたの町にいた",
+    "senderWasVeryClose": "送信者は非常に近くにいた",
+    "sendersProfileDoesNotLinkToInstaOrSnap": "送信者のプロフィールがインスタグラムやスナップチャットのプロフィールにリンクされていません",
+    "sensitiveContent": "機密性の高いコンテンツ",
+    "sent": "送信しました！",
+    "sentAnotherVoiceTell": "別の音声テルを送信",
+    "sentTellAnswered": "<0>{{-username}}<\/0> <1>はあなたのテルに回答しました<\/1> <2>{{-tell}}<\/2> <3><\/3> <4>{{-createdAt}}<\/4>",
+    "sentTellModal": {
+        "SENT_TELL_TEXT_0": "<0><\/0><1>の回答を絶対に見逃さないで<\/1><2> {{-username}} <\/2><3><\/3>",
+        "SENT_TELL_TEXT_1": "<0>👇<\/0><1>あなたの友達の中で誰がここにいるのか見つけます<\/1><2>👇<\/2>",
+        "SENT_TELL_TEXT_2": "<0>👇<\/0><1>{{-username}} <\/1><2>と<\/2><3> {{-peopleCount}} <\/3><4>人がここにいます<\/4><5>👇<\/5>",
+        "SENT_TELL_TEXT_3": "<0>👇<\/0><1>の回答を絶対に見逃さないで<\/1><2> {{-username}} <\/2><3>👇<\/3>",
+        "SENT_TELL_TEXT_4": "<0>👇<\/0><1>他の人が自分について何を言っているか見つけます<\/1><2>👇<\/2>",
+        "SENT_TELL_TEXT_5": "<0>👇<\/0><1>彼らが面と向かって言わないことを見つけます<\/1><2>👇<\/2>",
+        "SENT_TELL_TEXT_6": "<0>👇<\/0><1>自分のメッセージを手に入れて、回答をIGのストーリーにします<\/1><2>👇<\/2>",
+        "SENT_TELL_TEXT_7": "<0>👇<\/0><1>質問に答えたときを見逃さないようにします<\/1><2>👇<\/2>"
+    },
+    "sentTellModalCta": {
+        "SENT_TELL_CTA_1": "アプリを入手",
+        "SENT_TELL_CTA_2": "今すぐ参加",
+        "SENT_TELL_CTA_3": "テルネームアプリを開きます"
+    },
+    "sentTells": "送信済みテル",
+    "sentWithLoveFromTellonymUseAsConversationStarter": "テルネームチームから❤️送信されました。友達との会話のきっかけとしてご利用します。",
+    "setAsAMainNetwork": "メインネットワークとして設定",
+    "setGenderGetMoreTells": "より多くのテルを受信するために性別を設定。",
+    "setPhoneNumberBeFound": "友達に見つけられるように電話番号を設定します。",
+    "setSafetyCode": "安全コードを設定",
+    "setsFiltersVeryHighLevel": "これは可能な限り最高レベルで、広範な保護を提供します。これは、ブロックされたくないメッセージをブロックすることにつながる可能性があることに注意してください。",
+    "settingDeterminesProfilesYouSee": "この設定により、どのプロフィールが表示され、誰とマッチングできるかが決まります。",
+    "sexism": "性差別",
+    "sexismDescription": "性別に対する憎悪的なコメントは禁止されています。",
+    "sexualHarassment": "セクハラ",
+    "sexualHarassmentDescription": "明確な性的行動を要求したり、個人にセクハラをしたりするメッセージは許可されません。",
+    "sexualHarassmentInformation": "セクハラ",
+    "sexualHarassmentLevel": "セクハラ",
+    "shapes": "形状",
+    "shareAiVoiceTellOnInsta": "インスタグラムでAI 音声テルを共有しますか？",
+    "shareAnswerEmpty": "回答をお忘れですか？",
+    "shareAnswerEmptyDescription": "まだ回答を入力していません。今すぐ戻ってこれを行いますか?",
+    "shareAsSticker": "ステッカーとして共有",
+    "shareElsewhere": "他の場所で共有します",
+    "shareEveryAnswer": "投稿したすべての回答を共有",
+    "shareEveryAnswerDescription": "回答中や回答後に、使用するネットワークを選択して、回答を共有できます。いくつかのオプションはテルネームを終了しますが、テルネームを再度開き、別のネットワークを選択することで、複数のネットワークに共有できます。",
+    "shareGameToStoryReceiveTellsHelper": "このゲームをあなたのストーリーに共有し、提案されたトピックについて友達からテルを受信します。",
+    "shareInDm": "DMで共有",
+    "shareLinkAndGetTellsFromStories": "あなたのリンクを共有し、あなたの友達があなたのストーリーを上にスワイプして彼らがどう思うかを伝えます。",
+    "shareLinkRegularly": "あなたのリンクを定期的に共有",
+    "shareLinkRegularlyDescription": "上のソーシャルネットワークのアイコンを押すだけで、どのネットワークでもリンクを共有できます。また、リンクをコピーして共有することもできます。あなたのプロフィールはtellonym.meのリンクからアクセスできます。",
+    "shareMoneyRaisedOnInstagramPage": "<0>毎月1回、集まったお金を<\/0> <1>インスタグラムページ<\/1>で紹介しています。",
+    "shareMultiple": "複数で共有",
+    "shareMultipleAnswers": "複数の回答を共有",
+    "shareMyTell": "私のテルを共有します",
+    "shareOnSocial": "{{-social}}で共有",
+    "sharePost": "投稿を共有",
+    "sharePostEmpty": "投稿をお忘れですか？",
+    "sharePostEmptyDescription": "まだ投稿を入力していません。今すぐ戻ってこれを行いますか?",
+    "sharePostGetTells": "投稿を共有してテルを受信",
+    "sharePostSocialMedia": "ソーシャルメディアで投稿を共有",
+    "sharePostTo": "投稿を共有。。。",
+    "sharePostUsingTrendingStickers": "トレンドのステッカーを使って投稿を共有し、友達からテルをもらいます",
+    "shareProfile": "あなたのプロフィールを共有して、より多くのテルを手に入れましょう!",
+    "shareProfileOnSocial": "{{-social}}でプロフィールを共有",
+    "shareProfileTo": "。。。にプロフィールを共有",
+    "shareProfileToReceiveTells": "あなたのプロフィールを共有して、友達からのテルを受信しましょう。",
+    "shareTell": "テルを共有",
+    "shareTellTo": "テルを共有...",
+    "shareTellsWithoutAnswering": "答えずにあなたのテルを共有",
+    "shareThisAnswer": "この回答を共有したいですか？",
+    "shareThisPostToGetTells": "この投稿を共有して友達からテルをもらいます",
+    "shareThisStoryToMakeThemSeeYourResponse": "このストーリーを共有して、あなたの反応を見てもらいます",
+    "shareTo": "{{-shareProvider}}に共有",
+    "shareToGetMoreTells": "より多くのテルを受信するために共有",
+    "shareToGetTells": "共有してテルを取得",
+    "shareToInstagram": "インスタグラムに共有",
+    "shareToMakeFriendsSeeIt": "あなたの投稿をソーシャルメディアで共有して、友達に見てもらいます。",
+    "shareToSnapchat": "スナップチャットで共有",
+    "shareToTitle": "シェアする",
+    "shareTwoOrMoreAnswersAtOnce": "2 つ以上の回答を一度に共有します。",
+    "shareUpToFourAnswers": "インスタグラムまたはスナップチャットで最大4つの回答を共有しましょう!",
+    "shareUpToFourAnswersAtOnce": "インスタグラムやスナップチャットで一度に最大4つの回答を共有します",
+    "shareUpToFourTells": "1つのストーリーで最大4つのテルを共有",
+    "shareWithFriends": "友達と共有",
+    "shareYourAnswer": "回答を共有",
+    "shareYourAnswerAsUsual": "いつものようにあなたの回答を共有",
+    "shareYourAnswerOnSocial": "{{-social}}であなたの回答を共有",
+    "shareYourFeedback": "フィードバックを共有",
+    "shareYourLink": "リンクを共有",
+    "shareYourLinkByPressingNetworks": "ソーシャルメディアでリンクを共有して、友達からテルを受信します",
+    "shareYourLinkToGetTells": "リンクを共有してテルを取得",
+    "shareYourOpinion": "意見を共有",
+    "shareYourProfile": "プロフィールを共有",
+    "shareYourProfileToGetAnonymousMessages": "プロフィールを共有して匿名のメッセージを受け取ります",
+    "shareYourProfileToGetTells": "プロフィールを共有してテルを受信",
+    "shareYourTopTellsThisWeek": "今週のトップ・テルを1つのストーリーとして共有します",
+    "shareYourTopThreeInstructions": "あなたのトップ3を友達と共有します。インスタグラム\/スナップチャットを選択し、「プレビュー」を押して、ストーリーがどのように表示されるかを確認します。",
+    "sharedAPost": "ポストを共有しました",
+    "sharedAProfile": "プロフィールを共有しました",
+    "sharingFailed": "共有が失敗しました",
+    "sharingMethod": "共有方法",
+    "sharingStickerColorUpdated": "ステッカーのカラーが更新されました",
+    "sharingSucceeded": "共有が成功しました",
+    "sharingThisSomeone": "これを誰かと共有しますか?👀",
+    "showAll": "全て表示",
+    "showAmountMore": "{{-amount}}をもっと表示",
+    "showAnsweredOnly": "回答済みのみを表示",
+    "showCommunityTells": "コムテルを表示",
+    "showGdprConsentDialog": "GDPR同意ダイアログを表示",
+    "showHow": "方法を表示",
+    "showMe": "見せて：",
+    "showMeHowToDoIt": "やり方を教えてください！",
+    "showMore": "もっと見ます",
+    "showOlderComments": "古いコメントを表示...",
+    "showOlderPosts": "以前の投稿を表示",
+    "showOlderTells": "以前のテルを表示",
+    "showPeopleWhatYoureIntoAndConnect": "あなたが興味を持っていることを人々に示し、同じものが好きな人とつながります",
+    "showRecommendedContent": "おすすめのコンテンツを表示",
+    "showYourInterests": "興味を示す",
+    "signIn": "サインイン",
+    "signInWithApple": "アップルでサインイン",
+    "signUp": "登録",
+    "signUpToSeeFriendsTalkingAndAnswer": "アカウントを作成して、お友達が話していることを参照し、あなたの質問に回答してもらいます。",
+    "signUpWithEmail": "メールで登録",
+    "sinceDate": "{{-date}}から",
+    "siteProtectedRecaptchaGoogle": "このサイトは再キャプチャとグーグルによって保護されています。",
+    "skip": "スキップ",
+    "snapAndInstaPictureSharing": "スナップチャットやインスタグラムの写真共有",
+    "snapCamera": "スナップチャットカメラ",
+    "snapKitSupportEnded": "スナップキットのサポートが終了",
+    "snapLoginWillBeRemovedVerySoon": "スナップログインはまもなく削除されます。",
+    "snapchatCameraWillBeOpened": "スナップチャットのカメラが開きます",
+    "snapchatCameraWillBeOpenedWhenYouShare": "共有するとスナップチャットカメラが開きます",
+    "snapchatDeprecationDescription": "スナップチャットは、匿名の機能セットを備えたアプリをサポートしないことを決定しました。中断することなくサービスを提供し続けるには、スナップキットの実装を削除する必要がありました。\n\nつまり、他のログイン方法が接続されていない場合、アカウントにアクセスできなくなります。申し訳ありません。",
+    "social": {
+        "facebook": "フェイスブック",
+        "facebookMessenger": "フェイスブックメッセンジャー",
+        "facebookStories": "フェイスブックストーリー",
+        "iMessage": "iメッセージ",
+        "instagram": "インスタグラム",
+        "instagramMulti": "マルチインスタグラム",
+        "instagramPost": "インスタグラムの投稿",
+        "instagramStory": "インスタグラムストーリー",
+        "messenger": "メッセンジャー",
+        "ownInstagramStory": "自分のインスタグラムストーリー",
+        "ownSnapchatStory": "自分のスナップチャットストーリー",
+        "sms": "SMS",
+        "snapchat": "スナップチャット",
+        "snapchatMulti": "マルチスナップ",
+        "snapchatStory": "スナップチャットストーリー",
+        "twitter": "X",
+        "whatsapp": "ワッツアップ"
+    },
+    "socialLinks": {
+        "INSTAGRAM": "インスタグラム{{-username}}",
+        "SNAPCHAT": "スナップチャット{{-username}}",
+        "SPOTIFY": "スポティファイ{{-username}}",
+        "TWITTER": "X: {{-username}}",
+        "YOUTUBE": "ユーチューブ{{-username}}"
+    },
+    "socialMedia": "ソーシャルメディア",
+    "socialMediaAccounts": "ソーシャル メディア アカウント",
+    "socialMediaAccountsDescription": "ソーシャル メディア アカウントとテルネームユーザー名を許可します。メールも許可されます。",
+    "socialMediaTutorialsTitle": "ソーシャルメディアでリンクを共有する方法をご覧ください",
+    "socialSignInError": "サインインしようとしてエラーが発生しました。再試行するか、後でアカウントに接続してください。",
+    "socialUsername": "{{-social}}ユーザー名",
+    "someOfYourTellsCameFromIgUseThisStory": "<0>あなたのテルはいくつかIG!<\/0から来ました>このストーリーを使って、友達にあなたの回答を見てもらいましょう!",
+    "someTellsCameFromIg": "いくつかのテルはインスタグラムから来ました。",
+    "someTellsFromInstagram": "インスタグラムからいくつかのテル",
+    "someTellsGiveYouTipsNeverReveal": "いくつかのテルについては、ヒントを差し上げできます。しかし、それを明かすことはありません！",
+    "someTellsToStart": "🚀 いくつかのテルで始めます🚀",
+    "somebodyUsedAiName": "誰かが{{-name}}を使用しました",
+    "someone": "誰か",
+    "someoneStartedFollowingYouAnonymously": "誰かが匿名であなたをフォローし始めました",
+    "someoneStartedFollowingYouAnonymouslyAt": "<0>誰か<\/0> <1>が匿名であなたをフォローし始めました<\/1> <2>{{-createdAt}}<\/2>",
+    "somethingWentWrong": "何かが間違っていた",
+    "somethingWentWrongPleaseTryAgainLater": "何か問題が発生しました:(\n後でもう一度試してください",
+    "soonLotsOfExcitingAnswers": "すぐに、あなたは他の人からたくさんの興味深い回答をここで見つけるでしょう。",
+    "spamLevel": "スパムレベル",
+    "spamLevelInformation": "スパムレベル情報",
+    "specialOffer": "特別なオファー",
+    "specifyWhatYouWantToReceive": "受信したい内容を設定で指定できます。",
+    "spendTokensOrBuyMore": "トークンを使うか、さらに購入してウォレットを増やし続けましょう!",
+    "standOutShowingYouAreSupporter": "あなたがサポーターであることを示して目立ちます",
+    "startAmountFreeTrial": "{{-amount}}の無料トライアルを開始",
+    "startChat": "チャットを始めます",
+    "startChattingWithYourFriends": "友達とチャットを始めます",
+    "startEarningTelloTokensForYourActivityInTheApp": "アプリ内でのアクティビティに対してテルトークンの獲得を開始しましょう",
+    "startForPriceDuration": "{{-priceDuration}}から開始",
+    "startGettingTells": "テルの取得を開始",
+    "startReceivingMessagesNow": "今すぐ匿名のメッセージの受信を開始し、友達からの回答を参照します。",
+    "startSharing": "共有開始",
+    "startToChatWith": "。。。とチャットを始めます",
+    "startTypingHere": "ここから入力をスタート",
+    "startWithAt": "＠から始めます",
+    "statusEmojiEventTitles": {
+        "ALWAYS_DRESS_WELL": "常に着飾る",
+        "CHEAT_DAY": "チートデー",
+        "CORONA": "コロナタイム",
+        "HALLOWEEN": "ハロウィーンタイム",
+        "INDEPENDENCE_DAY": "独立記念日",
+        "LOVING_NATURE": "美しい自然",
+        "SUMMER": "サマータイム",
+        "TIME_TO_GET_JOB": "就職する時期"
+    },
+    "stayStrongMuchLove": "強く生きろ！たくさんの愛をあなたに💛",
+    "stayWithCurrentPlan": "現在のプランをそのまま使用します",
+    "stepOneCopyYourProfileLink": "ステップ1：プロフィールリンクをコピー",
+    "stepTwoShareItWithYourFriends": "ステップ2: 友達と共有",
+    "stickerBackground": "ステッカーの背景",
+    "stillInBetaAndLotsToPolish": "まだベータ版で、やるべきことはたくさんありますが、将来のアップデートが予定されています。",
+    "stillSameSocials": "あなたのアカウントはまだ同じですか?",
+    "storyBackground": "ストーリーの背景",
+    "storysBackground": "ストーリーの背景",
+    "studyApprentice": "勉強 \/ 見習い",
+    "subRecentlyAddedSeeAdsAndLoseFeatures": "サブスクリプションが最近終了しました。再購読するまで、広告が表示され、すべてのテルネームプラス特典にアクセスできなくなります。",
+    "subscribeBack": "フォローバック",
+    "subscribeToTellonymPlusAndGetAVerificationBadge": "テルネームプラスに登録し、自撮りで認証バッジをゲット。",
+    "subscriptionHasEndedYouLostAllBenefits": "サブスクリプションが終了しました。テルネームプラスの特典はすべて失効しました。",
+    "successYourTellWasSent": "成功です！テルが送信されました！",
+    "successfullyConnected": "正常に接続されました!",
+    "successfullyJoined": "正常に参加しました",
+    "successfullyPassedPhotoVerification": "写真認証に合格",
+    "successfullySaved": "正常に保存されました!",
+    "successfullyUnsent": "送信が取り消されました",
+    "successfullyVerified": "検証に成功",
+    "suggestTell": "コミュニティテルについて提案",
+    "suggestedFriends": "おすすめの友達",
+    "suggestedProfile": "<0>あなたは<\/0> <1>{{-username}}<\/1> <3>を知っているかもしれません<\/3>  <4><\/4> <5>{{-createdAt}}<\/5>",
+    "suggestedProfileContactBook": "<0>{{-username}}<\/0> <1>はテルネームに参加したばかりです！<\/1> <2><\/2> <3>{{-createdAt}}<\/3>",
+    "suggestions": "提案",
+    "supportTeamBannedUser": "<0>サポートチームは、<\/0> <1>コミュニティガイドライン<\/1に違反したとして、このユーザーを禁止することを決定しました>",
+    "supportTellonym": "テルネームをサポート",
+    "supportTicketUpdateAvailable": "サポートチケットの更新が利用可能です",
+    "supporterBadge": "サポーターバッジ",
+    "sureWantToReportIt": "これを報告してもよろしいですか?",
+    "swipeRightAndGoToCameraRoll": "インスタを開き、右にスワイプしてカメラロールに移動します。",
+    "swipeUp": "上にスワイプ",
+    "swipeUpAndGoToCameraRoll": "スナップを開き、上にスワイプして「カメラロール」を選択します",
+    "swipeUpToSendMeTells": "上にスワイプして私にテルを送信",
+    "swiponym": "スウィポニム",
+    "switchPlansAndSaveUpToPercentage": "プラン変更で最大{{-maxSavePercentage}}%割引",
+    "switchToTierFor": "{{-price}} \/ {{-timeFrame}}を{{-tier}}に切り替えるる\n",
+    "symbolsPictures": "記号や写真",
+    "symbolsPicturesDescription": "違法な記号や写真は許可されていません。",
+    "takeASelfie": "自撮りをする",
+    "takeSnapClickHere": "スナップを撮ってここを押します",
+    "tap": "クリック",
+    "tapFieldSendFirstTellToPost": "この投稿に「テル」を送信し、いち早く回答を受け取りましょう！",
+    "tapHereToShare": "ここをタップして共有",
+    "tapHereToTryAgain": "ここを押してもう一度試す。",
+    "tapHereToWriteTell": "テルを書くにはここを押します",
+    "tapOnAddExternalLink": "「外部リンクを追加」を押します",
+    "tapOnAddLinks": "「リンクを追加」を押します",
+    "tapPostToCustomize": "投稿を押してメッセージをカスタマイズ",
+    "tapTextPasteLink": "テキストを押して、リンクを貼り付ける。",
+    "tapTheBoxAddWebsitePasteLink": "「ウェブサイト」と書かれたボックスを押して、リンクを貼り付ける。",
+    "tapTheIconOnTheTopRight": "右上のアイコンを押します",
+    "tapTheStickerIcon": "ステッカーアイコンをタップ",
+    "tapThereAndPaste": "そこをタップして貼り付けます",
+    "tapToAccessSpecialBlackFridayOffers": "タップして、プラスでの特別なブラックフライデーオファーにアクセスしよう",
+    "tapToEditText": "タップしてテキストを編集",
+    "tapToGoToNextQuestion": "次の質問に進むにはタップしてください",
+    "tapToTell": "タップして伝えます",
+    "tapToUse": "押して使用します",
+    "teamWillCheckSubmission": "チームが提出物を確認し、連絡するかもしれません。",
+    "tellNotAnonymousHint": "あなたのメッセージは匿名ではありません。",
+    "tellPrompt": "Tellプロンプト",
+    "tellPrompts": {
+        "ADVICE": {
+            "10046": {
+                "text": "自分の状況を説明し、<1>{{-name}}<\/1>にアドバイスを求めてみてください",
+                "title": "パーソナルアドバイス"
+            },
+            "10047": {
+                "text": "自分の状況を説明し、<1>{{-name}}<\/1>にアドバイスを求めてみてください",
+                "title": "私は何をすべきですか？"
+            },
+            "10048": {
+                "text": "自分の状況を説明し、<1>{{-name}}<\/1>にアドバイスを求めてみてください",
+                "title": "恋愛アドバイス"
+            },
+            "10049": {
+                "text": "自分の状況を説明し、<1>{{-name}}<\/1>にアドバイスを求めてみてください",
+                "title": "友情アドバイス"
+            },
+            "name": "アドバイス"
+        },
+        "BE_HONEST": {
+            "10008": {
+                "text": "匿名の質問を<1>{{-name}}<\/1>に送り、100%正直な回答をもらいましょう",
+                "title": "100%正直な"
+            },
+            "10020": {
+                "text": "<1>{{-name}}<\/1>について1つだけ変えられるとしたら、それは何ですか？",
+                "title": "tbh"
+            },
+            "10043": {
+                "text": "<1>{{-name}}<\/1>についてのゴシップを作り上げて、何が起こるか見てみましょう",
+                "title": "ゴシップタイム！"
+            },
+            "10050": {
+                "text": "本当に知りたいことを<1>{{-name}}<\/1>に尋ねてみてください。嘘をつくことは許されません！",
+                "title": "嘘をついてはいけません"
+            },
+            "10051": {
+                "text": "<1>{{-name}}<\/1>に難しい質問をして、彼が答える勇気があるか見てみてください",
+                "title": "答える勇気があるか"
+            },
+            "10052": {
+                "text": "知りたいことを<1>{{-name}}<\/1>に尋ねてみてください。正直でなければなりません。",
+                "title": "あなたのワイルドカード"
+            },
+            "name": "正直になってください！"
+        },
+        "DATING_RELATIONSHIPS": {
+            "10002": {
+                "text": "状況を提示し、<1>{{-name}}<\/1>に判断させてみて 🚩 または ✅",
+                "title": "アラーム🚩"
+            },
+            "10003": {
+                "text": "あなたのルックス、個性、趣味を評価させて💥 または 🥱",
+                "title": "スマッシュまたはパス？"
+            },
+            "10012": {
+                "text": "ナンパの一言を送って、効くか試してみよう 😂",
+                "title": "私を口説いて 💦"
+            },
+            "10014": {
+                "text": "<1>{{-name}}<\/1>はあなたとデートしますか？2つの良い点と1つの悪い点を送ってみてください",
+                "title": "デート、それともデートしない?"
+            },
+            "10022": {
+                "text": "<1>{{-name}}<\/1>を誰と組ませますか？",
+                "title": "シップミー"
+            },
+            "10023": {
+                "text": "彼は完璧だけど…",
+                "title": "取引終了"
+            },
+            "10044": {
+                "text": "彼女は10点だけど…",
+                "title": "取引終了"
+            },
+            "name": "デート&関係"
+        },
+        "DEEP_QUESTIONS": {
+            "10004": {
+                "text": "深い質問を<1>{{-name}}<\/1>に送ってみよう 💭",
+                "title": "私とつながろう 💭"
+            },
+            "10045": {
+                "text": "物議を醸す意見を共有して、<1>{{-name}}<\/1>が賛成するか見てみましょう",
+                "title": "物議を醸す！"
+            },
+            "name": "深い質問"
+        },
+        "GET_TO_KNOW_ME": {
+            "10005": {
+                "text": "<1>{{-name}}<\/1>についての仮定を送ってみてください",
+                "title": "真か偽か？"
+            },
+            "10006": {
+                "text": "<1>{{-name}}<\/1>に初めての何かについて尋ねてみてください",
+                "title": "初めての"
+            },
+            "10007": {
+                "text": "<1>{{-name}}<\/1>に最後に何かをしたときについて尋ねてみてください",
+                "title": "最後の時間"
+            },
+            "10053": {
+                "text": "2つの選択肢を提示してみて 🤔 名前、恋愛の話題、映画などを試してみてください。",
+                "title": "Either \/ Or"
+            },
+            "10054": {
+                "text": "トピックを指定して、<1>{{-name}}<\/1>にその意見を語ってもらいましょう",
+                "title": "意見を求めて！"
+            },
+            "10055": {
+                "text": "<1>{{-name}}<\/1>に個人的な質問をして、彼らをより深く知ろう！",
+                "title": "私のパーソナリティについて"
+            },
+            "name": "私を知ってください"
+        },
+        "POSITIVE_VIBES": {
+            "10016": {
+                "text": "ただ、優しい言葉を<1>{{-name}}<\/1>に送ってみましょう 💖",
+                "title": "グッドカルマ"
+            },
+            "10021": {
+                "text": "<1>{{-name}}<\/1>を3語で表現してみてください、匿名で",
+                "title": "3語で"
+            },
+            "10040": {
+                "text": "<1>{{-name}}<\/1>の何が好きか教えてください",
+                "title": "一日を明るく"
+            },
+            "10041": {
+                "text": "<1>{{-name}}<\/1>に優しいことを言ってあげましょう",
+                "title": "優しい言葉が大切"
+            },
+            "10042": {
+                "text": "<1>{{-name}}<\/1>に何に感謝すべきか教えてあげましょう",
+                "title": "彼らを高める"
+            },
+            "name": "ポジティブな波動"
+        }
+    },
+    "tellPromptsTitle": "Tellプロンプト",
+    "tellSentThroughInstaBrowser": "このテルはインスタグラムのブラウザを通じて送信されました",
+    "tellSentThroughSnapchatBrowser": "このテルはスナップチャットのブラウザを通じて送信されました",
+    "tellUsAboutYourCommunity": "あなたのコミュニティについて教えてください",
+    "tellWasDeletedFromTheReceiver": "テルは受信者の受信箱から削除されました。",
+    "tellWasSentFromInstaOrSnap": "テルはインスタグラム\/スナップチャットで送信されました",
+    "tellWillBePermanentlyDeleted": "このテルは、あなたと受信者の両方から完全に削除されます。",
+    "tellWillBeSentAt": "あなたのテルは{{-time}}に送信されます。",
+    "tellWontBeAnswerableButAnswersStay": "このテルはもう回答されませんが、すでに回答したことはすべて残ります。",
+    "tellYourFriends": "友達に教えます",
+    "tellYourFriendsContent": {
+        "0": "私の何が好きですか?",
+        "1": "褒めてください！",
+        "10": "私の人生で最も重要なことは何だと思いますか？",
+        "11": "ストーリーを共有し、私はあなたが誰であるかを推測します",
+        "12": "私のテルの回答方法についてのフィードバックは？",
+        "13": "単語を共有し、私は写真を投稿",
+        "14": "名前を書いて、私の意見を共有",
+        "15": "名前を書いて、私は彼らの外見を1-10で評価",
+        "16": "名前を書いて、1～10で評価",
+        "17": "質問すれば100％正直に回答",
+        "18": "私のスタイルについてどう思いますか？",
+        "19": "ネットフリックスのおすすめは？",
+        "2": "初めて私を見たら、どう思いますか？",
+        "20": "人生のアドバイスを共有しましょう!",
+        "21": "私の強みは何だと思いますか？",
+        "3": "私についてどんなゴシップを聞きましたか?",
+        "4": "私に関するゴシップを作ってくれれば、私はそれに応えます",
+        "5": "私が魅力的だと思いますか？あなたの意見を説明してください！",
+        "6": "私の人生において、何か違うことをすべきだろうか？",
+        "7": "私の何が気に入らないのですか？",
+        "8": "変な質問してみましょう！",
+        "9": "私とデートしますか？その理由を説明してください。"
+    },
+    "telloPlusFeedback": "テルプラスフィードバック:",
+    "telloTokens": "テルトークン",
+    "telloTokensBalance": "テルトークンの残高",
+    "telloTokensBoost": "テルトークン🤝をブースト",
+    "tellonym": "テルネーム",
+    "tellonymAdsHelpSupport": "広告は当社のビジネスをサポートするものです。次の画面で「トラッキングを許可する」を押して、あなたにより関連性の高い広告を表示する許可を与えます。",
+    "tellonymApp": "テルネームアプリ",
+    "tellonymFriends": "テルネーム友達",
+    "tellonymIsAboutGettingAnonymousMessages": "テルネームは、友達から匿名のメッセージを受け取ることができます。後でいつでも選択を変更できます。",
+    "tellonymLiveStreamModeGuide": "テルネームライブストリームモードガイド",
+    "tellonymPlus": "Tellonym Plus",
+    "tellonymPlusMember": "テルネームプラスメンバー",
+    "tellonymPlusMembershipEndsInDays": "<0>あなたの<\/0> <1>テルネーム<\/1> <2>プラス<\/2> <3>メンバーシップは{{-amount}}日後に終了します。<\/3>",
+    "tellonymSmall": "テルネーム",
+    "tellonymTeam": "テルネームチーム",
+    "tellonymWantsToStayFree": "テルネームはあなたのために無料であり続けたいと考えています",
+    "tellprompts": {
+        "0": {
+            "description": "NHIEを送信して、<1>{{-name}}<\/1>に関するスパイシーな情報を見つけます🌶",
+            "placeholder": "今まで一度も",
+            "title": "今まで一度も"
+        },
+        "10": {
+            "description": "名前でも物でも何でもいいです",
+            "placeholder": "。。。について何が最悪ですか",
+            "title": "。。。について最悪なのは..."
+        },
+        "11": {
+            "description": "カテゴリを指定すると<1>{{-name}}<\/1>がお気に入りを教えてくれます",
+            "placeholder": "あなたのお好きなことは何ですか",
+            "title": "ヌメロウノ"
+        },
+        "12": {
+            "description": "口説き文句を送って、うまくいくかどうか見てみましょう😂。",
+            "title": "リズしてください💦"
+        },
+        "13": {
+            "description": "3 つの名前または物を送信すると、<1>{{-name}}<\/1>がそれらをランク付けます",
+            "placeholder": "説明なしのランク:",
+            "title": "無慈悲なランキング"
+        },
+        "14": {
+            "description": "<1>{{-name}}<\/1> はあなたとデートしますか？2つの長所と1つの短所を送信します",
+            "placeholder": "デートするかどうか？",
+            "title": "デートするかどうか？"
+        },
+        "15": {
+            "description": "状況を説明し、<1>{{-name}}から<\/1> 率直な意見を聞きます。",
+            "placeholder": "私はバカですか？",
+            "title": "私はバカですか？"
+        },
+        "16": {
+            "description": "<1>{{-name}}<\/1>を褒めてください。理由はそれだけです。 💖",
+            "title": "良いカルマ"
+        },
+        "17": {
+            "description": "キャンセルされるような意見を共有します",
+            "placeholder": "私はキャンセルされますか？",
+            "title": "キャンセルされました"
+        },
+        "18": {
+            "description": "誠に友情のために名前を送信します",
+            "placeholder": "誠に友情",
+            "title": "誠に友情"
+        },
+        "19": {
+            "description": "匿名の告白を <1>{{-name}}に<\/1> 送信します。",
+            "placeholder": "私の匿名の告白",
+            "title": "匿名の告白"
+        },
+        "1": {
+            "description": "2 つの選択肢を与えて待つ 🤔 名前、人間関係の話題、お金などを試します。",
+            "placeholder": "それよりも",
+            "title": "それよりも？"
+        },
+        "20": {
+            "description": "<1>{{-name}}<\/1>さんについて1つのことを変更できるとしたら、それは何でしょうか?",
+            "placeholder": "誠にもし君について何かを変更できるとしたら、それは",
+            "title": "誠に"
+        },
+        "21": {
+            "description": "<1>{{-name}} < \/1>さんを匿名で3つの言葉で説明します",
+            "placeholder": "あなたは3つの単語で:",
+            "title": "3単語"
+        },
+        "22": {
+            "description": "<1>{{-name}}<\/1> さんを誰とマッチしますか?",
+            "placeholder": "。。。とあなたをマッチします",
+            "title": "私とマッチ"
+        },
+        "23": {
+            "description": "彼は10点ですが…",
+            "placeholder": "彼は10点ですが、",
+            "title": "ディールブレーカー"
+        },
+        "24": {
+            "description": "カテゴリーを指定すると、<1>{{-name}}が<\/1> トップ3を教えてくれます。",
+            "placeholder": "あなたのトップ3",
+            "title": "トップ3"
+        },
+        "2": {
+            "description": "状況を与え、<1>{{-name}}<\/1>に🚩か✅かを決めさせます。",
+            "placeholder": "赤信号か否か？",
+            "title": "赤信号🟥"
+        },
+        "3": {
+            "description": "あなたの見た目、性格、趣味を説明し、評価💥または🥱を受けますか",
+            "placeholder": "スマッシュかパスか？",
+            "title": "スマッシュかパスか"
+        },
+        "4": {
+            "description": "<1>{{-name}}に<\/1>深い質問💭を送信",
+            "title": "私とつながります💭"
+        },
+        "5": {
+            "description": "<1>{{-name}}に関する<\/1>仮定を送信",
+            "placeholder": "正しいか間違っていますか？",
+            "title": "正しいか間違っていますか？"
+        },
+        "6": {
+            "description": "<1>{{-name}}<\/1> に最初の。。。について尋ねます",
+            "placeholder": "あなたの最初の。。。はどうでしたか",
+            "title": "最初"
+        },
+        "7": {
+            "description": "<1>{{-name}}<\/1> に最後の。。。について尋ねます",
+            "placeholder": "あなたの最後の。。。はどうでしたか？",
+            "title": "最後"
+        },
+        "8": {
+            "description": "<1>{{-name}}<\/1>に匿名の質問を送信すると、100% 正直に回答されます",
+            "placeholder": "100％正直に回答：",
+            "title": "100%正直"
+        },
+        "9": {
+            "description": "名前でも物でも何でもいいです",
+            "placeholder": "。。。について何が最高ですか",
+            "title": "。。。について最高なのは..."
+        }
+    },
+    "tellsAdvantage": "あなたのプロフィールを友達と共有することで、正直なメッセージをたくさんもらえます。",
+    "tellsAreComingFromFriendsOrPeople": "友達や周りの人からテルをもらいます。彼らがあなたを見つけるのを手伝います:",
+    "tellsAreOnlyVisibleToYou": "テルは、あなたが回答するまでのみ表示されます。",
+    "tellsAreOnlyVisibleToYouPressOne": "テルは、あなたが回答するまでのみ表示されます。回答するには 1 つ押してください。",
+    "tellsArrivingSoon": "テルがまもなく到着します！",
+    "tellsFromTheTeam": "チームからのテル",
+    "tellsPreferences": "テル優先",
+    "tellsWithCelebrityVoices": "セレブの音声でテル！",
+    "termsOfService": "利用規約",
+    "textTooLong": "おっとっと！テキストが長すぎます！",
+    "thankYou": "ありがとうございます！",
+    "thatWorked": "それはうまくいきました!",
+    "theCommunityHasNotSentAnyCommunityTellsYetPost": "コミュニティはまだコミュニティ テルを送信していません。メンバーを獲得するには、最初のコミュニティ テルを投稿してください。",
+    "theNewPriceWillApplyAtTheNextBillingCycle": "新しい料金は次回の請求サイクルで適用されます。購読の変更または解約をご希望の場合は、<1>携帯電話の設定に<\/1>アクセスしてください。",
+    "theRecipientHasTheOption": "受信者は、あなたのテルに返信する際に、あなたのユーザー名を表示することができます。",
+    "theUserHasntSharedAnythingYetFollowThem": "このユーザーはまだ何も共有していません。彼らの最初の投稿を見逃さないようにフォローしましょう。",
+    "thenPriceDuration": "次に、 {{-priceDuration}}",
+    "thenYourFriendsCanSendHonestMessages": "そうすれば、友達がいつでもあなたを見つけて正直なメッセージを送信できるようになります。",
+    "thereAre": "それは",
+    "thereAreNewSharingMethods": "新規共有方法",
+    "thereAreNoMatches": "今のところマッチはありません😞",
+    "thereAreNoStars": "今のところ☆はありません😞",
+    "thereAreOpenedReportsLanguage": "<0>そこには<\/0> <1>{{-openReportsCount}}<\/1> <2>あなたの言語でオープン報告があります。<\/2>",
+    "thereIsNoHintForEachTell": "すべてのテルにヒントがあるわけではありません。また、非プラスユーザーとして、送信者ヒントアイコンで示されるヒントを持つすべてのテルを表示することもできます。",
+    "thereIsNoOneToShowYet": "同じ興味を持つ人々はまだいません",
+    "theseActionsCannotBeUndone": "これらの行為は取り消すことができません",
+    "theseArePossibleHints": "考えられるヒントは次のとおりです。",
+    "thisAccountIsVerifiedBecauseTheyConfirmedTheirAuthenticity": "写真認証を合格することで本人であることが確認されましたから、このアカウントが認証されています。",
+    "thisCommunityMayContainExplicit18PlusContent": "このコミュニティには、18 歳以上向けの露骨なコンテンツが含まれている可能性があります。",
+    "thisContentWasDeleted": "このコンテンツは削除されました",
+    "thisFeatureNeedsToBeUnlocked": "この機能のロックを解除する必要があります",
+    "thisIsBetaFeatureMayDiffer": "この機能はまだ開発中であり、リリースされる前に大幅に変更される可能性があります。",
+    "thisIsForInternal": "これは社内のサポートチーム用です。ユーザーには表示されません。",
+    "thisIsRequestForPrivateChat": "これは個人的なチャットのリクエストです。",
+    "thisIsWhoSawYourProfile": "あなたのプロフィールを見たのはこの人です",
+    "thisIsYourFeed": "これはあなたのフィードです",
+    "thisItemWasReportedFor": "報告の理由",
+    "thisMonth": "今月",
+    "thisPostMightBeConnectedToContent": "この投稿は他のコンテンツに関連している可能性があります",
+    "thisPostWasDeleted": "この投稿は削除されました",
+    "thisPromptWasUsedToSendATell": "このプロンプトはTellを送るために使用されました:",
+    "thisReportSharedGovernment": "この種の報告は政府と共有され、あなたの個人データを必要とします。",
+    "thisUserBlockedYouFromSendingMessages": "このユーザーはあなたをブロックしました。\nこれ以上メッセージを送ることはできません。",
+    "thisWeek": "今週",
+    "threads": "脅威",
+    "threadsDescription": "いかなる種類の脅威も許可されません。",
+    "threeKmAway": "3km離れたところ",
+    "timeAgo": "{{-time}}前",
+    "timeFrame": {
+        "monthly": {
+            "long": "毎月",
+            "short": "月"
+        },
+        "weekly": {
+            "long": "毎週",
+            "short": "週"
+        },
+        "yearly": {
+            "long": "毎年",
+            "short": "年"
+        }
+    },
+    "timeToShare": "共有する時間",
+    "times": {
+        "day": "日",
+        "day_plural": "日間",
+        "month": "月",
+        "month_plural": "ヶ月",
+        "week": "週",
+        "week_plural": "週間",
+        "year": "年",
+        "year_plural": "年間"
+    },
+    "tipYouCanSendTellsWithoutMatch": "ヒント：マッチングされずにテルを送信することもできます。",
+    "tipsToGetMoreTells": "より多くの情報を取得するヒント",
+    "title": {
+        "alwaysFullControl": "常にフルコントロール",
+        "heading": "テルネーム — 正直で匿名のフィードバック",
+        "peopleYouMayKnow": "知り合いかも",
+        "safetyLevel": "安全レベル",
+        "twitterSharing": "ツイッター共有",
+        "yourActiveFriends": "あなたの友達"
+    },
+    "toContinueTellonymReadAndConfirm": "当社のプラットフォームにご参加いただきありがとうございます。テルネームの使用を続けるには、当社の。。。をよく読んで確認してください。",
+    "toCreateCommunitiesYouNeedFollowersAndPosts": "コミュニティを作成するには、少なくとも{{-amountFollowers}}フォロワーがいて、{{-amountPosts}}以上のテルに回答している必要があります。",
+    "toKeepYourVerificationBadgeYouNeedToHaveOnePicture": "認証バッジを保持するには、顔が写っている写真が少なくとも1枚必要です。",
+    "toMakeThingsWorkWeNeedInfo": "物事を機能させるには、次の情報が必要です。",
+    "toVerifySuccessfully": "正常に検証するには:",
+    "today": "今日",
+    "todayOnly": "本日限り",
+    "tokenInvalid": "トークンが無効です",
+    "tonsOfNewProfileEmojis": "たくさんの新しいプロフィール絵文字！",
+    "tooExpensive": "高すぎます",
+    "topOnTheAttachToSnapButtonAndSendYourSnap": "「スナップに添付」ボタンを押し、スナップを送信します。",
+    "toxicBehaviour": "有害な行動",
+    "toxicBehaviourDescription": "侮辱や嫌がらせを目的としたメッセージは許可されません。",
+    "trending": "トレンド",
+    "tryAdjustingYourSearchTermToFindTheRightProfile": "適切なプロフィールを見つけるには、検索語を調整してみてください。",
+    "tryAgain": "もう一度やり直す",
+    "tryItNow": "今すぐ試してみましょう！",
+    "tryNow": "今すぐやってみて下さい",
+    "tryOurAppForExperience": "最高のテルネーム体験のためにアプリをお試しください",
+    "tryPremium": "プレミアムを試す",
+    "tryTellonymPlus": "テルネームプラスを試してみます",
+    "turnNotificationsOn": "通知をオンにします",
+    "turnOnLiveStreamPressingButton": "ライブストリームモードをオンにするには、テル受信トレイのボタンを押します",
+    "tutorial": "チュートリアル",
+    "twitterSharingDescription": "ツイッターアカウントに接続して、あなたの回答を自動的に共有します。すべてのテルの共有を無効にできます。",
+    "typeCommentHere": "ここにコメントを入力",
+    "typeHere": "ここに入力",
+    "unblockTheUserToSeeAnswers": "このユーザーのブロックを解除して回答を見る",
+    "unblockUser": "ユーザーのブロックを解除",
+    "unblockUserQuestionmark": "ユーザーのブロックを解除しますか？",
+    "unblockUserToChat": "このユーザーをブロックしました。\nチャットするには、このユーザーのブロックを解除します。",
+    "unfollowAll": "すべてのフォローを解除",
+    "unfollowUsernameToNotSeeHisPosts": "{{-username}}のフォローを解除すると、そのユーザーの投稿がフィードに表示されなくなります。",
+    "unlock": "ロックを解除",
+    "unlock2kProfileEmojis": "2,000種類以上のプロフィール絵文字のロックを解除",
+    "unlockAllAppIcons": "すべてのテルネームアプリのアイコンのロックを解除します",
+    "unlockAllAppleEmojis": "すべてのアップル絵文字のロックを解除",
+    "unlockAllGoogleEmojis": "すべてのグーグル絵文字のロックを解除",
+    "unlockCommunityFeature": "コミュニティ機能のロックを解除",
+    "unlockCountHints": "{{count}}ヒントをアンロックする",
+    "unlockCountHints_plural": "{{count}}のヒントを開放",
+    "unlockEmojiByButtonClick": "ロック解除ボタンをクリックすると、この絵文字のロックを解除できます。",
+    "unlockEmojiByPurchase": "この絵文字を購入するとロックを解除できます。",
+    "unlockEmojis": "絵文字のロックを解除",
+    "unlockHintX": "ヒント{{-number}}のロックを解除",
+    "unlockIcons": "アイコンのロックを解除",
+    "unlockNewProfileColors": "新しいプロフィールカラーのロックを解除！",
+    "unlockProfileColors": "プロファイルカラーのロックを解除",
+    "unlockReadReceipts": "既読受信のロックを解除",
+    "unlockToSeeReactionsFromOthers": "ロックを解除すると他の人からのすべてのリアクションが表示されます",
+    "unlockedEmojisAvailableForever": "ロックを解除した絵文字は永久に利用できます。",
+    "unpinPost": "プロフィールからピン留めを解除します",
+    "unsendTell": "テルの送信を取り消します",
+    "unsendTellIfNotAnswered": "まだ回答がない場合、テルの送信を取り消します",
+    "unsendTellTellonymPlus": "テルの送信を取り消します（テルネームプラス）",
+    "unsendTells": "テルの送信を取り消します",
+    "unsendTellsBeforeAnswered": "回答される前にテルの送信を取り消します",
+    "unsubscribe": "登録解除",
+    "untilHintDisappear": "ヒントが消えるまで",
+    "untilLimitResets": "制限がリセットされるまで",
+    "upForSomeFunTryOurWouldYouRatherGame": "楽しみたいですか？ 「むしろあなたは?」ゲームを試して、難しい選択をする準備をしてください 😎",
+    "updateCurrentLocation": "現在地を更新",
+    "updateNow": "今すぐ更新",
+    "updateNowToSeeTheLatestTellPrompts": "最新のTellプロンプトを見るためにすぐに更新してください！",
+    "updateTheAppToSeeTheContent": "コンテンツを見るためにアプリを更新してください",
+    "upgrade": "アップグレード",
+    "upgradeToTellonymPlus": "TellonymPlusにアップグレード！",
+    "upload": "アップロード",
+    "uploadingContactsHelpsFindThem": "連絡帳をアップロードすると、連絡先を見つけるのに役立ちます。私たちは彼らに電話をかけたり、他の人と情報を共有したりすることはありません。",
+    "useBoostInTheEvening": "夕方にブーストを使用",
+    "useIfUnder18": "私たちのフィルターは非常に高いレベルで機能し、不適切な可能性のあるものをフィルターします。",
+    "useLinkSticker": "「リンク」ステッカーを使用",
+    "useReportIdForSupport": "データをリンクできるよう、お問い合わせの際は次の ID を使用します。",
+    "useStandardFilter": "簡略化されたフィルターを使用",
+    "useThemToActivateBoostsAndGetShownToMorePeople": "ブーストを有効にして、お住まいの地域のより多くの人に表示されるようにするために使用します",
+    "useThisButtonToShareTell": "<0>テルを共有するにはこのボタンを使用してください<\/0> <1><\/1>",
+    "useToUnlockExcitingBenefits": "トークンを利用すれば、近日中に新たな特典が追加されます。ご期待ください！",
+    "usedAiName": "AI{{-name}}はこのテルに使われました",
+    "usedAiNameForThisTell": "このテルに使用されたAI {{-name}}",
+    "usedToLogIntoYourAccount": "アカウントへのログインに使用されます",
+    "userAgeGroup": {
+        "ADOLESCENCE": {
+            "emoji": "🐱",
+            "title": "18-24"
+        },
+        "ADULT": {
+            "emoji": "🐯",
+            "title": "33-45"
+        },
+        "MATURE": {
+            "emoji": "🦁",
+            "title": "45歳以上"
+        },
+        "YOUNG_ADULT": {
+            "emoji": "🦊",
+            "title": "25-32"
+        }
+    },
+    "userBadge": {
+        "MOD": {
+            "description": "モデレーターは、このプラットフォームが誰にとっても安全な場所であるよう、私たちを助けてくれるボランティアです。",
+            "label": "🏅 モデレーター",
+            "title": "モデレータ"
+        },
+        "NONE": {
+            "label": "🙅‍♂️ バッジ無し"
+        },
+        "SUPER_MOD": {
+            "description": "スーパー モデレーターは、最も経験豊富なモデレーターの少数のグループです。彼らは、このプラットフォームを誰にとっても安全な場所に保つのに役立ちます。スーパー モデレーターには、チームと直接つながる方法があります。",
+            "label": "🎖 スーパーモッド",
+            "title": "スーパーモデレーター"
+        },
+        "SUPPORTER": {
+            "description": "サポーターはテルネームプラスを購入し、この素晴らしいアプリの開発に協力しています。サポーターの皆様には、広告のないアプリやプロフィールのカスタマイズ方法をお楽しみいただいています。",
+            "label": "🔥サポーター",
+            "title": "サポーター"
+        },
+        "TEAM": {
+            "description": "チームメンバーは、テルネームのコアチームの一員です。チームメンバーは、テルネームをより良いものにするために日々懸命に働いています。回答されたテルは、チーム全体を代表するものではなく、あくまでも個人の意見です。\n\nあなたもチームの一員になりませんか？\nすべての求人情報は、以下のリンクからご覧いただけます：",
+            "label": "🧑‍💻 チーム",
+            "title": "テルネームチームメンバー"
+        }
+    },
+    "userBanned": "ユーザーが禁止されています",
+    "userCommentedOnYourPost": "<0>{{-username}}<\/0> は <6>{{-createdAt}}に<\/6> あなたの <3>投稿<\/3> <4>{{-post}}<\/4> にコメント <2>{{-comment}}<\/2> しました",
+    "userNotFound": "ユーザーが見つかりません",
+    "userOccupationType": {
+        "EMPLOYEE": {
+            "emoji": "👩‍🏫",
+            "title": "職員"
+        },
+        "HIGH_SCHOOL": {
+            "emoji": "🎓",
+            "title": "高卒"
+        },
+        "OTHER": {
+            "emoji": "🤖",
+            "title": "その他"
+        },
+        "SCHOOL": {
+            "emoji": "🎒",
+            "title": "高校生"
+        },
+        "STUDENT": {
+            "emoji": "👨‍🎓",
+            "title": "学生"
+        },
+        "TRAINEE": {
+            "emoji": "👩‍💼",
+            "title": "見習い"
+        }
+    },
+    "userSharesSameInterest": "同じ興味を持つユーザー",
+    "userSharesSameInterest_plural": "同じ興味を持つユーザー",
+    "userTaggedYouInAnswer": "<0>{{-username}}<\/0> <1>が回答であなたをタグ付けました<\/1> <2><\/2> <3>{{-createdAt}}<\/3>",
+    "userTaggedYouInComment": "<0>{{-username}}<\/0>は<1><4>{{-createdAt}}<\/4>にコメントであなたをタグ付けました<\/1> <2>{{-comment}}<\/2> <3><\/3>",
+    "userTaggedYouInPost": "<0>{{-username}}<\/0> <1>が投稿であなたをタグ付けました<\/1> <2><\/2> <3>{{-createdAt}}<\/3>",
+    "userUnblockedSuccessfully": "ユーザーのブロックが正常に解除されました！",
+    "userWillBeAbleFullyInteractWithCommunity": "ユーザーは再びコミュニティと完全にやり取りできるようになります。既存の非表示の回答はもう表示できません。",
+    "userWontSeeIt": "ユーザーには表示されません",
+    "username": "ユーザーネーム",
+    "usernameAnsweredAt": "<0>{{-username}}<\/0> <1>が回答しました<\/1> <2>{{-createdAt}}<\/2>",
+    "usernameAnsweredYourTell": "{{-username}} があなたのテルに回答しました",
+    "usernameBlockedYou": "@{{-username}}にブロックされました",
+    "usernameCommentedAt": "<0>{{-username}}<\/0> <1>がコメントしました<\/1> <2>{{-createdAt}}<\/2>",
+    "usernameCommentedOnPostYouAlsoCommented": "<0>{{-username}}<\/0>は<6>{{-createdAt}}に<\/6><3>あなたもコメントした投稿に<\/3> <4><\/4> コメント<2>{{-comment}}<\/2>しました",
+    "usernameCommentedOnTheSamePost": "{{-username}} が同じ投稿にコメントしました",
+    "usernameCommentedOnYourPost": "{{-username}} があなたの投稿にコメントしました",
+    "usernameJoinedAt": "<0>{{-username}}<\/0> <1>が参加しました<\/1> <2>{{-createdAt}}<\/2>",
+    "usernameJoinedTellonym": "{{-username}} が テルネームに参加しました！",
+    "usernameMentionedYouAt": "< 0 > {{-username}} < \/0 > < 1 >があなたのことを言及しました< \/1 > < 2 > {{-createdAt}} < \/2 >",
+    "usernameMentionedYouInAComment": "{{-username}} がコメントであなたを言及しました",
+    "usernameMentionedYouInATell": "{{-username}} がテルであなたに言及しました",
+    "usernameMentionedYouInAnAnswer": "{{-username}} が回答であなたを言及しました",
+    "usernameNotAvailableGotChanged": "あなたのユーザー名は利用できません。これはどうでしょうか?",
+    "usernameReactedAt": "<0>{{-username}}<\/0> <1>がリアクションしました<\/1> <2><\/2> <3>{{-createdAt}}<\/3>",
+    "usernameReactedToYourAnswer": "{{-username}} があなたの回答にリアクションしました",
+    "usernameReactedToYourComment": "{{-username}} があなたのコメントにリアクションしました",
+    "usernameReactedToYourTell": "{{-username}} があなたのテルにリアクションしました",
+    "usernameStartedFollowingYou": "{{-username}} があなたをフォローし始めました",
+    "usernameStartedFollowingYouAt": "<0>{{-username}}<\/0> <1>があなたをフォローし始めました<\/1> <2>{{-createdAt}}<\/2>",
+    "usernameValidationChars": "ユーザー名には、文字、数字、アンダースコア、ドットのみを含められます。",
+    "usernameValidationDots": "ユーザー名はドットで始まることも、終わることも、連続したドットを含むこともできません。",
+    "usernameValidationLength": "ユーザー名は1〜30文字の長さにする必要があります。",
+    "usernameWantsToChatPrivately": "{{-username}}があなたと個人的にチャットしたいそうです。あなたはこのリクエストを承諾するか、通常のテルとしてそれに回答できます。",
+    "usersAskTheCommunityQuestions": "ユーザーがコミュニティに質問します。質問はすべてここに表示され、管理者の承認が必要です。コミュニティテルの作成に使用する場合、その人の名前を表示するかどうかを決められます。",
+    "usersCantRespondToCommunityTells": "ユーザーはコミュニティ・テルに返信したり、コミュニティ・プロフィールを表示したり、既存の回答を表示したりすることはできません。他のユーザーの回答とのやり取りは可能です。",
+    "usersWithTheAppCanSeeYourAnswersHere": "アプリを使っているユーザーはここであなたの回答を見ることができます。未回答のテルはあなたの受信トレイに非公開で保存されます。",
+    "usingOldMethod": "まだ古い方法を使っていますか？",
+    "verificationFailed": "検証に失敗",
+    "verificationIsAServiceThatWeAreOffering": "認証は、テルネームプラスのご登録者にご提供しているサービスです。認証されるには、テルネームプラスにご登録いただき、顔写真付きのプロフィール写真をお持ちで、写真認証に合格する必要があります。",
+    "verificationNotWorking": "検証が機能しません",
+    "verificationRemovedYouCanReapply": "<0>検証は削除されました！少なくとも1枚のプロフィール写真にあなたの顔がはっきりと写っていれば、再申請できます。<\/0> <1><\/1> <2>{{-createdAt}}<\/2>",
+    "verifiedAccount": "認証済みアカウント",
+    "verifiedStatusRemoved": "検証済みのステータスが削除されました",
+    "verifyHumanBeingByConnectingPhone": "電話を接続して、あなたが人間であることを確認してください。問題が発生した場合、またはご質問がある場合は、{{-email}}までご連絡ください。",
+    "verifyYourAccount": "アカウントを確認",
+    "veryHigh": "非常に高い",
+    "veryLow": "非常に低い",
+    "view": "表示",
+    "viewAll": "すべて見ます",
+    "viewFriendRecommendations": "おすすめの友達を見ます",
+    "viewOldPosts": "古い投稿を見ます",
+    "viewRecommendations": "おすすめを見ます",
+    "visit": "訪問",
+    "visitCommunity": "コミュニティ訪問",
+    "visitProfile": "プロフィールを見ます",
+    "voiceTellLimitReached": "AI音声テルの制限に達しました",
+    "voiceTellSent": "音声テルが送信されました！",
+    "wantToUseAccountAgain": "このアカウントを再度使用しますか?",
+    "warning": "警告",
+    "wasOnlyInterestedInOneSpecificTell": "一つの特定のテルのヒントにしか興味がありませんでした",
+    "weAreBoostingYourProfileCheckProgressLater": "私たちはあなたのプロフィールをブーストしています。\n後で進捗状況を確認してください！",
+    "weAreGatheringContentCheckBackSoon": "新鮮なコンテンツを集めています。すぐにもう一度確認してください",
+    "weBlockedSelfSentTell": "あなたが自分で送信したテルをブロックしました。",
+    "weCopiedAPictureToYourGalleryInsta": "写真をギャラリーにコピーしました。手動でストーリーに追加する必要があります。",
+    "weCopiedAPictureToYourGallerySnap": "写真をギャラリーにコピーしました。手動でスナップに追加する必要があります。",
+    "weCouldNotFindAnyHintsAboutTheSender": "このテルの送信者についてのヒントは見つかりませんでした",
+    "weCouldNotFindAnyone": "誰も見つかりませんでした",
+    "weCouldntFindAnyone": "誰も見つかりませんでした",
+    "weDeprecateInstTwitter": "インスタグラムとツイッターのログインオプションを廃止しています。いずれかの回復方法を選択してください。",
+    "weDetectThisByUtilizingDataLike": "私たちは、連絡帳、共通の友達、位置情報などのデータを利用することによって、これを検出します。",
+    "weDidntFindAnAccountDoYouWantToCreateOne": "アカウントが見つかりませんでした。作成してみませんか?",
+    "weDontShowOrCallYourNumber": "あなたの電話番号は誰にも公開されず、電話をかけることもありません。",
+    "weFoundNobodyAround": "周りに誰もいませんでした😞。",
+    "weHadProblemsSavingAnImageToGallery": "ギャラリーに画像を保存する際に問題が発生しました。",
+    "weLetYouKnowWhenAnswer": "回答があり次第お知らせします。",
+    "weLookingForContacts": "すでにテルネームをご利用いただいている連絡先を検索しています！\n数秒お待ちください。",
+    "weNotifyYouOfAnswers": "新規回答があるたびに通知します",
+    "weNotifyYouOfCommunityPosts": "このコミュニティが新しいテルを投稿する時にお知らせします",
+    "weOpenTheSnapCamForYou": "スナップカメラを開きます",
+    "weRecommendToSetAvatar": "<0>より多くのマッチングを獲得するには、<\/0> <1>アバターを設定する<\/1> <2>ことをお勧めします。<\/2>",
+    "weRemovedOneOfYourComments": "<0>コミュニティ ガイドラインに従わないコメントの 1 つを削除しました。 <\/0> <1>{{-comment}}<\/1> <2><\/2> <3><\/3> <4>{{-createdAt}}<\/4>",
+    "weSendYouEmailSafetyCode": "新しいセーフティコードをメールで送信しました。",
+    "weSendYouEmailSecurityCode": "新規セキュリティ コードをメールで送信しました。",
+    "weShowYouProfileFromArea": "1. お住まいの地域の人のプロフィールを表示します",
+    "weSorryDeletingYourTell": "ガイドラインに従ったメッセージを誤って削除してしまった場合は申し訳ありません。そのような場合は、よりフレンドリーな言葉でメッセージを送信してみてください。",
+    "weTakeMeasuresAgainstProfiles": "<0>私たちは、不適切なコンテンツを投稿するプロフィールに対策を講じります。何が許され、何が許されないかをより明確にするために、私たちの<\/0> <1>コミュニティガイドライン<\/1>をご覧ください。",
+    "weTransfer20": "20ユーロを振り込む",
+    "weUpdateAllSharingGamesTimerRunsOut": "時間になったら、すべての共有ゲームを更新します。",
+    "weUpdatingListBelowRegularlyWithEveryone": "以下のリストは、見つけできるすべての人と定期的に更新しています",
+    "weUseFiltersToProtectYou": "私たちはあなたを守るためにいくつかの安全フィルターを使用しています。ここでは、どの程度保護したいかを指定できます。これらの設定を調整する場合は、責任を持って行ってください。",
+    "weWillDisplayContentInYourChosenLanguage": "選択した言語でコンテンツを表示します。",
+    "weWillLetYouKnowAsFriendsJoin": "お友達が参加したらすぐにお知らせします",
+    "weWillShowContentInYourChosenLanguage": "あなたの選んだ言語でコンテンツを表示します。",
+    "weWontProvideMoreAssistance": "残念ながら、これがあなたの古いアカウントである場合、私たちはそれ以上のサポートを提供することはできません。",
+    "weWontShareThisInformation": "私たちはこの情報を誰にも開示しません。",
+    "weWouldLoveToNotifyYou": "新規テルを受信したらお知らせします。",
+    "weeklyLimitReached": "週間制限に達しました",
+    "weeklyPlan": "週割プラン",
+    "welcomeToPlus": "プラスへようこそ！",
+    "wereOpeningUpTheVerificationProgramToAllPremiumUsers": "すべてのプレミアムユーザーに認証プログラムを開放します。誰でもAI写真認証に合格し、本人であることを証明できます。わずか30秒です。",
+    "wereUnableToBoostWithoutLocation": "位置情報へのアクセスがない場合、あなたのプロフィールをあなたの地域でブーストすることはできません。",
+    "werentAbleToSyncContacts": "連絡先を同期できませんでした。再試行しますか？",
+    "whatAreYourPlansTonight": "今夜の予定は何ですか？",
+    "whatDidYouUseToVerify": "アカウントの確認には何を使用しましたか？",
+    "whatIsItAbout": "どんな内容ですか？",
+    "whatIsTellonym": "テルネームは何ですか",
+    "whatPlatformDoYouUseMostWithYouFriends": "友達と最もよく使うプラットフォームは？",
+    "whatSocialsDoYouUse": "どんなソーシャルを使っていますか？",
+    "whatsAppStickers": "ワッツアップステッカー",
+    "whatsOnYourMind": "何を考えていますか？",
+    "whenAreYouAvailable": "今日または明日はいつ空いています？",
+    "whenStartingTheVerificationProcessWeAskToTakeASelfie": "認証プロセスを開始する際、認証チームにのみ公開されるプライベートな自撮り写真を撮影していただきます。AIによる仮本人確認が行われ、すぐに認証チェックマークが表示されます。",
+    "whenYouShareMakeCamaraPhotoInsideSnap": "共有する際、スナップチャット内でカメラの写真を作れます。",
+    "whereToShare": "どこに共有しますか?",
+    "whichFriendsUseTellonym": "すでにテルネームを使用している友達を確認し、フォローする友達を選択します。",
+    "whichToShow": "プロフィールに表示すべきはどちらですか？",
+    "whoCanCommentOnMyAnswersAndPosts": "誰が私の回答や投稿にコメントできますか？",
+    "whoIsImpersonated": "誰がなりすまされていますか？",
+    "whoSentThis": "これを送ったのは誰？",
+    "whoSentThisQuestionmark": "これを送ったのは誰？",
+    "whoToTell": "誰にテルを？",
+    "whyDoYouWantToReport": "なぜ報告したいのですか？",
+    "whyProfileViolatesRules": "このプロフィールがルールに違反していると思われる理由を教えてください。",
+    "whySendWarning": "なぜ警告を送信するのでしょうか?",
+    "whyYouWantReport": "なぜこのプロフィールを報告したいのですか？",
+    "willBeOpenedAfterAnswer": "回答すると、 {{-sharingMethod}}が開きます。",
+    "willBeShownOnYourProfile": "あなたのプロフィールに表示されます",
+    "willComeBack": "戻ってきます",
+    "withValidation": {
+        "emailAndUsername": "メールまたはユーザー名",
+        "password": "パスワード",
+        "phoneEmailUsername": "電話、メールまたはユーザー名",
+        "username": "ユーザー名"
+    },
+    "women": "女性",
+    "work": "職業",
+    "wouldReadSomeInfoParents": "保護者のための追加情報をお読みになりたいですか？",
+    "wouldYouRather": "どちらがいい？",
+    "wouldYouRatherGameLimitReset": "ゲーム制限をリセットしてみませんか!",
+    "wouldYouRatherTitle": "むしろあなたは...",
+    "writeUs": "お問い合わせください",
+    "yesAddedIt": "はい、追加しました",
+    "yesContinueRelevantAds": "はい、関連広告を引き続き見ます",
+    "yesCorrect": "はい、正しいです",
+    "yesGoBack": "はい、戻る",
+    "yesterday": "昨日",
+    "youAdjustFiltersBeResponsible": "フィルターは自分で調整しています。 責任を持って下さい。",
+    "youAlreadyHaveAlternativeMethodsConnected": "すでに別の方法でログインしている場合は、その方法でログインしてください。既存のログイン方法は設定で確認できます。",
+    "youAreAnActiveSubscriber": "あなたはアクティブなサブスクライバーです",
+    "youAreBlockedFromCommunity": "あなたはこのコミュニティからブロックされています。",
+    "youAreCharactersAboveLimit": "あなたは{{-type}}の{{-limit}}の制限を超える{{-charactersAbove}}文字です。",
+    "youAreCool": "あなたはクールです！",
+    "youAreNotFollowingTheSender": "送信者をフォローしていません",
+    "youBeAbleToChatWithUser": "リクエストしているユーザーと個人的にチャットできます。\n個人情報は決して共有せず、不快に感じたらユーザーを報告してください。",
+    "youBlockedUser": "このユーザーをブロックしました。\n再度チャットするために、このユーザーのブロックを解除します。",
+    "youBlockedUsername": "あなたは@{{-username}}をブロックしました",
+    "youCanAddDetailsHowAccountViolatesCommunityGuidelines": "<0>このアカウントが私たちの<\/0><1>コミュニティガイドライン<\/1>にどのように違反しているかの詳細を追加することもできます。",
+    "youCanAdjustPrivacySettings": "プライバシー設定はいつでも調整できます",
+    "youCanAppealViaEmail": "メールで申し立てることができます。その場合、support@tellonym.meまで、当社のサポートチームにご連絡ください。デバイスID、ユーザーネーム、そしてなぜ禁止を解除すべきかの理由をメールに含めてください。そうすることで、サポートチームがあなたのケースを評価し、適切に対応することができます。以下からあなたのデータをコピーできます。",
+    "youCanChangeTellByPressingInSlideshow": "スライドショーでテルを変更するには、矢印ボタンを押すか、キーボードの矢印を押します。",
+    "youCanChatWithUsersThatFollowYou": "チャットができるのは、あなたを公開フォローしているユーザーのみです。他のユーザーとチャットするには、そのユーザーのプロフィールに移動し、DMボタンでチャットリクエストを送信します。",
+    "youCanChooseFromOver2kEmojisWithTellonymPlus": "テルネームプラスの会員になると、2,000種類以上のプロフィール絵文字からお選びいただけるようになりました！",
+    "youCanChooseMoreThanOneAnswer": "複数の回答を選択できます。",
+    "youCanCommentOnTellsNowKeepInMindCommentsNeverAnonymous": "テルにコメントできるようになりました！コメントは匿名ではないことに注意してください。",
+    "youCanDeactivatePushNotifications": "プッシュ通知はいつでも無効にできます。",
+    "youCanLooseAccount": "アカウントを失う可能性があります",
+    "youCanManuallyAddYourTellonymLinkToStories": "ストーリーを共有する際に、テルネームのリンクを手動で追加できます。これにより、友達があなたにテルを送信しやすくなります。",
+    "youCanOnlySeeUpToAmountReactions": "最大50件のリアクションしか見ることができません。",
+    "youCanPreventAccess": "コードを設定することで、アカウントにアクセスできる他のユーザーが安全設定を変更できないようになります。 詳しい情報は",
+    "youCanReactOnCommentsAndTagYourFriendsInThem": "コメントに反応したり、友達をタグ付けしたりできます。",
+    "youCanSHareMultipleNetworksPress": "対応アイコンを押すと、複数のネットワークに共有できます。",
+    "youCanShareMultipleNetworks": "複数のネットワークで共有できます。アイコンを押すだけです。",
+    "youCanStillSendTellsWithoutAIVoiceFeature": "AI音声機能がなくても、テルを送信できます。",
+    "youCanUnlockAllAppleEmojisSpiceUpProfile": "すべてのアップル絵文字のロックを一度に解除して、プロフィールを充実できるようになりました！",
+    "youCanUnlockAllGoogleEmojisSpiceUpProfile": "すべてのグーグル絵文字のロックを一度に解除して、プロフィールを充実できるようになりました！",
+    "youCanUnsendYourTellsWithin": "24時間以内にテルの送信を取り消すことができます。この機能は、まだ回答されていないテルに対してのみ有効です。",
+    "youCantFollowOrSeeAnswers": "フォローも回答も見ることができません",
+    "youDecideWhoIsAllowedToCommentOnYourAnswers": "あなたの回答にコメントする許可する人を決めます。",
+    "youDidntAllowYourLocation": "自分の位置情報を許可していませんでした",
+    "youDoNotInteractWithSenderRegularly": "送信者と定期的にやり取りしていません",
+    "youDontLikeAccount": "このアカウントが気に入らないのですか？",
+    "youEnteredFollowingAddress": "次のアドレスを入力しました：",
+    "youGotATell": "あなたは一つのテルを受信しました",
+    "youHaveHitYourFreeTokenEarningLimit": "無料の テルトークン獲得制限に達しました。",
+    "youHaveNoValidLoginMethod": "有効なログイン方法がありません。ログアウトされた場合、あなたのアカウントは永久に失われる。変更には10秒かかります。",
+    "youHaveNotSentAnyTellsYet": "まだテルを送信していません。",
+    "youHaveOpenTells": "回答されないテルがあります",
+    "youHaveReachedTheMaximumNumberOfVerificationAttempts": "認証の試行回数が上限に達しました。これ以上の試行は現在できません。",
+    "youHaveSeenAllNewPosts": "それはあなたの友達からのすべての新規投稿です",
+    "youHaveSeenAllNewTells": "それはあなたの友達からのすべての新規テルです。",
+    "youHaveSeenEverything": "あなたはすべてを見てきました。",
+    "youHaveSuccessfullyCreatedAPost": "投稿を作成しました",
+    "youHaveTellonymPlus": "テルネームプラスが手に入りました🎉",
+    "youHaveUnsubscribedFromTellonymChannelWontReceiveMessages": "テルネームチャンネルの登録を解除しました！ 😱 再度参加するまで新しいメッセージは受信できません。",
+    "youMayLoseYourAccount": "アカウントを失う可能性があります。",
+    "youMightAlsoKnow": "知り合いかも",
+    "youNeedAmountMoreTelloToken": "<1><\/1> <2>{{-amount}}<\/2> <3>さらにテルトークン<\/3>が<0>必要です<\/0>",
+    "youNeedToSignInToYourGoogleAccount": "サブスクリプションを購入するには、グーグルアカウントにログインする必要があります",
+    "youReachedCommunityTellLimit": "コミュニティテルの一日の上限に達しました。明日もう一度試してください",
+    "youReceivedReactionsOnYourAnswerByUsername": "<0>あなたの<\/0> <1>{{-answer}}<\/1> <2>回答に関するリアクションを<\/2> <3>{{-username}}<\/3> から <4><\/4> <5>{{-createdAt}}<\/5>に受け取りました",
+    "youReceivedReactionsOnYourAnswerByUsernameAndOthers": "<0>あなたの<\/0> <1>{{-answer}}<\/1> <2>回答に関するリアクションを<\/2> <3>{{-username}}<\/3> <4>とその他人から<\/4> <5><\/5> <6>{{-createdAt}}に受け取りました<\/6>",
+    "youReceivedReactionsOnYourCommentByUsername": "<0>あなたの<\/0> <1>{{-comment}}<\/1> <2>コメントに関するリアクションを<\/2> <3>{{-username}}<\/3> <4><\/4> <5>{{-createdAt}}<\/5>に受け取った",
+    "youReceivedReactionsOnYourCommentByUsernameAndOthers": "<0>あなたの<\/0> <1>{{-comment}}<\/1> <2>コメントに関するリアクションを<\/2> <3>{{-username}}<\/3> <4>とその他人から<\/4> <5><\/5> <6>{{-createdAt}}に受け取りました<\/6>",
+    "youReceivedReactionsOnYourTellByUsername": "<0>あなたの<\/0> <1>{{-tell}}<\/1> <2>テルに関するリアクションを<\/2> <3>{{-username}}<\/3>から<4><\/4> <5>{{-createdAt}}<\/5>に受け取りました",
+    "youReceivedReactionsOnYourTellByUsernameAndOthers": "<0>あなたの<\/0> <1>{{-tell}}<\/1> <2>テルに関するリアクションを<\/2> <3>{{-username}}<\/3> <4>とその他人から<\/4> <5><\/5> <6>{{-createdAt}}<\/6>に受け取りました",
+    "youReceivedWarningWithReason": "次の理由でモデレーターから警告を受け取りました: {{-reason}}。\nあなたのアカウントはサポートチームによってチェックされ、さらなる処置が取られる可能性があります。コミュニティガイドラインを再読し、それに従って行動してください。",
+    "youRecentlyHaveNotSeenAnswersFromSender": "最近、その人からの回答を見ていません",
+    "youRock": "すごい！",
+    "youSharedAPost": "投稿を共有しました",
+    "youSharedAProfile": "プロフィールを共有しました",
+    "youStarOrDismiss": "2. 星を付けるか無視します",
+    "youUnlockedYourFirstProfileEmoji": "最初のプロフィール絵文字のロックを解除しました:\n ⭐️",
+    "youWillReceiveTellsFromCommunity": "今後、このコミュニティからテルが届きます。",
+    "youWontBeRecommendedToTellSenders": "テルの送信者に推薦されません",
+    "yourAccessIsEndingSoon": "あなたのアクセスはもうすぐ終了します",
+    "yourAccountAtRisk": "あなたのアカウントが危険にさらされていますます",
+    "yourAccountIsVerified": "あなたのアカウントは認証されました",
+    "yourAnswerHere": "あなたの回答はこちら",
+    "yourAnswerWillBeSharedToSocial": "あなたの回答は{{-social}}に共有されます",
+    "yourAnswersArePrivate": "<0>🔒 あなたの回答は<\/0> <1>非公開です<\/1>",
+    "yourAppIsOutdated": "あなたのアプリは古いバージョンです",
+    "yourArea": "私の周り",
+    "yourBadge": "あなたのバッジ",
+    "yourBoostingResultsAreReady": "あなたのブースト結果は準備完了です",
+    "yourCity": "あなたの都市",
+    "yourComment": "あなたのコメント",
+    "yourEmail": "あなたのメール",
+    "yourEmailPlaceholder": "your@email.com",
+    "yourFeedbackForCharity": "あなたのフィードバックは 20 ユーロのチャリティーに相当",
+    "yourFeedbackHelpsUsImprove": "皆様からのフィードバックは、私たちの改善に役立っています。",
+    "yourFriends": "あなたの友達",
+    "yourFriendsCanAccessProfileLink": "お友達はこのリンクからあなたのプロフィールにアクセスできます：",
+    "yourFriendsCanSendYouQuestionsByUsingYourProfileLink": "あなたのプロフィールのリンクを使って、お友達があなたに質問を送信できます。",
+    "yourFriendsCanSendYouTellsEvenAfterTheStoryDisappeared": "ストーリーが消えた後でも、友達はあなたにテルを送信できます。",
+    "yourFriendsCanSendYouTellsWithThisLink": "友達はこのリンクを使用してあなたにテルを送信できます。",
+    "yourFriendsCanUseItToSendYouQuestions": "友達はこれを使ってあなたに質問を送ることができます。",
+    "yourGender": "あなたの性別",
+    "yourHighlightsAreReady": "あなたのハイライトは準備完了です!",
+    "yourHighlightsAreReadyShareYourTopAnswers": "<0>あなたのハイライトは準備完了です!<\/0>今週のトップ回答を1つのストーリーとして共有してください!",
+    "yourInboxIsEmpty": "受信トレイは空です",
+    "yourLanguage": "あなたの言語",
+    "yourLink": "あなたのリンク",
+    "yourLinkIsCopied": "リンクはすでにコピーされています",
+    "yourLinkIsLive": "リンクが公開されました!",
+    "yourMatches": "あなたのマッチ",
+    "yourMessageIsAnonymous": "< 0 >あなたのメッセージは< \/0 > < 1 >匿名です< \/1 >",
+    "yourMessageIsPublic": "< 0 >あなたのメッセージは< \/0 > < 1 >公開されます< \/1 >",
+    "yourMessagesWillBeSentAsChatRequests": "あなたのメッセージはチャットリクエストとして送信されます。\n相手がチャットしたくない場合、テルとして答えることができます。",
+    "yourMobilePhone": "あなたの携帯電話",
+    "yourName": "あなたの名前",
+    "yourOccupation": "あなたの職業",
+    "yourOccupationImportantRelevantPeople": "ご職業が重要なので、あなたに関連する人材をご紹介できます。",
+    "yourOwnAnswerOptional": "あなた自身の回答(オプション)",
+    "yourPhoneNumber": "あなたの電話番号",
+    "yourPlanHasBeenUpdated": "プランが更新されました",
+    "yourPostHere": "あなたの投稿はこちら",
+    "yourProfile": "あなたのプロフィール",
+    "yourProfileIsOnFire": "あなたのプロフィールが燃えています!🔥",
+    "yourProfileLink": "プロフィールのリンク",
+    "yourProfileLinkCanBeUsedByFriends": "あなたのプロフィールリンクを使って、友達があなたにテルを送信できます。",
+    "yourProfilePicture": "あなたのプロフィール写真",
+    "yourProfileShinesNewColors": "あなたのプロフィール全体が{{amount}}新しいカラーで輝きます",
+    "yourQuestionsGetAnswered": "あなたの質問が回答されます",
+    "yourReportUpdate": "あなたのレポート更新",
+    "yourResponseHelpsUsImprove": "あなたの回答が私たちの改善に役立ちます。回答は1つ以上お選びいただけます。",
+    "yourSafetyCodeRemoved": "安全コードが削除されました。",
+    "yourSafetyIsOurPriority": "テルネームでお客様の安全は私たちの最優先事項です。",
+    "yourSentTells": "あなたの送信済みテル",
+    "yourTellHasToBeApprovedByAdmins": "あなたのテルは管理者の承認が必要です。",
+    "yourTellWillBeSentToAllMembers": "あなたのテルは全員に送信されます",
+    "yourTellonymLinkGoesHere": "テルネームのリンクはこちらです",
+    "yourTellonymPlus": "<0>あなたの<\/0> <1>テルネーム<\/1> <2>プラス<\/2>",
+    "yourTells": "あなたのテル",
+    "yourUsernameIsVisible": "あなたのユーザー名は他のユーザーに表示されます",
+    "yourUsernameWillBeRevealed": "あなたのユーザー名が公開されます。",
+    "yourVoteHasBeenPosted": "あなたの投票が投稿されました",
+    "youreAboutToDeleteThisConversation": "この会話を削除しようとしています。このアクションを続行しますか?"
+}

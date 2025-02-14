@@ -1,0 +1,7 @@
+.prettierrc
+.gitignore
+.env.default
+*.log
+scripts/
+node_modules/
+yarn.lock

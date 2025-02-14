@@ -1,0 +1,6 @@
+[auth]
+token=bd07bfdd9d2444f1873e1eed6b8720cb11577e4521684f94a177f5c46865b70b
+
+[defaults]
+project=tellonym-web
+org=callosum-software

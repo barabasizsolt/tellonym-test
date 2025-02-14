@@ -1,0 +1,26 @@
+[
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "de.tellonym.app",
+            "sha256_cert_fingerprints": [
+                "78:6E:3C:56:CF:17:ED:B1:CE:38:47:4C:5D:D9:40:08:77:7B:7C:C2:B6:5D:DA:C1:DC:FE:A9:06:C9:36:65:C1"
+            ]
+        }
+    },
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "de.tellonym.app.debug",
+            "sha256_cert_fingerprints": [
+                "2E:F6:21:4E:08:F9:61:56:4C:32:54:F1:D8:E6:7A:F3:24:1C:4E:97:16:69:1C:87:1A:EC:3E:5F:4B:99:C0:5C"
+            ]
+        }
+    }
+]

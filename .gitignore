@@ -1,0 +1,102 @@
+# Place Tellonym specific ignores here.
+#
+*.keystore
+!tellonym-app-android-debug.keystore
+eslint-report.json
+report.xml
+credentials.json
+*.dSYM.zip
+_private/
+misc/
+tmp/
+**/debug.bundle.download.js
+
+# OSX
+#
+.DS_Store
+
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+
+# Android/IntelliJ
+#
+build/
+.idea
+.gradle
+local.properties
+*.iml
+*.hprof
+.cxx/
+.project
+.classpath
+.settings/
+
+# node.js
+#
+node_modules/
+**/node_modules/
+npm-debug.log
+yarn-error.log
+*.log
+
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# Swap the comments on the following lines to toggle zero-installs
+# Documentation here: https://yarnpkg.com/features/zero-installs
+# !.yarn/cache
+.pnp.*
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+
+**/fastlane/report.xml
+**/fastlane/Preview.html
+**/fastlane/screenshots
+**/fastlane/test_output
+**/fastlane/README.md
+
+.vscode/.react/
+.vscode/ipch/
+.vscode/last.sql
+Pods
+
+# Bundle artifact
+*.jsbundle
+
+# Ruby / CocoaPods
+**/Pods/
+**/vendor/bundle/
+
+# local dev
+**/ios/Payload/
+
+# Temporary files created by Metro to check the health of the file watcher
+.metro-health-check*
+
+# for test task
+localDeps/

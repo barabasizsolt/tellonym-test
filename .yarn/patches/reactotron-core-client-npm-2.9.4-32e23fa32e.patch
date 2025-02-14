@@ -1,0 +1,17 @@
+diff --git a/package.json b/package.json
+index 2b850086ec4d7b451479a0e1818dba7182b615eb..1bc66aaa05a94f48bbb0f12efd0f61a7bb55d6c7 100644
+--- a/package.json
++++ b/package.json
+@@ -16,10 +16,10 @@
+   "main": "dist/index.js",
+   "module": "dist/index.esm.js",
+   "types": "dist/types/src/index.d.ts",
+-  "react-native": "src/index.ts",
++  "react-native": "./dist/index.js",
+   "exports": {
+     "import": "./dist/index.esm.js",
+-    "react-native": "./src/index.ts",
++    "react-native": "./dist/index.js",
+     "types": "./dist/types/src/index.d.ts",
+     "default": "./dist/index.js"
+   },

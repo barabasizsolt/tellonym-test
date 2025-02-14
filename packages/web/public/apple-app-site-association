@@ -1,0 +1,15 @@
+{
+    "applinks": {
+        "details": [
+            {
+                "appIDs": [ "88JF4G4XAY.de.tellonym.app" ],
+                "components": [
+                    {
+                        "/": "/*",
+                        "comment": "Matches any URL whose path starts with /"
+                    }
+                ]
+            }
+        ]
+    }
+}
