@@ -4263,27 +4263,27 @@ __metadata:
 
 "@tellonym/redux-offline@file:./localDeps/redux-offline::locator=%40tellonym%2Fcore%40workspace%3Apackages%2Fcore":
   version: 5.0.0
-  resolution: "@tellonym/redux-offline@file:./localDeps/redux-offline#./localDeps/redux-offline::hash=48bb3b&locator=%40tellonym%2Fcore%40workspace%3Apackages%2Fcore"
+  resolution: "@tellonym/redux-offline@file:./localDeps/redux-offline#./localDeps/redux-offline::hash=ebc61c&locator=%40tellonym%2Fcore%40workspace%3Apackages%2Fcore"
   dependencies:
     "@babel/runtime": ^7.5.5
     redux-persist: ^4.6.0
   peerDependencies:
     "@react-native-async-storage/async-storage": "*"
     redux: ">=3"
-  checksum: ba210e210193ddbdc6cdc969cb5ee59a3fea10c407e6fa76b9486eb26010c506d41d00ff756f2d763ff155af2527a56cbe10d56439565b00c9ad2b26f85ad5fe
+  checksum: 6f62ffd2316ff4f2afe99914c61b9ff1e4d50d820e2a2b14ab11d9ef62be7cc64dd2c95b49c94c03248fa66782199d65e41c811051efdce20bff6c05c415b33b
   languageName: node
   linkType: hard
 
 "@tellonym/redux-offline@file:./localDeps/redux-offline::locator=%40tellonym%2Fweb%40workspace%3Apackages%2Fweb":
   version: 5.0.0
-  resolution: "@tellonym/redux-offline@file:./localDeps/redux-offline#./localDeps/redux-offline::hash=48bb3b&locator=%40tellonym%2Fweb%40workspace%3Apackages%2Fweb"
+  resolution: "@tellonym/redux-offline@file:./localDeps/redux-offline#./localDeps/redux-offline::hash=ebc61c&locator=%40tellonym%2Fweb%40workspace%3Apackages%2Fweb"
   dependencies:
     "@babel/runtime": ^7.5.5
     redux-persist: ^4.6.0
   peerDependencies:
     "@react-native-async-storage/async-storage": "*"
     redux: ">=3"
-  checksum: ba210e210193ddbdc6cdc969cb5ee59a3fea10c407e6fa76b9486eb26010c506d41d00ff756f2d763ff155af2527a56cbe10d56439565b00c9ad2b26f85ad5fe
+  checksum: 6f62ffd2316ff4f2afe99914c61b9ff1e4d50d820e2a2b14ab11d9ef62be7cc64dd2c95b49c94c03248fa66782199d65e41c811051efdce20bff6c05c415b33b
   languageName: node
   linkType: hard
 

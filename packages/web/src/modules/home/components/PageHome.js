@@ -1,8 +1,9 @@
 import React from 'react'
-import { Analytics, Button, Text, View } from '../../common'
+import { Button, Text, View } from '../../common'
 import { sheets } from '../../common/styles/sheets'
+import { ModalDownload } from './modal/ModalDownload'
+import { ModalInfo } from './modal/ModalInfo'
 
-const APP_STORE_URL = 'https://apps.apple.com/us/app/tellonym/id1470000000'
 const NOTION_CONCEPT_LINK =
   'https://tellonym.notion.site/Test-Task-User-Interview-Page-95a3e35ac0034edfade08ab20b2a7fcd'
 
@@ -43,144 +44,6 @@ const H2 = ({ children }) => {
     </Text>
   )
 }
-
-const ModalDownload = ({ modalVisibleCounter }) => {
-  const [isVisible, setIsVisible] = React.useState(false)
-
-  const hide = () => {
-    setIsVisible(false)
-  }
-
-  const openAppStore = () => {
-    window.open(APP_STORE_URL, '_blank')
-  }
-
-  const stopPropagation = (e) => {
-    e.stopPropagation()
-  }
-
-  React.useEffect(() => {
-    if (isVisible) {
-      Analytics.addEvent({ name: 'show_modal:Download' })
-    }
-  }, [isVisible])
-
-  React.useEffect(() => {
-    if (modalVisibleCounter > 0) {
-      setIsVisible(true)
-    }
-  }, [modalVisibleCounter])
-
-  if (!isVisible) {
-    return null
-  }
-
-  return (
-    <View
-      onPress={hide}
-      style={{
-        position: 'absolute',
-        top: 0,
-        left: 0,
-        bottom: 0,
-        right: 0,
-        backgroundColor: 'rgba(0, 0, 0, 0.5)',
-        zIndex: 2,
-        justifyContent: 'center',
-        alignItems: 'center',
-      }}>
-      <View
-        onPress={stopPropagation}
-        style={{
-          backgroundColor: 'white',
-          borderRadius: 12,
-          maxWidth: 360,
-          padding: 16,
-          margin: 32,
-        }}>
-        <Text type="h1" center bold>
-          Download the App
-        </Text>
-        <Text center style={styles.description}>
-          Tellonym is also available on the App Store and Play Store. Download
-          the app now to get a better experience right in your pocket.
-        </Text>
-        <View style={styles.buttonContainer}>
-          <Button gray onPress={hide}>
-            No, thanks
-          </Button>
-          <Button onPress={openAppStore}>Let's go!</Button>
-        </View>
-      </View>
-    </View>
-  )
-}
-
-const ModalInfo = ({ modalVisibleCounter }) => {
-  const [isVisible, setIsVisible] = React.useState(false)
-
-  const hide = () => {
-    setIsVisible(false)
-  }
-
-  const stopPropagation = (e) => {
-    e.stopPropagation()
-  }
-
-  React.useEffect(() => {
-    if (isVisible) {
-      Analytics.addEvent({ name: 'show_modal:Info' })
-    }
-  }, [isVisible])
-
-  React.useEffect(() => {
-    if (modalVisibleCounter > 0) {
-      setIsVisible(true)
-    }
-  }, [modalVisibleCounter])
-
-  if (!isVisible) {
-    return null
-  }
-
-  return (
-    <View
-      onPress={hide}
-      style={{
-        position: 'absolute',
-        top: 0,
-        left: 0,
-        bottom: 0,
-        right: 0,
-        backgroundColor: 'rgba(0, 0, 0, 0.5)',
-        zIndex: 2,
-        justifyContent: 'center',
-        alignItems: 'center',
-      }}>
-      <View
-        onPress={stopPropagation}
-        style={{
-          backgroundColor: 'white',
-          borderRadius: 12,
-          maxWidth: 360,
-          padding: 16,
-          margin: 32,
-        }}>
-        <Text center style={styles.description}>
-          On Tellonym, it's not important what you look like, how many likes you
-          get or how exciting your everyday life is. It's important, who you
-          are, what you think and how you communicate.
-        </Text>
-        <View style={{ alignItems: 'center' }}>
-          <Button gray onPress={hide} style={{ marginTop: 12 }}>
-            Close
-          </Button>
-        </View>
-      </View>
-    </View>
-  )
-}
-
 class PageHome extends React.Component {
   state = {
     modalDownloadVisibleCounter: 0,
@@ -201,6 +64,10 @@ class PageHome extends React.Component {
 
   _openNotion = () => {
     window.open(NOTION_CONCEPT_LINK, '_blank')
+  }
+
+  _openUserInterviewForm = () => {
+    window.open('/userInterView', '_blank')
   }
 
   render() {
@@ -238,6 +105,9 @@ class PageHome extends React.Component {
               Add a new page to the project and create a button below that
               navigates to your new page.
             </Text>
+            <Button primary onPress={this._openUserInterviewForm}>
+              Open User Interview Form
+            </Button>
           </View>
         </View>
       </>

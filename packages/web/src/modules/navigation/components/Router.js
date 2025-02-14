@@ -7,6 +7,7 @@ import { PageHelp } from '../../help'
 import { PageHome } from '../../home'
 import { Route } from './Route'
 import { Redirect } from './Redirect'
+import UserInterviewForm from '../../userInterView/components/UserInterViewForm'
 
 export class Router extends React.Component {
   static routes = ['/', '/help']
@@ -22,6 +23,7 @@ export class Router extends React.Component {
               <Switch>
                 <Route exact path="/" component={PageHome} />
                 <Route path="/help" component={PageHelp} />
+                <Route path="/userInterView" component={UserInterviewForm} />
                 <Route component={() => <Redirect to="/" />} />
               </Switch>
             </ErrorHandler>
